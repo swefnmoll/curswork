@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корпус</title>
+</head>
+<body>
+Поиск по корпусу:
+<form method="post" action="http://127.0.0.1:1500">
+    Язык:
+    <select name="lang">
+        <option>-</option>
+        {% for lang in languages: %}
+            <option>{{ lang }}</option>
+        {% endfor %}
+    </select><br>
+    Образование:
+    <select name="education">
+        <option>-</option>
+        {% for level in levels: %}
+            <option>{{ level }}</option>
+        {% endfor %}
+    </select><br>
+    Поселение:
+    <select name="settlement">
+        <option>-</option>
+        {% for settlement in settlements: %}
+            <option>{{ settlement }}</option>
+        {% endfor %}
+    </select><br>
+    Диктор:
+    <select name="dictor">
+        <option>-</option>
+        {% for dictor in dictors: %}
+            <option>{{ dictor }}</option>
+        {% endfor %}
+    </select><br>
+    Пол:
+    <select name="gender">
+        <option>-</option>
+        <option>м</option>
+        <option>ж</option>
+    </select><br>
+    Год рождения:
+    От <input type="text" name="age_from"> До <input type="text" name="age_to"><br>
+    <button type="submit">Поиск</button>>
+</form>
+</body>
+</html>
