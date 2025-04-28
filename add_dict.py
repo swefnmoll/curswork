@@ -1,21 +1,35 @@
 import sqlite3 as sq
 import openpyxl as xl
 
+# Подключение к базе данных
 connection = sq.connect('intonation.db')
 cursor = connection.cursor()
 
-wb = xl.load_workbook('dictors.xlsx')
-sh = wb.active
+def read_dictors():
+    # Подключение к xlsx-файлу
+    wb = xl.load_workbook('dictors.xlsx')
+    sh = wb.active
+    MAX_COLUMN = sh.max_column + 1
+    MAX_ROW = sh.max_row + 1
 
-for row in range(1, sh.max_row + 1):
-    name = sh.cell(row=row, column=1).value
-    gender = sh.cell(row=row, column=2).value
-    dob = sh.cell(row=row, column=3).value
-    lang = sh.cell(row=row, column=4).value
-    settlement = sh.cell(row=row, column=5).value
-    education = sh.cell(row=row, column=6).value
-    print(name)
-    cursor.execute(f'''INSERT INTO dictors (name, gender, DOB, lang, settlement, education) VALUES ('{name}', '{gender}', '{dob}', '{lang}', '{settlement}', '{education}');''')
-    connection.commit()
-cursor.close()
-connection.close()
+    # Считывание данных из строки
+    def read_row(row):
+        dictor_data = []
+        for column in range(1, MAX_COLUMN):
+            dictor_data.append(sh.cell(row=row, column=column).value)
+        return dictor_data
+
+    # Запись данных
+    def write_row_data(dictor_data):
+        cursor.execute(f'''
+        INSERT INTO dictors (name, gender, DOB, lang, settlement, education)
+        VALUES (?, ?, ?, ?, ?, ?)
+        ''', tuple(dictor_data))
+        connection.commit()
+
+    # Считывание всех строк
+    def read_full_xl():
+        for row in range(1, MAX_ROW):
+            write_row_data(read_row(row))
+
+    read_full_xl()

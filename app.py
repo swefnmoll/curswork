@@ -3,6 +3,7 @@ import sqlite3 as sq
 
 app = Flask(__name__, template_folder='templates')
 
+# Считывание имён дикторов из БД
 @app.route('/')
 def sen_data():
     connection = sq.connect('intonation.db')

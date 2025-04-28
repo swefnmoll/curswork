@@ -5,6 +5,7 @@ app = Flask(__name__, template_folder='templates')
 
 @app.route('/')
 def sen_data():
+    # Подключение к БД
     connection = sq.connect('intonation.db')
     cursor = connection.cursor()
 
@@ -27,6 +28,5 @@ def sen_data():
     cut(levels)
     cut(settlements)
     cut(dictors)
-    print(levels)
     return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors)
 app.run(port=1000, debug=True)

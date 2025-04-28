@@ -11,44 +11,30 @@ def result():
     files = []
     dictors = []
     texts = []
-    lang = request.form.get('lang')
-    dictor = request.form.get('dictor')
-    education = request.form.get('education')
-    settlement = request.form.get('settlement')
-    gender = request.form.get('gender')
-    age_from = request.form.get('age_from')
-    age_to = request.form.get('age_to')
-    if lang == '-':
-        lang = '%'
-    if dictor == '-':
-        dictor = '%'
-    if education == '-':
-        education = '%'
-    if settlement == '-':
-        settlement = '%'
-    if gender == '-':
-        gender = '%'
-    if age_from == '':
-        age_from = 0
-    else:
-        age_from = int(age_from)
-    if age_to == '':
-        age_to = 9999
-    else:
-        age_to = int(age_to)
+    characteristics = {
+        'lang' : '%', 'dictor' : '%', 'education' : '%',
+        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999}
+
+    # Получение данных из формы
+    for char in characteristics.keys():
+        req_data = request.form.get(char)
+        if req_data != '':
+            characteristics[char] = req_data
+
+    print(characteristics)
     cursor.execute(f'''
-    SELECT file, text, dictor FROM files WHERE
-    dictor IN (SELECT name FROM dictors
-    INNER JOIN languages ON dictors.lang = languages.id 
-    INNER JOIN education ON dictors.education = education.id
-    INNER JOIN settlements ON dictors.settlement = settlements.id
-    AND dictors.name LIKE'{dictor}'
-    AND dictors.gender LIKE '{gender}'
-    AND languages.lang LIKE '{lang}'
-    AND education.level LIKE '{education}'
-    AND settlements.settlement LIKE '{settlement}'
-    AND dictors.DOB >= {age_from}
-    AND dictors.DOB <= {age_to})
+    SELECT files.file, files.text, files.dictor
+    FROM files WHERE files.dictor IN (SELECT dictors.name FROM dictors
+    INNER JOIN languages ON languages.id = dictors.lang
+    INNER JOIN education ON education.id = dictors.education
+    INNER JOIN settlements ON settlements.id = dictors.settlement
+    WHERE languages.lang LIKE '{characteristics['lang']}'
+    AND dictors.name LIKE '{characteristics['dictor']}'
+    AND education.level LIKE '{characteristics['education']}'
+    AND settlements.settlement LIKE '{characteristics['settlement']}'
+    AND dictors.gender LIKE '{characteristics['gender']}'
+    AND dictors.DOB >= {characteristics['age_from']}
+    AND dictors.DOB <= {characteristics['age_to']})
     ''')
 
     raw_data = list(cursor.fetchall())
