@@ -45,7 +45,6 @@ def result():
         texts.append(elem[1])
         dictors.append(elem[2])
     return render_template('search_result.html', result=zip(files, dictors, texts))
-
 app.run(port=1500, debug=True)
 cursor.close()
 connection.close()
