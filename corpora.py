@@ -8,7 +8,7 @@ def sen_data():
     # Подключение к БД
     connection = sq.connect('intonation.db')
     cursor = connection.cursor()
-
+    # Считывание данных из БД
     cursor.execute('''SELECT lang FROM languages''')
     languages = list(cursor.fetchall())
 
@@ -21,6 +21,7 @@ def sen_data():
     cursor.execute('''SELECT name FROM dictors''')
     dictors = list(cursor.fetchall())
 
+    # Обрезка строк
     def cut(lst):
         for index, value in enumerate(lst):
             lst[index] = str(value)[2:-3]

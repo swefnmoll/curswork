@@ -21,7 +21,7 @@ def result():
         if req_data != '':
             characteristics[char] = req_data
 
-    print(characteristics)
+    # Поиск по БД
     cursor.execute(f'''
     SELECT files.file, files.text, files.dictor
     FROM files WHERE files.dictor IN (SELECT dictors.name FROM dictors
