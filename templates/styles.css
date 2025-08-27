@@ -1,0 +1,16 @@
+.header {
+display: flex;
+color: black;
+}
+.topnav {
+display: flex;
+justify-content: space-around;
+background-color: black;
+color: white;
+a:visited{color:white;}
+}
+.text {
+display: flex;
+flex-direction: column;
+width: 80%;
+}
