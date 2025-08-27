@@ -1,6 +1,7 @@
 .header {
 display: flex;
 color: black;
+font-size: 30px;
 }
 .topnav {
 display: flex;
@@ -13,4 +14,10 @@ a:visited{color:white;}
 display: flex;
 flex-direction: column;
 width: 80%;
+text-align: justify;
+margin-left: 80px;
+}
+.image{
+display: flex;
+justify-content: center;
 }
