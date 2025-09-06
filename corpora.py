@@ -3,7 +3,7 @@ import sqlite3 as sq
 
 app = Flask(__name__, template_folder='templates')
 
-@app.route('/')
+@app.route('/search')
 def sen_data():
     # Подключение к БД
     connection = sq.connect('intonation.db')
@@ -30,4 +30,17 @@ def sen_data():
     cut(settlements)
     cut(dictors)
     return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors)
+
+@app.route('/')
+def main_page():
+    return render_template('main_page.html')
+
+@app.route('/methods')
+def methods():
+    return render_template('methods.html')
+
+@app.route('/authors')
+def authors():
+    return render_template('authors.html')
+
 app.run(port=1000, debug=True)

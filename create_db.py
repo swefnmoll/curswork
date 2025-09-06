@@ -39,6 +39,7 @@ def create_db():
     CREATE TABLE IF NOT EXISTS files (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     file TEXT,
+    image TEXT,
     dictor INTEGER,
     type INTEGER,
     subtype INTEGER,
