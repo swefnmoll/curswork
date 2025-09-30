@@ -8,7 +8,7 @@
 Результаты поиска:<br>
 {% for file, dictor, text in result: %}
 <audio controls>
-    <source src="static/{{file}}" type="audio/wav">
+    <source src="static/audio/{{file}}" type="audio/wav">
 </audio><br>
     {{ text }} (Диктор: {{ dictor }}) <br>
 {% endfor %}

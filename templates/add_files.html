@@ -6,12 +6,6 @@
 </head>
 <body>
 <form method="post" action="http://127.0.0.1:2500" enctype="multipart/form-data">
-    <select name="dictor">
-        {% for dictor in dictors: %}
-            <option>{{ dictor }}</option>
-        {% endfor %}
-    </select>
-    </select>
     <input type="file" name="files" multiple>
     <button type="submit">Загрузить</button>>
 </form>
