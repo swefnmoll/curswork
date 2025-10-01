@@ -16,7 +16,7 @@ class AddedFile:
     def __init__(self, file):
         filename = file.filename
         file.save(f'static\audio\{filename}')
-        annotation.annotate(filename)
+        annotation.read_and_annotate(filename)
 
     # Чтение данных из TextGrid
     def read_data(file):

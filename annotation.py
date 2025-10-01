@@ -7,15 +7,9 @@ class Annotation:
     def __init__(self, file):
         self.tg = mtg.read_from_file(file)
         self.snd = parselmouth.Sound(path.splitext(file)[0] + '.wav')
-        self.syntagms = []
-
-#    def sentence_read(self):
-#        for interval in self.tg[0]:
-#            if len(interval.text) > 1:
-#                sentence_lb = interval.xmin
-#                sentence_rb = interval.xmax
-#                self.snd_sentence = self.snd.extract_part(from_time=sentence_lb, to_time=sentence_rb, preserve_times=True)
-#                return self.snd_sentence
+        self.intervals = []
+        self.syntagms = file.read_interval(1)
+        self.sentence = file.read_interval(0)
 
     def syllabe(self, point, xs, values):
         time = xs[list(values).index(point)]
@@ -28,8 +22,8 @@ class Annotation:
         pitch = list(filter(lambda x: x != 0, raw_pitch))
         max_pitch = max(pitch)
         min_pitch = min(pitch)
-        max_syll, text_max_syll = self.syllabe(max_pitch, snd.to_pitch().xs(), raw_pitch)
-        min_syll, text_min_syll = self.syllabe(min_pitch, snd.to_pitch().xs(), raw_pitch)
+        max_syll, text_max_syll = self.syllabe(max_pitch, snd.to_pitch().xs(), pitch)
+        min_syll, text_min_syll = self.syllabe(min_pitch, snd.to_pitch().xs(), pitch)
         return max_syll, text_max_syll, min_syll, text_min_syll
 
     def read_intensity(self, snd):
@@ -40,37 +34,44 @@ class Annotation:
         min_syll, text_min_syll = self.syllabe(min_intensity, intensity.xs(), intensity.values.T)
         return max_syll, text_max_syll, min_syll, text_min_syll
 
-    def syntagm_read(self):
-        for interval in self.tg.tiers[1]:
+    def read_interval(self, tier):
+        for interval in self.tg.tiers[tier]:
             if len(interval.text) > 1:
-                syntagm_lb = interval.xmin
-                syntagm_rb = interval.xmax
-                snd_syntagm = self.snd.extract_part(from_time=syntagm_lb, to_time=syntagm_rb,
+                interval_lb = interval.xmin
+                interval_rb = interval.xmax
+                snd_interval = self.snd.extract_part(from_time=interval_lb, to_time=interval_rb,
                                                          preserve_times=True)
-                self.syntagms.append(snd_syntagm)
-        return self.syntagms
+                self.intervals.append(snd_interval)
+        return self.intervals
 
-    def annotate(self, syntagm_pitch, syntagm_intensity, file_path):
-        absolute_max_pitch = max()
-        text_max_pitch = max
-        self.tg.tiers[2].set_text_at_index(pitch[0][0], pitch[0][1] + ' HP')
-        self.tg.tiers[2].set_text_at_index(pitch[1][0], pitch[1][1] + ' L')
-        self.tg.tiers[2].set_text_at_index(intensity[0][0], intensity[0][1] + ' ')
-        self.tg.tiers[2].set_text_at_index(intensity[1][0], intensity[0][1] + ' LI!')
-        self.tg.write(file_path)
+    def chars(self, interval):
+        data = {}
+        data['max_pitch'], data['max_pitch_text'], data['min_pitch'], data['min_pitch_text'] = self.read_pitch(interval)
+        data['max_intensity'], data['max_intensity_text'], data['min_intensity'], data['min_intensity_text'] = self.read_intensity(interval)
+        return data
 
     def __del__(self):
         pass
 
-def read_and_annotate(file_path):
-    syntagm_pitch = []
-    syntagm_intensity = []
+
+def annotate(self, file_path):
     file = Annotation(file_path)
-#    sentence = file.sentence_read()
-#    sentence_pitch = file.read_pitch(sentence)
-#    sentence_intensity = file.read_intensity(sentence)
-    syntagms = file.syntagm_read()
+
+    sentence = file.read_interval(0)
+    sentence_chars = file.chars(sentence)
+    syntagm_tier = file.tg.tiers[2]
+
+    syntagms = file.read_interval(1)
     for syntagm in syntagms:
-        syntagm_pitch.append(file.read_pitch(syntagm))
-        syntagm_intensity.append(file.read_intensity(syntagm))
-    file.annotate(syntagm_pitch, syntagm_intensity, file_path)
+        syntagm_chars = file.chars(syntagm)
+        syntagm_tier.set_text_at_index(syntagm_chars['max_pitch'], syntagm_chars['max_pitch_text'] + ' HP')
+        syntagm_tier.set_text_at_index(syntagm_chars['min_pitch'], syntagm_chars['min_pitch_text'] + ' LP')
+        syntagm_tier.set_text_at_index(syntagm_chars['max_intensity'], syntagm_chars['max_intensity_text'] + ' HI')
+        syntagm_tier.set_text_at_index(syntagm_chars['min_intensity'], syntagm_chars['min_intensity_text'] + ' LI')
+
+    syntagm_tier.set_text_at_index(sentence_chars['max_pitch'], sentence_chars['max_pitch_text'] + '!')
+    syntagm_tier.set_text_at_index(sentence_chars['min_pitch'], sentence_chars['min_pitch_text'] + '!')
+    syntagm_tier.set_text_at_index(sentence_chars['max_intensity'], sentence_chars['max_intensity_text'] + '!')
+    syntagm_tier.set_text_at_index(sentence_chars['min_intensity'], sentence_chars['min_intensity_text']  + '!')
+
+    self.tg.write(file_path)
