@@ -1,4 +1,5 @@
 import sqlite3 as sq
+from add_settlement import add_settlements
 
 connection = sq.connect('intonation.db')
 cursor = connection.cursor()
@@ -73,3 +74,6 @@ def create_db():
     INSERT INTO subtypes (subtype) VALUES ('информативное'), ('верификативное'), ('инф.+вер.'), ('диктальный'), ('модальный'), ('принятие'), ('подтверждение'), ('внимание')
     ''')
     connection.commit()
+
+create_db()
+add_settlements('')
