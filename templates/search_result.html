@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Результаты поиска</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-Результаты поиска:<br>
+<h1>Результаты поиска:</h1><br>
 {% for file, dictor, text in result: %}
 <audio controls>
-    <source src="static/audio/{{file}}" type="audio/wav">
+    <source src="static/audio/{{file}}.wav" type="audio/wav">
 </audio><br>
-    {{ text }} (Диктор: {{ dictor }}) <br>
+{{ text }}<br>
+(Диктор: {{ dictor }}) <br>
+<button >Картинка</button>
+<div class="annimage">
+    <img src="static/images/{{file}}.jpeg">
+</div>
 {% endfor %}
 </body>
 </html>

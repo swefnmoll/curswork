@@ -20,7 +20,7 @@ def result():
         req_data = request.form.get(char)
         if req_data != '':
             characteristics[char] = req_data
-
+    print(characteristics)
     # Поиск по БД
     cursor.execute(f'''
     SELECT files.file, files.text, files.dictor
@@ -36,15 +36,8 @@ def result():
     AND dictors.DOB >= {characteristics['age_from']}
     AND dictors.DOB <= {characteristics['age_to']})
     ''')
-
-    raw_data = list(cursor.fetchall())
-    for value, item in enumerate(raw_data):
-        raw_data[value] = list(item)
-    for elem in raw_data:
-        files.append(elem[2] + '/' + elem[0] + '.wav')
-        texts.append(elem[1])
-        dictors.append(elem[2])
-    return render_template('search_result.html', result=zip(files, dictors, texts))
+    data = list(cursor.fetchall())
+    return render_template('search_result.html', result=data)
 app.run(port=1500, debug=True)
 cursor.close()
 connection.close()

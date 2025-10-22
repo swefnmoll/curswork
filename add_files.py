@@ -7,7 +7,7 @@ import mytextgrid as mtg
 import parselmouth
 import matplotlib.pyplot as plt
 from annotation import Annotation
-from werkzeug.utils import secure_filename
+from os import path
 
 # Подключение к БД
 connection = sq.connect('intonation.db', check_same_thread=False)
@@ -18,11 +18,14 @@ app = Flask(__name__)
 class AddedFile:
 
     def __init__(self, file):
-        self.s_filename = secure_filename(file.filename)
-        self.filename = fr'static\audio\{self.s_filename}'
-        file.save(fr'static\audio\{secure_filename(file.filename)}')
+        cursor.execute('''SELECT MAX(`id`) FROM files''')
+        raw_max_id = cursor.fetchall()[0][0]
+        max_id = 0 if raw_max_id is None else raw_max_id
+        self.filename = str(max_id + 1) + path.splitext(file.filename)[1]
+        self.path = fr'static\audio\{self.filename}'
+        file.save(self.path)
         if self.filename.endswith('.wav'):
-            ann_file = Annotation(self.filename)
+            ann_file = Annotation(self.path)
             ann_file.annotate()
             self.draw_image()
             data = self.read_data()
@@ -38,15 +41,15 @@ class AddedFile:
                 information = list(map(lambda x: x.strip(), information))
                 text, translation, dictor, type, subtype = information
                 break
-        return cropped_filename, text, translation, dictor, type, subtype
+        return cropped_filename, dictor, type, subtype, text, translation
 
     def read_chars(self):
-        snd = parselmouth.Sound(self.filename)
+        snd = parselmouth.Sound(self.path)
         oscillogram = snd
         spectrogram = snd.to_spectrogram()
         pitch = snd.to_pitch()
         intensity = snd.to_intensity()
-        self.tg = mtg.read_from_file(pathlib.PurePath(self.filename).with_suffix('.TextGrid'))
+        self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))
         syntagms = self.tg.tiers[1]
         syllabes = self.tg.tiers[2]
         return oscillogram, spectrogram, pitch, intensity, syntagms, syllabes
@@ -66,7 +69,7 @@ class AddedFile:
         plt.plot(chars[2].xs(), chars[2].selected_array['frequency'], linewidth=3, color='blue')
         plt.plot(chars[3].xs(), chars[3].values.T, linewidth=3, color='green')
 
-        path_to_img = fr'static\images\{self.s_filename[:-4]}.jpeg'
+        path_to_img = fr'static\images\{self.filename[:-4]}.jpeg'
         print(path_to_img)
         plt.savefig(path_to_img)
         plt.close()
@@ -74,12 +77,8 @@ class AddedFile:
     # Загрузка данных в БД
     def upload_file(self, data):
         if self.filename.endswith('.wav'):
-            cursor.executescript(f'''INSERT INTO files (file, dictor, type, subtype, text, translation)
-            VALUES (?, ?, ?, ?, ?, ?);
-            
-            
-            
-            ''', data)
+            cursor.execute(f'''INSERT INTO files (file, dictor, type, subtype, text, translation)
+            VALUES (?, ?, ?, ?, ?, ?)''', data)
             connection.commit()
 
 @app.route('/', methods=['POST', 'GET'])

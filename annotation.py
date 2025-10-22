@@ -13,7 +13,7 @@ class Annotation:
     def syllabe(self, point, xs, values):
         time = xs[list(values).index(point)]
         for interval in self.tg.tiers[2]:
-            if time >= interval.xmin and time <= interval.xmax:
+            if interval.xmin <= time <= interval.xmax:
                 return list(self.tg.tiers[2]).index(interval), interval.text
 
     def read_pitch(self, snd):
@@ -22,8 +22,8 @@ class Annotation:
             pitch = list(filter(lambda x: x != 0, raw_pitch))
             max_pitch = max(pitch)
             min_pitch = min(pitch)
-            max_syll, text_max_syll = self.syllabe(max_pitch, snd.to_pitch().xs(), pitch)
-            min_syll, text_min_syll = self.syllabe(min_pitch, snd.to_pitch().xs(), pitch)
+            max_syll, text_max_syll = self.syllabe(max_pitch, snd.to_pitch().xs(), raw_pitch)
+            min_syll, text_min_syll = self.syllabe(min_pitch, snd.to_pitch().xs(), raw_pitch)
             return max_syll, text_max_syll, min_syll, text_min_syll
         else:
             pass
@@ -87,3 +87,5 @@ class Annotation:
             self.annotate_syntagm('HI', syntagm)
             self.annotate_syntagm('LI', syntagm)
         self.tg.write(self.path_to_tg)
+nn = Annotation(r'C:\Users\Пользователь\Desktop\Учеба\РАЗНОЕ ПО КОРПУСУ\Кумандинский резерв\5_СНС.wav')
+nn.annotate()

@@ -40,7 +40,6 @@ def create_db():
     CREATE TABLE IF NOT EXISTS files (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     file TEXT,
-    image TEXT,
     dictor INTEGER,
     type INTEGER,
     subtype INTEGER,
@@ -76,4 +75,4 @@ def create_db():
     connection.commit()
 
 create_db()
-add_settlements('')
+add_settlements('аул Шагир Куйбышевского района НСО; аул Тармакуль Чановского района НСО; дер. Юрт-Ора Колыванского района НСО; дер.Букачак, Красногорского р-на Алтайского края')
