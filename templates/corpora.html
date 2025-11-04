@@ -1,70 +1,44 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Поиск</title>
-    <link href="/css/styles.css" rel="stylesheet">
-</head>
-<body>
-<div class="topimages">
-  <img src="/static/image2.jpg" class="topimage">
-  <img src="/static/image3.jpg" class="topimage">
-  <img src="/static/image4.jpg" class="topimage">
-  <img src="/static/image5.jpg" class="topimage">
-  <img src="/static/image6.jpg" class="topimage">
-  <img src="/static/image7.jpg" class="topimage">
-  <img src="/static/image8.jpg" class="topimage">
-</div>
-<div class="header">
-  Корпус "Интонация диалогической речи миноритарных народов НСО и сопредельных регионов"
-</div>
-<nav class="topnav">
-  <a href="{{ url_for('main_page') }}">Главная</a>
-  <a href="{{ url_for('sen_data') }}">Поиск по корпусу</a>
-  <a href="{{ url_for('methods') }}">Методика и материал</a>
-  <a href="{{ url_for('authors') }}">Авторы</a>
-</nav>
+{% include "top.html" %}
 <div class="title">Поиск по корпусу</div>
-<div class="main">
-    <form method="post" action="http://127.0.0.1:1500">
-        Язык:
-        <select name="lang">
-            <option></option>
-            {% for lang in languages: %}
-                <option>{{ lang }}</option>
-            {% endfor %}
-        </select><br>
-        Образование:
-        <select name="education">
-            <option></option>
-            {% for level in levels: %}
-                <option>{{ level }}</option>
-            {% endfor %}
-        </select><br>
-        Поселение:
-        <select name="settlement">
-            <option></option>
-            {% for settlement in settlements: %}
-                <option>{{ settlement }}</option>
-            {% endfor %}
-        </select><br>
-        Диктор:
-        <select name="dictor">
-            <option></option>
-            {% for dictor in dictors: %}
-                <option>{{ dictor }}</option>
-            {% endfor %}
-        </select><br>
-        Пол:
-        <select name="gender">
-            <option></option>
-            <option>м</option>
-            <option>ж</option>
-        </select><br>
-        Год рождения:
-        От <input type="number" name="age_from"> До <input type="number" name="age_to"><br>
-        <button type="submit">Поиск</button>>
-    </form>
+<div class="form" form method="post" action="http://127.0.0.1:1500">
+    <label class="form-label">Язык</label>
+    <select name="lang">
+        <option></option>
+        {% for lang in languages: %}
+            <option>{{ lang }}</option>
+        {% endfor %}
+    </select><br>
+    Образование:
+    <select name="education">
+        <option></option>
+        {% for level in levels: %}
+            <option>{{ level }}</option>
+        {% endfor %}
+    </select><br>
+    Поселение:
+    <select name="settlement">
+        <option></option>
+        {% for settlement in settlements: %}
+            <option>{{ settlement }}</option>
+        {% endfor %}
+    </select><br>
+    Диктор:
+    <select name="dictor">
+        <option></option>
+        {% for dictor in dictors: %}
+            <option>{{ dictor }}</option>
+        {% endfor %}
+    </select><br>
+    Пол:
+    <select name="gender">
+        <option></option>
+        <option>м</option>
+        <option>ж</option>
+    </select><br>
+    Год рождения:
+
+    <button type="submit">Поиск</button>>
 </div>
 </body>
 </html>

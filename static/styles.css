@@ -8,28 +8,6 @@ width: 14%;
 height: 14%;
 object-fit: cover;
 }
-.header {
-position: sticky;
-top: 0;
-width: 100%;
-display: flex;
-color: white;
-font-size: 30px;
-justify-content: center;
-background-color: teal;
-}
-.topnav {
-position: sticky;
-top: 34px;
-width: 100%;
-display: flex;
-justify-content: space-around;
-background-color: black;
-color: white;
-a:visited{color:white}
-a:hover{color:red}
-a{text-decoration: none}
-}
 .title {
 margin-top: 50px;
 text-align: center;

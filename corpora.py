@@ -1,7 +1,9 @@
 from flask import Flask, render_template
 import sqlite3 as sq
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__, template_folder='templates')
+bootstrap = Bootstrap(app)
 
 @app.route('/search')
 def sen_data():
@@ -42,5 +44,14 @@ def methods():
 @app.route('/authors')
 def authors():
     return render_template('authors.html')
+
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html')
+
+@app.route('/for_citation')
+def for_citation():
+    return render_template('for_citation.html')
+
 
 app.run(port=1000, debug=True)

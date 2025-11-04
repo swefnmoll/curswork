@@ -1,31 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Авторы</title>
-  <link rel="stylesheet" href="../static/styles.css">
-</head>
-<body>
-<div class="topimages">
-  <img src="/static/image2.jpg" class="topimage">
-  <img src="/static/image3.jpg" class="topimage">
-  <img src="/static/image4.jpg" class="topimage">
-  <img src="/static/image5.jpg" class="topimage">
-  <img src="/static/image6.jpg" class="topimage">
-  <img src="/static/image7.jpg" class="topimage">
-  <img src="/static/image8.jpg" class="topimage">
-</div>
-<div class="header">
-  Корпус "Интонация диалогической речи миноритарных народов НСО и сопредельных регионов"
-</div>
-<nav class="topnav">
-  <a href="{{ url_for('main_page') }}">Главная</a>
-  <a href="{{ url_for('sen_data') }}">Поиск по корпусу</a>
-  <a href="{{ url_for('methods') }}">Методика и материал</a>
-  <a href="{{ url_for('authors') }}">Авторы</a>
-  <a href="{{ url_for('authors') }}">Контакты</a>
-  <a href="{{ url_for('authors') }}">Для цитирования</a>
-</nav>
+{% include "top.html" %}
 <div class="title">Авторы</div>
 <div class="main">
   <p><b>Рыжикова Т. Р.</b> – составление анкет для сбора фонетического материала по барабинскому, чатскому языкам; сбор языкового материала в местах компактного проживания носителей барабинского и чатского языков; постобработка, анализ и интерпретация собранного материала в лабораторных условиях; разработка критериев аннотирования записанных высказываний; аннотирование аудиофайлов по барабинскому языку в программе Праат; перевод, анализ и интерпретация полученных данных.</p>

@@ -1,6 +1,7 @@
 import mytextgrid as mtg
 import parselmouth
 from os import path
+import matplotlib.pyplot as plt
 
 class Annotation:
 
@@ -18,7 +19,7 @@ class Annotation:
 
     def read_pitch(self, snd):
         if snd != 0:
-            raw_pitch = snd.to_pitch().selected_array['frequency']
+            raw_pitch = snd.to_pitch_ac(pitch_floor=50, pitch_ceiling=800, silence_threshold=0.09, voicing_threshold=0.45, octave_cost=0.055).selected_array['frequency']
             pitch = list(filter(lambda x: x != 0, raw_pitch))
             max_pitch = max(pitch)
             min_pitch = min(pitch)
@@ -87,5 +88,5 @@ class Annotation:
             self.annotate_syntagm('HI', syntagm)
             self.annotate_syntagm('LI', syntagm)
         self.tg.write(self.path_to_tg)
-nn = Annotation(r'C:\Users\Пользователь\Desktop\Учеба\РАЗНОЕ ПО КОРПУСУ\Кумандинский резерв\5_СНС.wav')
+nn = Annotation(r'C:\Users\Пользователь\Desktop\Учеба\РАЗНОЕ ПО КОРПУСУ\Кумандинский резерв\6_СНС.wav')
 nn.annotate()
