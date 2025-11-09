@@ -37,8 +37,27 @@
         <option>ж</option>
     </select><br>
     Год рождения:
-
+    <div id="dobslider" class="dobslider"</div>
+    <input type="hidden" name="dob" id="dob" /><br>
+    <span id="result"></span><br>
     <button type="submit">Поиск</button>>
 </div>
+<script type="text/javascript">
+    $("#dobslider").slider({
+        animate: "slow",
+        range: "true",
+        min: 1900,
+        max: 2020,
+        values: [ 1950,2000 ],
+        slide : function(event, ui) {
+            $("#result").text( "от " + ui.values[ 0 ] + " до " + ui.values[ 1 ] );
+            $("#result").text(ui.values);
+            $("#dob").val(ui.values);
+        }
+    });
+    $( "#result" ).text("от " + $("#dobslider").slider("values", 0) + " до " + $("#dobslider").slider("values", 1));
+    $("#result").text($("#dobslider").slider("value"));
+    $("#dob").val($("#dobslider").slider("value"));
+</script>
 </body>
 </html>

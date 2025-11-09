@@ -31,3 +31,9 @@ text-align: center;
 button:hover ~ .annimage {
   height: 100px;
 }
+.form {
+margin-left: 25px;
+}
+.dobslider {
+width: 25%;
+}
