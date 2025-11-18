@@ -88,5 +88,3 @@ class Annotation:
             self.annotate_syntagm('HI', syntagm)
             self.annotate_syntagm('LI', syntagm)
         self.tg.write(self.path_to_tg)
-nn = Annotation(r'C:\Users\Пользователь\Desktop\Учеба\РАЗНОЕ ПО КОРПУСУ\Кумандинский резерв\6_СНС.wav')
-nn.annotate()

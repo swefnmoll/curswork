@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.9590476190476191 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.9590476190476191 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09855355567851254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09855355567851254 
+            xmax = 1.9358603047385308 
+            text = "Қӧп ҷатран (ч)ер куманды кишилер. // Много мест, где проживают кумандинцы. // СНС // утверждение // верификат" 
+        intervals [3]:
+            xmin = 1.9358603047385308 
+            xmax = 1.9590476190476191 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 1.9590476190476191 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09855355567851254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09855355567851254 
+            xmax = 1.9358603047385308 
+            text = "Қӧп ҷатран (ч)ер куманды кишилер" 
+        intervals [3]:
+            xmin = 1.9358603047385308 
+            xmax = 1.9590476190476191 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 1.9590476190476191 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09855355567851254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09855355567851254 
+            xmax = 0.37150156496237335 
+            text = "q\o-p HP! HI!" 
+        intervals [3]:
+            xmin = 0.37150156496237335 
+            xmax = 0.6797655141315778 
+            text = "ħçat LI" 
+        intervals [4]:
+            xmin = 0.6797655141315778 
+            xmax = 0.8399944167182538 
+            text = "ran" 
+        intervals [5]:
+            xmin = 0.8399944167182538 
+            xmax = 1.076277768038611 
+            text = "er LP" 
+        intervals [6]:
+            xmin = 1.076277768038611 
+            xmax = 1.1867369641347805 
+            text = "qu" 
+        intervals [7]:
+            xmin = 1.1867369641347805 
+            xmax = 1.381772575246196 
+            text = "man" 
+        intervals [8]:
+            xmin = 1.381772575246196 
+            xmax = 1.5122372762979954 
+            text = "dъ" 
+        intervals [9]:
+            xmin = 1.5122372762979954 
+            xmax = 1.7118559701111202 
+            text = "kʃ" 
+        intervals [10]:
+            xmin = 1.7118559701111202 
+            xmax = 1.9358603047385308 
+            text = "ler" 
+        intervals [11]:
+            xmin = 1.9358603047385308 
+            xmax = 1.9590476190476191 
+            text = "" 

@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8066213151927437 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.8066213151927437 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0965207845401667 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0965207845401667 
+            xmax = 1.7138574101545851 
+            text = "Алтай кишлер ҷакшы болан анда. // Алтайцы там были хорошие. // СНС // утверждение // информ" 
+        intervals [3]:
+            xmin = 1.7138574101545851 
+            xmax = 1.8066213151927437 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 1.8066213151927437 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0965207845401667 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0965207845401667 
+            xmax = 1.7138574101545851 
+            text = "Алтай кишилер ҷакшы болан анда" 
+        intervals [3]:
+            xmin = 1.7138574101545851 
+            xmax = 1.8066213151927437 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 1.8066213151927437 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0965207845401667 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0965207845401667 
+            xmax = 0.2787294403875518 
+            text = "ɑl HP HI" 
+        intervals [3]:
+            xmin = 0.2787294403875518 
+            xmax = 0.46657341548794884 
+            text = "tɑj" 
+        intervals [4]:
+            xmin = 0.46657341548794884 
+            xmax = 0.6675664688453736 
+            text = "kiʃ LP" 
+        intervals [5]:
+            xmin = 0.6675664688453736 
+            xmax = 0.8028141309176595 
+            text = "ler" 
+        intervals [6]:
+            xmin = 0.8028141309176595 
+            xmax = 0.9807962973252857 
+            text = "ħçɑk" 
+        intervals [7]:
+            xmin = 0.9807962973252857 
+            xmax = 1.0942494920870338 
+            text = "ʃъ" 
+        intervals [8]:
+            xmin = 1.0942494920870338 
+            xmax = 1.3102700634524904 
+            text = "\bfɔn" 
+        intervals [9]:
+            xmin = 1.3102700634524904 
+            xmax = 1.4830865205448556 
+            text = "ɑn" 
+        intervals [10]:
+            xmin = 1.4830865205448556 
+            xmax = 1.7138574101545851 
+            text = "dɑ LI" 
+        intervals [11]:
+            xmin = 1.7138574101545851 
+            xmax = 1.8066213151927437 
+            text = "" 

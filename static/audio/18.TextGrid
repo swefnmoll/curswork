@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.5459637188208615 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.5459637188208615 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30544006979765226 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30544006979765226 
+            xmax = 2.0816932594834916 
+            text = "Чуруқта қойлар полған. // На картинке овцы были. // ККТ // утверждение // верификат" 
+        intervals [3]:
+            xmin = 2.0816932594834916 
+            xmax = 2.5459637188208615 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.5459637188208615 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30544006979765226 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30544006979765226 
+            xmax = 2.0816932594834916 
+            text = "Чуруқта қойлар полған" 
+        intervals [3]:
+            xmin = 2.0816932594834916 
+            xmax = 2.5459637188208615 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.5459637188208615 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30544006979765226 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30544006979765226 
+            xmax = 0.4110333773911068 
+            text = "ћu" 
+        intervals [3]:
+            xmin = 0.4110333773911068 
+            xmax = 0.5497960087481197 
+            text = "ruχ HP" 
+        intervals [4]:
+            xmin = 0.5497960087481197 
+            xmax = 0.9380418463404092 
+            text = "tɑ HI" 
+        intervals [5]:
+            xmin = 0.9380418463404092 
+            xmax = 1.1442817589229044 
+            text = "- LI" 
+        intervals [6]:
+            xmin = 1.1442817589229044 
+            xmax = 1.329974464452194 
+            text = "qɔj" 
+        intervals [7]:
+            xmin = 1.329974464452194 
+            xmax = 1.5593011958524388 
+            text = "lɔr LP" 
+        intervals [8]:
+            xmin = 1.5593011958524388 
+            xmax = 1.7785148252619554 
+            text = "bɔl" 
+        intervals [9]:
+            xmin = 1.7785148252619554 
+            xmax = 2.0816932594834916 
+            text = "ƣɑn" 
+        intervals [10]:
+            xmin = 2.0816932594834916 
+            xmax = 2.5459637188208615 
+            text = "" 

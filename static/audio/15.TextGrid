@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.4286394557823128 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.4286394557823128 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10450095717551576 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10450095717551576 
+            xmax = 2.283735539945932 
+            text = "Қушақтар қойныӊ тӱгӱнден. // Пояса из овечьей шерсти. // СНС // утверждение // информ" 
+        intervals [3]:
+            xmin = 2.283735539945932 
+            xmax = 2.4286394557823128 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 2.4286394557823128 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10450095717551576 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10450095717551576 
+            xmax = 2.283735539945932 
+            text = "қушақтар қойныӊ тӱгӱнден" 
+        intervals [3]:
+            xmin = 2.283735539945932 
+            xmax = 2.4286394557823128 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 2.4286394557823128 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10450095717551576 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10450095717551576 
+            xmax = 0.19366083390078603 
+            text = "ku" 
+        intervals [3]:
+            xmin = 0.19366083390078603 
+            xmax = 0.6115789375491103 
+            text = "ʃak HP!" 
+        intervals [4]:
+            xmin = 0.6115789375491103 
+            xmax = 0.87167298392843 
+            text = "tar HI" 
+        intervals [5]:
+            xmin = 0.87167298392843 
+            xmax = 1.3055230358973993 
+            text = "ɔj LP!" 
+        intervals [6]:
+            xmin = 1.3055230358973993 
+            xmax = 1.560566712444111 
+            text = "nɔŋ" 
+        intervals [7]:
+            xmin = 1.560566712444111 
+            xmax = 1.7400423782859282 
+            text = "tʏ LI" 
+        intervals [8]:
+            xmin = 1.7400423782859282 
+            xmax = 1.9761471679603593 
+            text = "ƣʏn" 
+        intervals [9]:
+            xmin = 1.9761471679603593 
+            xmax = 2.283735539945932 
+            text = "dɛn" 
+        intervals [10]:
+            xmin = 2.283735539945932 
+            xmax = 2.4286394557823128 
+            text = "" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5560544217687076 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.5560544217687076 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.023271217626766302 
+            text = "" 
+        intervals [2]:
+            xmin = 0.023271217626766302 
+            xmax = 1.52307573155985 
+            text = "Ол мындығ қушақтар. // Вот такие пояса. // СНС // утверждение // верификат" 
+        intervals [3]:
+            xmin = 1.52307573155985 
+            xmax = 1.5560544217687076 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 1.5560544217687076 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.023271217626766302 
+            text = "" 
+        intervals [2]:
+            xmin = 0.023271217626766302 
+            xmax = 1.52307573155985 
+            text = "Ол мындығ қушақтар" 
+        intervals [3]:
+            xmin = 1.52307573155985 
+            xmax = 1.5560544217687076 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 1.5560544217687076 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.023271217626766302 
+            text = "" 
+        intervals [2]:
+            xmin = 0.023271217626766302 
+            xmax = 0.14617167882275955 
+            text = "ɔl" 
+        intervals [3]:
+            xmin = 0.14617167882275955 
+            xmax = 0.26306582783210725 
+            text = "mъn LP" 
+        intervals [4]:
+            xmin = 0.26306582783210725 
+            xmax = 0.49084781366415703 
+            text = "dъƣ" 
+        intervals [5]:
+            xmin = 0.49084781366415703 
+            xmax = 0.9791721666757304 
+            text = "kuʃ  HP! LI!" 
+        intervals [6]:
+            xmin = 0.9791721666757304 
+            xmax = 1.1681592167109447 
+            text = "ak" 
+        intervals [7]:
+            xmin = 1.1681592167109447 
+            xmax = 1.52307573155985 
+            text = "tar HI!" 
+        intervals [8]:
+            xmin = 1.52307573155985 
+            xmax = 1.5560544217687076 
+            text = "" 

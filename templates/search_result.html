@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Результаты поиска</title>
-    <link rel="stylesheet" href="../static/styles.css">
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-{% include "top.html" %}
-<h1>Результаты поиска:</h1><br>
-{% for file, dictor, text in result: %}
-<audio controls>
-    <source src="static/audio/{{file}}.wav" type="audio/wav">
-</audio><br>
-{{ text }}<br>
-(Диктор: {{ dictor }}) <br>
-<button >Картинка</button>
-<div class="annimage">
-    <img src="static/images/{{file}}.jpeg">
-</div>
-{% endfor %}
+  {% include "top.html" %}
+  <div class="title">Результаты поиска</div>
+  <div align="center">
+    {{ pagination.info }}
+  </div><br>
+  <div class="pagination justify-content-center">
+    {{ pagination.links }}<br>
+  </div>
+  <div class="main">
+  {% for file, dictor, text, index in result: %}
+  {% if index % 2 == 0 %}
+  <div class="res-elem-one">
+    <audio controls>
+        <source src="static/audio/{{file}}.wav" type="audio/wav">
+    </audio><br>
+    {{ text }}<br>
+    (Диктор: {{ dictor }}) <br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ file + '_annimage' }}">Разметка</div>
+    <div class="collapse" id="{{ file + '_annimage' }}">
+      <img src="static/images/{{file}}.jpeg">
+    </div>
+  </div>
+  {% else %}
+  <div class="res-elem-two">
+    <audio controls>
+        <source src="static/audio/{{file}}.wav" type="audio/wav">
+    </audio><br>
+    {{ text }}<br>
+    (Диктор: {{ dictor }}) <br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ file + '_annimage' }}">Разметка</div>
+    <div class="collapse" id="{{ file + '_annimage' }}">
+      <img src="static/images/{{file}}.jpeg">
+    </div>
+  </div>
+  {% endif %}
+    {% endfor %}
+  </div>
+  <ul class="pagination justify-content-center">
+    {{ pagination.links }}
+  </ul>
 </body>
 </html>

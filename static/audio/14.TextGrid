@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.2879138321995467 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 3.2879138321995467 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028659939090127977 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028659939090127977 
+            xmax = 3.2558352751686574 
+            text = "Ҷылғаш ҷана болган, ана қапшай ҷӱртен чана. // Лыжи были, такие лыжи для быстрой езды. // СНС // утверждение // информ" 
+        intervals [3]:
+            xmin = 3.2558352751686574 
+            xmax = 3.2879138321995467 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 3.2879138321995467 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028659939090127977 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028659939090127977 
+            xmax = 1.8691583696595 
+            text = "Ҷылғаш ҷана болган ана " 
+        intervals [3]:
+            xmin = 1.8691583696595 
+            xmax = 3.2558352751686574 
+            text = "қапшай ҷӱртен чана" 
+        intervals [4]:
+            xmin = 3.2558352751686574 
+            xmax = 3.2879138321995467 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 3.2879138321995467 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028659939090127977 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028659939090127977 
+            xmax = 0.19209810246464404 
+            text = "ħçъl" 
+        intervals [3]:
+            xmin = 0.19209810246464404 
+            xmax = 0.7262098860488985 
+            text = "ƣɑʃ HP LI!" 
+        intervals [4]:
+            xmin = 0.7262098860488985 
+            xmax = 1.086066693973686 
+            text = "ʃɑ LP! HI" 
+        intervals [5]:
+            xmin = 1.086066693973686 
+            xmax = 1.2262300295448934 
+            text = "nɑ" 
+        intervals [6]:
+            xmin = 1.2262300295448934 
+            xmax = 1.369511600302762 
+            text = "bɔl" 
+        intervals [7]:
+            xmin = 1.369511600302762 
+            xmax = 1.5645993441222725 
+            text = "ƣɔn" 
+        intervals [8]:
+            xmin = 1.5645993441222725 
+            xmax = 1.8691583696595 
+            text = "ɑnɑ" 
+        intervals [9]:
+            xmin = 1.8691583696595 
+            xmax = 2.274844587452313 
+            text = "kɑp HI! LI" 
+        intervals [10]:
+            xmin = 2.274844587452313 
+            xmax = 2.4902175177202652 
+            text = "ʃɑj HP" 
+        intervals [11]:
+            xmin = 2.4902175177202652 
+            xmax = 2.6862354252822827 
+            text = "ћʃʏr LP" 
+        intervals [12]:
+            xmin = 2.6862354252822827 
+            xmax = 2.893514854734539 
+            text = "tɪn" 
+        intervals [13]:
+            xmin = 2.893514854734539 
+            xmax = 3.093504004269066 
+            text = "ħçɑ" 
+        intervals [14]:
+            xmin = 3.093504004269066 
+            xmax = 3.2558352751686574 
+            text = "nɑ" 
+        intervals [15]:
+            xmin = 3.2558352751686574 
+            xmax = 3.2879138321995467 
+            text = "" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2471201814058956 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.2471201814058956 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.012167537808263896 
+            text = "" 
+        intervals [2]:
+            xmin = 0.012167537808263896 
+            xmax = 1.2155021912255846 
+            text = "Эм ол район jок. // Теперь этого района нет. // СНС // утверждение // верификат" 
+        intervals [3]:
+            xmin = 1.2155021912255846 
+            xmax = 1.2471201814058956 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 1.2471201814058956 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.012167537808263896 
+            text = "" 
+        intervals [2]:
+            xmin = 0.012167537808263896 
+            xmax = 1.2155021912255846 
+            text = "Эм ол район jок" 
+        intervals [3]:
+            xmin = 1.2155021912255846 
+            xmax = 1.2471201814058956 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 1.2471201814058956 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.012167537808263896 
+            text = "" 
+        intervals [2]:
+            xmin = 0.012167537808263896 
+            xmax = 0.215748939302358 
+            text = "ɛm LP!" 
+        intervals [3]:
+            xmin = 0.215748939302358 
+            xmax = 0.5217693899559007 
+            text = "ɔl HP!" 
+        intervals [4]:
+            xmin = 0.5217693899559007 
+            xmax = 0.6994168549539319 
+            text = "rɑ" 
+        intervals [5]:
+            xmin = 0.6994168549539319 
+            xmax = 0.9665364008633802 
+            text = "jɔn" 
+        intervals [6]:
+            xmin = 0.9665364008633802 
+            xmax = 1.2155021912255846 
+            text = "ћɔk HI! LI!" 
+        intervals [7]:
+            xmin = 1.2155021912255846 
+            xmax = 1.2471201814058956 
+            text = "" 

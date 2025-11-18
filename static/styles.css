@@ -37,3 +37,12 @@ margin-left: 25px;
 .dobslider {
 width: 25%;
 }
+.sr-only {
+  display: none;
+}
+.res-elem-one {
+  background-color: grey;
+}
+.res-elem-two {
+  background-color: white;
+}

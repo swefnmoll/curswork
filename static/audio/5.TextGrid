@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6756009070294784 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.6756009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028543489672494975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028543489672494975 
+            xmax = 1.5407825523529426 
+            text = "Қырнаӊ тӧзинеӊ тӱшкенер. // Спустились из предгорья. // СНС // утверждение // информ" 
+        intervals [3]:
+            xmin = 1.5407825523529426 
+            xmax = 1.6756009070294784 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 1.6756009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028543489672494975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028543489672494975 
+            xmax = 1.5407825523529426 
+            text = "Қырнаӊ тӧзинеӊ тӱшкенер" 
+        intervals [3]:
+            xmin = 1.5407825523529426 
+            xmax = 1.6756009070294784 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 1.6756009070294784 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.028543489672494975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.028543489672494975 
+            xmax = 0.2985861794368606 
+            text = "qъr HP! HI!" 
+        intervals [3]:
+            xmin = 0.2985861794368606 
+            xmax = 0.5546911819875816 
+            text = "nɑŋ" 
+        intervals [4]:
+            xmin = 0.5546911819875816 
+            xmax = 0.8404137698672975 
+            text = "t\o-z LP! LI!" 
+        intervals [5]:
+            xmin = 0.8404137698672975 
+            xmax = 1.0459946562685565 
+            text = "neŋ" 
+        intervals [6]:
+            xmin = 1.0459946562685565 
+            xmax = 1.2515755426698156 
+            text = "tʏʃ" 
+        intervals [7]:
+            xmin = 1.2515755426698156 
+            xmax = 1.3665614621823843 
+            text = "ke" 
+        intervals [8]:
+            xmin = 1.3665614621823843 
+            xmax = 1.5407825523529426 
+            text = "ner" 
+        intervals [9]:
+            xmin = 1.5407825523529426 
+            xmax = 1.6756009070294784 
+            text = "" 

@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.4580498866213154 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 3.4580498866213154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.061745589693983555 
+            text = "" 
+        intervals [2]:
+            xmin = 0.061745589693983555 
+            xmax = 3.438693465430903 
+            text = "Қӧдӱре ичпезеӊ айыкта чайна, йаман киши сен. // Если в чашке чай полностью не выпьешь, ты плохой человек. // СНС // утверждение // информ" 
+        intervals [3]:
+            xmin = 3.438693465430903 
+            xmax = 3.4580498866213154 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "sintagma" 
+        xmin = 0 
+        xmax = 3.4580498866213154 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.061745589693983555 
+            text = "" 
+        intervals [2]:
+            xmin = 0.061745589693983555 
+            xmax = 1.0860465238142738 
+            text = "кӧдӱре ичпезеӊ" 
+        intervals [3]:
+            xmin = 1.0860465238142738 
+            xmax = 1.282373976288135 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.282373976288135 
+            xmax = 2.2853391840157484 
+            text = "айыкта чайна" 
+        intervals [5]:
+            xmin = 2.2853391840157484 
+            xmax = 2.6603991969515817 
+            text = "-" 
+        intervals [6]:
+            xmin = 2.6603991969515817 
+            xmax = 3.438693465430903 
+            text = "йаман киши сен" 
+        intervals [7]:
+            xmin = 3.438693465430903 
+            xmax = 3.4580498866213154 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllaby" 
+        xmin = 0 
+        xmax = 3.4580498866213154 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.061745589693983555 
+            text = "" 
+        intervals [2]:
+            xmin = 0.061745589693983555 
+            xmax = 0.20066215655197658 
+            text = "k\o- HP LP!" 
+        intervals [3]:
+            xmin = 0.20066215655197658 
+            xmax = 0.33549405892739015 
+            text = "t\yc" 
+        intervals [4]:
+            xmin = 0.33549405892739015 
+            xmax = 0.4607956551637934 
+            text = "re" 
+        intervals [5]:
+            xmin = 0.4607956551637934 
+            xmax = 0.6375057285787318 
+            text = "is LI" 
+        intervals [6]:
+            xmin = 0.6375057285787318 
+            xmax = 0.7480678885265708 
+            text = "pe HI" 
+        intervals [7]:
+            xmin = 0.7480678885265708 
+            xmax = 1.0860465238142738 
+            text = "seŋ" 
+        intervals [8]:
+            xmin = 1.0860465238142738 
+            xmax = 1.282373976288135 
+            text = "-" 
+        intervals [9]:
+            xmin = 1.282373976288135 
+            xmax = 1.3721698416903962 
+            text = "ɑj HP HI" 
+        intervals [10]:
+            xmin = 1.3721698416903962 
+            xmax = 1.5556332984356396 
+            text = "ъχ" 
+        intervals [11]:
+            xmin = 1.5556332984356396 
+            xmax = 1.866883797716162 
+            text = "ta LI" 
+        intervals [12]:
+            xmin = 1.866883797716162 
+            xmax = 2.076891251439225 
+            text = "ħçaj LP" 
+        intervals [13]:
+            xmin = 2.076891251439225 
+            xmax = 2.2853391840157484 
+            text = "nɑ" 
+        intervals [14]:
+            xmin = 2.2853391840157484 
+            xmax = 2.6603991969515817 
+            text = "-" 
+        intervals [15]:
+            xmin = 2.6603991969515817 
+            xmax = 2.81051204796265 
+            text = "jɑ LP" 
+        intervals [16]:
+            xmin = 2.81051204796265 
+            xmax = 3.0001755902580713 
+            text = "mɑn HP" 
+        intervals [17]:
+            xmin = 3.0001755902580713 
+            xmax = 3.0981534391215826 
+            text = "ki LI" 
+        intervals [18]:
+            xmin = 3.0981534391215826 
+            xmax = 3.2204010303641293 
+            text = "ʃi HI" 
+        intervals [19]:
+            xmin = 3.2204010303641293 
+            xmax = 3.438693465430903 
+            text = "sen" 
+        intervals [20]:
+            xmin = 3.438693465430903 
+            xmax = 3.4580498866213154 
+            text = "" 

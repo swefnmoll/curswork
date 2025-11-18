@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9943083900226758 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 0.9943083900226758 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.011768647650753666 
+            text = "" 
+        intervals [2]:
+            xmin = 0.011768647650753666 
+            xmax = 0.9919603867272315 
+            text = "Ағаш чана полгон. // Деревянные лыжи были. //СНС // утверждение // верификативное" 
+        intervals [3]:
+            xmin = 0.9919603867272315 
+            xmax = 0.9943083900226758 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagma" 
+        xmin = 0 
+        xmax = 0.9943083900226758 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.011768647650753666 
+            text = "" 
+        intervals [2]:
+            xmin = 0.011768647650753666 
+            xmax = 0.9919603867272315 
+            text = "Ағаш чана полгон" 
+        intervals [3]:
+            xmin = 0.9919603867272315 
+            xmax = 0.9943083900226758 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 0.9943083900226758 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.011768647650753666 
+            text = "" 
+        intervals [2]:
+            xmin = 0.011768647650753666 
+            xmax = 0.12085631718817116 
+            text = "ɑ HP! HI!" 
+        intervals [3]:
+            xmin = 0.12085631718817116 
+            xmax = 0.31653644479215104 
+            text = "ƣɑʃ LI!" 
+        intervals [4]:
+            xmin = 0.31653644479215104 
+            xmax = 0.5399023961535737 
+            text = "ħçɑ" 
+        intervals [5]:
+            xmin = 0.5399023961535737 
+            xmax = 0.6464714630877131 
+            text = "nɑ LP!" 
+        intervals [6]:
+            xmin = 0.6464714630877131 
+            xmax = 0.8288619793276719 
+            text = "pɔl" 
+        intervals [7]:
+            xmin = 0.8288619793276719 
+            xmax = 0.9919603867272315 
+            text = "ƣɔn" 
+        intervals [8]:
+            xmin = 0.9919603867272315 
+            xmax = 0.9943083900226758 
+            text = "" 
