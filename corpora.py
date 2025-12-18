@@ -113,6 +113,6 @@ def results():
 
     return render_template('search_result.html', result=result, pagination=pagination, css_framework='bootstrap5')
 
-app.run(port=1000, debug=True)
+app.run(port=4444, debug=True)
 cursor.close()
 connection.close()
