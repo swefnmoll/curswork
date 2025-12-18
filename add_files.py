@@ -24,11 +24,12 @@ class AddedFile:
         self.filename = str(max_id + 1) + path.splitext(file.filename)[1]
         self.path = fr'static\audio\{self.filename}'
         file.save(self.path)
+        self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))
         if self.filename.endswith('.wav'):
             ann_file = Annotation(self.path)
             ann_file.annotate()
-            self.draw_image()
             data = self.read_data()
+            self.draw_image()
             self.upload_file(data)
 
     # Чтение данных из TextGrid
@@ -43,32 +44,56 @@ class AddedFile:
                 break
         return cropped_filename, dictor, type, subtype, text, translation
 
+    def read_tg(self):
+        syntagms = []
+        syllabes = []
+        for interval in self.tg.tiers[1]:
+            syntagms.append([interval.xmin, interval.text])
+        for interval in self.tg.tiers[2]:
+            syllabes.append([interval.xmin, interval.text])
+        return {'syntagms' : syntagms, 'syllabes': syllabes}
+
     def read_chars(self):
         snd = parselmouth.Sound(self.path)
         oscillogram = snd
         spectrogram = snd.to_spectrogram()
         pitch = snd.to_pitch()
         intensity = snd.to_intensity()
-        self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))
         syntagms = self.tg.tiers[1]
         syllabes = self.tg.tiers[2]
         return oscillogram, spectrogram, pitch, intensity, syntagms, syllabes
 
     def draw_image(self):
         chars = self.read_chars()
-        plt.subplot(3, 1, 1)
-        plt.plot(chars[0].xs(), chars[0].values.T)
+        plt.subplot(6, 1, 1)
+        plt.plot(chars[0].xs(), chars[0].values.T, linewidth=0.2)
 
-        plt.subplot(3, 1, 2)
+        plt.subplot(6, 1, 2)
         x, y = chars[1].x_grid(), chars[1].y_grid()
         sg_db = 10 * np.log10(chars[1].values)
         plt.pcolormesh(x, y, sg_db, vmin=sg_db.max() - 50)
         plt.ylim([chars[1].ymin, chars[1].ymax])
         plt.xlabel("time [s]")
         plt.ylabel("frequency [Hz]")
-        plt.plot(chars[2].xs(), chars[2].selected_array['frequency'], linewidth=3, color='blue')
-        plt.plot(chars[3].xs(), chars[3].values.T, linewidth=3, color='green')
-
+        plt.subplot(6, 1, 3)
+        plt.plot(chars[2].xs(), chars[2].selected_array['frequency'], linewidth=2, color='blue')
+        plt.subplot(6, 1, 4)
+        plt.plot(chars[3].xs(), chars[3].values.T, linewidth=2, color='green')
+        
+        textgrid = self.read_tg()
+        
+        plt.subplot(6, 1, 5)
+        syntagm_tier = textgrid['syntagms']
+        for syntagm in syntagm_tier:
+            plt.axvline(syntagm[0]) 
+            plt.text(syntagm[0], 0.5, syntagm[1], fontsize=8)
+        
+        plt.subplot(6, 1, 6)
+        syllabe_tier = textgrid['syllabes']
+        for syllabe in syllabe_tier:
+            plt.axvline(syllabe[0])
+            plt.text(syllabe[0], 0.5, syllabe[1], fontsize=8)
+                
         path_to_img = fr'static\images\{self.filename[:-4]}.jpeg'
         print(path_to_img)
         plt.savefig(path_to_img)
