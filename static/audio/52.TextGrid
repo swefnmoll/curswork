@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.0235833333333333 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 3.0235833333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06722496890764065 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06722496890764065 
+            xmax = 2.8777638759730797 
+            text = "Школдо сен урокторго кирбей jӱрдиӊ бa? // Ты обычно прогуливала уроки в школе? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 2.8777638759730797 
+            xmax = 3.0235833333333333 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 3.0235833333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06722496890764065 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06722496890764065 
+            xmax = 2.8777638759730797 
+            text = "Школдо сен урокторго кирбей jӱрдиӊ бa" 
+        intervals [3]:
+            xmin = 2.8777638759730797 
+            xmax = 3.0235833333333333 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 3.0235833333333333 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06722496890764065 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06722496890764065 
+            xmax = 0.550462818820152 
+            text = "ʃkɔl HI!" 
+        intervals [3]:
+            xmin = 0.550462818820152 
+            xmax = 0.6680546670804326 
+            text = "dɔ" 
+        intervals [4]:
+            xmin = 0.6680546670804326 
+            xmax = 0.9659277783158357 
+            text = "sen" 
+        intervals [5]:
+            xmin = 0.9659277783158357 
+            xmax = 1.0865023946026149 
+            text = "u" 
+        intervals [6]:
+            xmin = 1.0865023946026149 
+            xmax = 1.2554805447757327 
+            text = "rɔk" 
+        intervals [7]:
+            xmin = 1.2554805447757327 
+            xmax = 1.5014812936324111 
+            text = "tɔr LI!" 
+        intervals [8]:
+            xmin = 1.5014812936324111 
+            xmax = 1.6228639903847055 
+            text = "gɔ LP!" 
+        intervals [9]:
+            xmin = 1.6228639903847055 
+            xmax = 1.871131001104561 
+            text = "kɪr" 
+        intervals [10]:
+            xmin = 1.871131001104561 
+            xmax = 2.148847292668143 
+            text = "bej HP" 
+        intervals [11]:
+            xmin = 2.148847292668143 
+            xmax = 2.38361436593223 
+            text = "ћʏr" 
+        intervals [12]:
+            xmin = 2.38361436593223 
+            xmax = 2.570091613681369 
+            text = "dʏŋ" 
+        intervals [13]:
+            xmin = 2.570091613681369 
+            xmax = 2.8777638759730797 
+            text = "ba" 
+        intervals [14]:
+            xmin = 2.8777638759730797 
+            xmax = 3.0235833333333333 
+            text = "" 

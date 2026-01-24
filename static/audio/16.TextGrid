@@ -2,97 +2,77 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 2.4556009070294786 
+xmax = 1.5052154195011338 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 2.4556009070294786 
+        xmax = 1.5052154195011338 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07757567089559157 
+            xmax = 0.02720606279421108 
             text = "" 
         intervals [2]:
-            xmin = 0.07757567089559157 
-            xmax = 2.432118129122624 
-            text = "Кичик шарық иштепчем. // Понемногу работаю. // ШГН // утверждение // информ" 
+            xmin = 0.02720606279421108 
+            xmax = 1.4827045129979024 
+            text = "Эми пенсия парем. // Теперь я на пенсии. // БМА// утвердительное // информативное" 
         intervals [3]:
-            xmin = 2.432118129122624 
-            xmax = 2.4556009070294786 
+            xmin = 1.4827045129979024 
+            xmax = 1.5052154195011338 
             text = "" 
     item [2]:
         class = "IntervalTier" 
         name = "syntagm" 
         xmin = 0 
-        xmax = 2.4556009070294786 
-        intervals: size = 5 
+        xmax = 1.5052154195011338 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07757567089559157 
+            xmax = 0.02720606279421108 
             text = "" 
         intervals [2]:
-            xmin = 0.07757567089559157 
-            xmax = 1.0911810031836255 
-            text = "Кичик шарық" 
+            xmin = 0.02720606279421108 
+            xmax = 1.4827045129979024 
+            text = "Эми пенсия парем" 
         intervals [3]:
-            xmin = 1.0911810031836255 
-            xmax = 1.7203193122714435 
-            text = "«fp»" 
-        intervals [4]:
-            xmin = 1.7203193122714435 
-            xmax = 2.432118129122624 
-            text = "иштептем" 
-        intervals [5]:
-            xmin = 2.432118129122624 
-            xmax = 2.4556009070294786 
+            xmin = 1.4827045129979024 
+            xmax = 1.5052154195011338 
             text = "" 
     item [3]:
         class = "IntervalTier" 
         name = "syllable" 
         xmin = 0 
-        xmax = 2.4556009070294786 
-        intervals: size = 10 
+        xmax = 1.5052154195011338 
+        intervals: size = 7 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07757567089559157 
+            xmax = 0.02720606279421108 
             text = "" 
         intervals [2]:
-            xmin = 0.07757567089559157 
-            xmax = 0.2001301427395851 
-            text = "kɪ HP LI" 
+            xmin = 0.02720606279421108 
+            xmax = 0.364852140133499 
+            text = "ɛmɪ" 
         intervals [3]:
-            xmin = 0.2001301427395851 
-            xmax = 0.3587170593916039 
-            text = "ћʃi HI!" 
+            xmin = 0.364852140133499 
+            xmax = 0.7012353747559281 
+            text = "pen HP! HI!" 
         intervals [4]:
-            xmin = 0.3587170593916039 
-            xmax = 0.6457327113477253 
-            text = "ʃa LP" 
+            xmin = 0.7012353747559281 
+            xmax = 0.9376888618545395 
+            text = "sia LP! LI!" 
         intervals [5]:
-            xmin = 0.6457327113477253 
-            xmax = 1.0911810031836255 
-            text = "rъk" 
+            xmin = 0.9376888618545395 
+            xmax = 1.1544378916949332 
+            text = "par" 
         intervals [6]:
-            xmin = 1.0911810031836255 
-            xmax = 1.7203193122714435 
-            text = "«fp» HP LP! HI LI!" 
+            xmin = 1.1544378916949332 
+            xmax = 1.4827045129979024 
+            text = "em" 
         intervals [7]:
-            xmin = 1.7203193122714435 
-            xmax = 1.9246744564642018 
-            text = "ɪʃ" 
-        intervals [8]:
-            xmin = 1.9246744564642018 
-            xmax = 2.1221412250100133 
-            text = "tep HP LP LI" 
-        intervals [9]:
-            xmin = 2.1221412250100133 
-            xmax = 2.432118129122624 
-            text = "tɪm HI" 
-        intervals [10]:
-            xmin = 2.432118129122624 
-            xmax = 2.4556009070294786 
+            xmin = 1.4827045129979024 
+            xmax = 1.5052154195011338 
             text = "" 

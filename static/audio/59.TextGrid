@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.4281458333333332 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 3.4281458333333332 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15820159161685787 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15820159161685787 
+            xmax = 3.348361582268814 
+            text = "Школ балдар экзамендергa тергенjалар ба эмди? // Школьники сейчас готовятся к экзаменам? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 3.348361582268814 
+            xmax = 3.4281458333333332 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 3.4281458333333332 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15820159161685787 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15820159161685787 
+            xmax = 3.348361582268814 
+            text = "Школ балдар экзамендерге тергенjалар ба эмди" 
+        intervals [3]:
+            xmin = 3.348361582268814 
+            xmax = 3.4281458333333332 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 3.4281458333333332 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15820159161685787 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15820159161685787 
+            xmax = 0.5894969646547201 
+            text = "ʃkɔl" 
+        intervals [3]:
+            xmin = 0.5894969646547201 
+            xmax = 0.8704030504729363 
+            text = "bal" 
+        intervals [4]:
+            xmin = 0.8704030504729363 
+            xmax = 1.1622403121876057 
+            text = "dar" 
+        intervals [5]:
+            xmin = 1.1622403121876057 
+            xmax = 1.2980569871311889 
+            text = "ɛk" 
+        intervals [6]:
+            xmin = 1.2980569871311889 
+            xmax = 1.5778643159202153 
+            text = "za" 
+        intervals [7]:
+            xmin = 1.5778643159202153 
+            xmax = 1.726915224236867 
+            text = "mn" 
+        intervals [8]:
+            xmin = 1.726915224236867 
+            xmax = 1.8882054360547453 
+            text = "der" 
+        intervals [9]:
+            xmin = 1.8882054360547453 
+            xmax = 1.9937495995218997 
+            text = "ga LP" 
+        intervals [10]:
+            xmin = 1.9937495995218997 
+            xmax = 2.1581854981873176 
+            text = "ter" 
+        intervals [11]:
+            xmin = 2.1581854981873176 
+            xmax = 2.3557497802702962 
+            text = "gen HP" 
+        intervals [12]:
+            xmin = 2.3557497802702962 
+            xmax = 2.567833042218666 
+            text = "ћa" 
+        intervals [13]:
+            xmin = 2.567833042218666 
+            xmax = 2.7478364830319886 
+            text = "lar" 
+        intervals [14]:
+            xmin = 2.7478364830319886 
+            xmax = 2.905955908914916 
+            text = "ba HI" 
+        intervals [15]:
+            xmin = 2.905955908914916 
+            xmax = 3.0633416847950765 
+            text = "ɛm" 
+        intervals [16]:
+            xmin = 3.0633416847950765 
+            xmax = 3.348361582268814 
+            text = "di LI!" 
+        intervals [17]:
+            xmin = 3.348361582268814 
+            xmax = 3.4281458333333332 
+            text = "" 

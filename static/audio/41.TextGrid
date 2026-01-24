@@ -1,0 +1,122 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.982222222222222 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 5.982222222222222 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19520632175960625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19520632175960625 
+            xmax = 5.668835275328737 
+            text = "Пу мында уш черғе қандығ не шоқсанар? // Вот тут, в открытом месте, что такое собрали? // ККТ // вопрос // диктальный" 
+        intervals [3]:
+            xmin = 5.668835275328737 
+            xmax = 5.982222222222222 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 5.982222222222222 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19520632175960625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19520632175960625 
+            xmax = 5.668835275328737 
+            text = "Пу мында уш черғе қандығ не шоқсанар" 
+        intervals [3]:
+            xmin = 5.668835275328737 
+            xmax = 5.982222222222222 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 5.982222222222222 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19520632175960625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19520632175960625 
+            xmax = 0.46709879308481517 
+            text = "pu" 
+        intervals [3]:
+            xmin = 0.46709879308481517 
+            xmax = 0.7983155451047654 
+            text = "mъn HP!" 
+        intervals [4]:
+            xmin = 0.7983155451047654 
+            xmax = 1.0908910596163732 
+            text = "da" 
+        intervals [5]:
+            xmin = 1.0908910596163732 
+            xmax = 1.4205528034108776 
+            text = "-" 
+        intervals [6]:
+            xmin = 1.4205528034108776 
+            xmax = 1.7896362837556372 
+            text = "uʃ" 
+        intervals [7]:
+            xmin = 1.7896362837556372 
+            xmax = 2.055542690306865 
+            text = "ħçir" 
+        intervals [8]:
+            xmin = 2.055542690306865 
+            xmax = 2.365997804481909 
+            text = "ɣe" 
+        intervals [9]:
+            xmin = 2.365997804481909 
+            xmax = 3.006661193365569 
+            text = "- LI!" 
+        intervals [10]:
+            xmin = 3.006661193365569 
+            xmax = 3.2317720278205138 
+            text = "qan" 
+        intervals [11]:
+            xmin = 3.2317720278205138 
+            xmax = 3.51048385841 
+            text = "dъɣ HI" 
+        intervals [12]:
+            xmin = 3.51048385841 
+            xmax = 4.4186086620703335 
+            text = "- LP!" 
+        intervals [13]:
+            xmin = 4.4186086620703335 
+            xmax = 4.734234528068644 
+            text = ""fs"" 
+        intervals [14]:
+            xmin = 4.734234528068644 
+            xmax = 4.961265728983728 
+            text = "ne" 
+        intervals [15]:
+            xmin = 4.961265728983728 
+            xmax = 5.241167209563967 
+            text = "ʃok" 
+        intervals [16]:
+            xmin = 5.241167209563967 
+            xmax = 5.441763270646471 
+            text = "sa" 
+        intervals [17]:
+            xmin = 5.441763270646471 
+            xmax = 5.668835275328737 
+            text = "nar" 
+        intervals [18]:
+            xmin = 5.668835275328737 
+            xmax = 5.982222222222222 
+            text = "" 

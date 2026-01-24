@@ -66,19 +66,27 @@ class AddedFile:
     def draw_image(self):
         chars = self.read_chars()
         plt.subplot(6, 1, 1)
-        plt.plot(chars[0].xs(), chars[0].values.T, linewidth=0.2)
-
+        plt.plot(chars[0].xs(), chars[0].values.T, color='black', linewidth=0.2)
+        plt.xticks([])
+        plt.yticks([])
+        
         plt.subplot(6, 1, 2)
         x, y = chars[1].x_grid(), chars[1].y_grid()
         sg_db = 10 * np.log10(chars[1].values)
         plt.pcolormesh(x, y, sg_db, vmin=sg_db.max() - 50)
         plt.ylim([chars[1].ymin, chars[1].ymax])
-        plt.xlabel("time [s]")
-        plt.ylabel("frequency [Hz]")
+        plt.xticks([])
+        plt.yticks([])
+        
         plt.subplot(6, 1, 3)
         plt.plot(chars[2].xs(), chars[2].selected_array['frequency'], linewidth=2, color='blue')
+        plt.xticks([])
+        plt.yticks([])
+        
         plt.subplot(6, 1, 4)
         plt.plot(chars[3].xs(), chars[3].values.T, linewidth=2, color='green')
+        plt.xticks([])
+        plt.yticks([])
         
         textgrid = self.read_tg()
         
@@ -87,15 +95,20 @@ class AddedFile:
         for syntagm in syntagm_tier:
             plt.axvline(syntagm[0]) 
             plt.text(syntagm[0], 0.5, syntagm[1], fontsize=8)
-        
+        plt.xticks([])
+        plt.yticks([])
+
         plt.subplot(6, 1, 6)
         syllabe_tier = textgrid['syllabes']
         for syllabe in syllabe_tier:
             plt.axvline(syllabe[0])
             plt.text(syllabe[0], 0.5, syllabe[1], fontsize=8)
+        plt.xticks([])
+        plt.yticks([])
                 
         path_to_img = fr'static\images\{self.filename[:-4]}.jpeg'
         print(path_to_img)
+        plt.subplots_adjust(wspace=0, hspace=0)
         plt.savefig(path_to_img)
         plt.close()
 

@@ -2,97 +2,105 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.6743083900226758 
+xmax = 2.6750566893424037 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "1" 
         xmin = 0 
-        xmax = 1.6743083900226758 
+        xmax = 2.6750566893424037 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.00763106789126571 
+            xmax = 0.2202562893944974 
             text = "" 
         intervals [2]:
-            xmin = 0.00763106789126571 
-            xmax = 1.6614547211212103 
-            text = "Қайда ҷатқан пистиӊ қумандылар? // Где жили наши кумандинцы? // СНС // вопрос // дикт" 
+            xmin = 0.2202562893944974 
+            xmax = 2.390598361732987 
+            text = "Теги йумада қартошка отыстың ма сен? // На той неделе садила картошку? // АМГ // вопрос // мод" 
         intervals [3]:
-            xmin = 1.6614547211212103 
-            xmax = 1.6743083900226758 
+            xmin = 2.390598361732987 
+            xmax = 2.6750566893424037 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "sintagma" 
+        name = "2" 
         xmin = 0 
-        xmax = 1.6743083900226758 
-        intervals: size = 3 
+        xmax = 2.6750566893424037 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.00763106789126571 
+            xmax = 0.2202562893944974 
             text = "" 
         intervals [2]:
-            xmin = 0.00763106789126571 
-            xmax = 1.6614547211212103 
-            text = "Қайда ҷатқан пистиӊ қумандылар" 
+            xmin = 0.2202562893944974 
+            xmax = 1.0679275325041933 
+            text = "теги йумада" 
         intervals [3]:
-            xmin = 1.6614547211212103 
-            xmax = 1.6743083900226758 
+            xmin = 1.0679275325041933 
+            xmax = 2.390598361732987 
+            text = "қартошка отыстың ма сен" 
+        intervals [4]:
+            xmin = 2.390598361732987 
+            xmax = 2.6750566893424037 
             text = "" 
     item [3]:
         class = "IntervalTier" 
-        name = "syllaby" 
+        name = "3" 
         xmin = 0 
-        xmax = 1.6743083900226758 
-        intervals: size = 12 
+        xmax = 2.6750566893424037 
+        intervals: size = 13 
         intervals [1]:
             xmin = 0 
-            xmax = 0.00763106789126571 
+            xmax = 0.2202562893944974 
             text = "" 
         intervals [2]:
-            xmin = 0.00763106789126571 
-            xmax = 0.1585857972788112 
-            text = "kɑj HP!" 
+            xmin = 0.2202562893944974 
+            xmax = 0.31548686203809306 
+            text = "tɯ HP" 
         intervals [3]:
-            xmin = 0.1585857972788112 
-            xmax = 0.2981243133921955 
-            text = "dɪ" 
+            xmin = 0.31548686203809306 
+            xmax = 0.5005924676737032 
+            text = "gʲi" 
         intervals [4]:
-            xmin = 0.2981243133921955 
-            xmax = 0.520084856325688 
-            text = "ħçɑt HI!" 
+            xmin = 0.5005924676737032 
+            xmax = 0.579442773511601 
+            text = "jʉ" 
         intervals [5]:
-            xmin = 0.520084856325688 
-            xmax = 0.7146529372185912 
-            text = "kɑn LP!" 
+            xmin = 0.579442773511601 
+            xmax = 0.7511489041090832 
+            text = "mʌ LP" 
         intervals [6]:
-            xmin = 0.7146529372185912 
-            xmax = 0.8805736133872097 
-            text = "ps" 
+            xmin = 0.7511489041090832 
+            xmax = 1.0679275325041933 
+            text = "dʌ HI LI" 
         intervals [7]:
-            xmin = 0.8805736133872097 
-            xmax = 0.9789325990793064 
-            text = "tъŋ" 
+            xmin = 1.0679275325041933 
+            xmax = 1.2607043217825982 
+            text = "qʌr HP HI" 
         intervals [8]:
-            xmin = 0.9789325990793064 
-            xmax = 1.1160136171883737 
-            text = "qu" 
+            xmin = 1.2607043217825982 
+            xmax = 1.4688043943113376 
+            text = "tʉʃq" 
         intervals [9]:
-            xmin = 1.1160136171883737 
-            xmax = 1.2983694357945177 
-            text = "mɑn" 
+            xmin = 1.4688043943113376 
+            xmax = 1.7389753412006934 
+            text = "ɔts" 
         intervals [10]:
-            xmin = 1.2983694357945177 
-            xmax = 1.4373835759165592 
-            text = "dъ" 
+            xmin = 1.7389753412006934 
+            xmax = 1.8536528158483598 
+            text = "tʌŋ LP LI" 
         intervals [11]:
-            xmin = 1.4373835759165592 
-            xmax = 1.6614547211212103 
-            text = "lɑr LI!" 
+            xmin = 1.8536528158483598 
+            xmax = 2.0205151756628785 
+            text = "mʌ" 
         intervals [12]:
-            xmin = 1.6614547211212103 
-            xmax = 1.6743083900226758 
+            xmin = 2.0205151756628785 
+            xmax = 2.390598361732987 
+            text = "sʲenʲ" 
+        intervals [13]:
+            xmin = 2.390598361732987 
+            xmax = 2.6750566893424037 
             text = "" 

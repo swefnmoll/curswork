@@ -2,85 +2,133 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.6756009070294784 
+xmax = 4.418163265306123 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 1.6756009070294784 
+        xmax = 4.418163265306123 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028543489672494975 
+            xmax = 0.020136854138197678 
             text = "" 
         intervals [2]:
-            xmin = 0.028543489672494975 
-            xmax = 1.5407825523529426 
-            text = "Қырнаӊ тӧзинеӊ тӱшкенер. // Спустились из предгорья. // СНС // утверждение // информ" 
+            xmin = 0.020136854138197678 
+            xmax = 4.393432613101787 
+            text = "Анна Гавриловна, мееӊ адым Белекова Анна Гавриловна. // Анна Гавриловна, моё имя Белекова Анна Гавриловна. // БАГ // утвердительное // информативн" 
         intervals [3]:
-            xmin = 1.5407825523529426 
-            xmax = 1.6756009070294784 
+            xmin = 4.393432613101787 
+            xmax = 4.418163265306123 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "sintagma" 
+        name = "syntagm" 
         xmin = 0 
-        xmax = 1.6756009070294784 
-        intervals: size = 3 
+        xmax = 4.418163265306123 
+        intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028543489672494975 
+            xmax = 0.020136854138197678 
             text = "" 
         intervals [2]:
-            xmin = 0.028543489672494975 
-            xmax = 1.5407825523529426 
-            text = "Қырнаӊ тӧзинеӊ тӱшкенер" 
+            xmin = 0.020136854138197678 
+            xmax = 1.3385568991198677 
+            text = "Анна Гавриловна" 
         intervals [3]:
-            xmin = 1.5407825523529426 
-            xmax = 1.6756009070294784 
+            xmin = 1.3385568991198677 
+            xmax = 1.5473372237060816 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.5473372237060816 
+            xmax = 4.393432613101787 
+            text = "мееӊ адым Белекова Анна Гавриловна" 
+        intervals [5]:
+            xmin = 4.393432613101787 
+            xmax = 4.418163265306123 
             text = "" 
     item [3]:
         class = "IntervalTier" 
-        name = "syllaby" 
+        name = "syllable" 
         xmin = 0 
-        xmax = 1.6756009070294784 
-        intervals: size = 9 
+        xmax = 4.418163265306123 
+        intervals: size = 19 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028543489672494975 
+            xmax = 0.020136854138197678 
             text = "" 
         intervals [2]:
-            xmin = 0.028543489672494975 
-            xmax = 0.2985861794368606 
-            text = "qъr HP! HI!" 
+            xmin = 0.020136854138197678 
+            xmax = 0.4058430948051094 
+            text = "ana HP!" 
         intervals [3]:
-            xmin = 0.2985861794368606 
-            xmax = 0.5546911819875816 
-            text = "nɑŋ" 
+            xmin = 0.4058430948051094 
+            xmax = 0.5976341640663802 
+            text = "gav" 
         intervals [4]:
-            xmin = 0.5546911819875816 
-            xmax = 0.8404137698672975 
-            text = "t\o-z LP! LI!" 
+            xmin = 0.5976341640663802 
+            xmax = 0.8491446081874479 
+            text = "ri LP HI" 
         intervals [5]:
-            xmin = 0.8404137698672975 
-            xmax = 1.0459946562685565 
-            text = "neŋ" 
+            xmin = 0.8491446081874479 
+            xmax = 1.1057561704879928 
+            text = "lav" 
         intervals [6]:
-            xmin = 1.0459946562685565 
-            xmax = 1.2515755426698156 
-            text = "tʏʃ" 
+            xmin = 1.1057561704879928 
+            xmax = 1.3385568991198677 
+            text = "na LI" 
         intervals [7]:
-            xmin = 1.2515755426698156 
-            xmax = 1.3665614621823843 
-            text = "ke" 
+            xmin = 1.3385568991198677 
+            xmax = 1.5473372237060816 
+            text = "-" 
         intervals [8]:
-            xmin = 1.3665614621823843 
-            xmax = 1.5407825523529426 
-            text = "ner" 
+            xmin = 1.5473372237060816 
+            xmax = 1.8884267301168447 
+            text = "mɛŋ HI" 
         intervals [9]:
-            xmin = 1.5407825523529426 
-            xmax = 1.6756009070294784 
+            xmin = 1.8884267301168447 
+            xmax = 2.370641717771503 
+            text = "adъm LP" 
+        intervals [10]:
+            xmin = 2.370641717771503 
+            xmax = 2.5140640958393843 
+            text = "be HP" 
+        intervals [11]:
+            xmin = 2.5140640958393843 
+            xmax = 2.692073770902241 
+            text = "le" 
+        intervals [12]:
+            xmin = 2.692073770902241 
+            xmax = 2.8494113546674753 
+            text = "ko" 
+        intervals [13]:
+            xmin = 2.8494113546674753 
+            xmax = 3.035460176346074 
+            text = "va" 
+        intervals [14]:
+            xmin = 3.035460176346074 
+            xmax = 3.390331076955252 
+            text = "ana" 
+        intervals [15]:
+            xmin = 3.390331076955252 
+            xmax = 3.5805031522840203 
+            text = "gav" 
+        intervals [16]:
+            xmin = 3.5805031522840203 
+            xmax = 3.825122899305881 
+            text = "ri" 
+        intervals [17]:
+            xmin = 3.825122899305881 
+            xmax = 4.0823755910096216 
+            text = "lov" 
+        intervals [18]:
+            xmin = 4.0823755910096216 
+            xmax = 4.393432613101787 
+            text = "na LI!" 
+        intervals [19]:
+            xmin = 4.393432613101787 
+            xmax = 4.418163265306123 
             text = "" 

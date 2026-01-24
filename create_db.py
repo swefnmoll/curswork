@@ -6,7 +6,8 @@ cursor = connection.cursor()
 
 # Создание базы данных
 def create_db():
-    cursor.executescript('''CREATE TABLE IF NOT EXISTS languages (
+    cursor.executescript(
+    '''CREATE TABLE IF NOT EXISTS languages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     lang TEXT
     );
@@ -58,8 +59,19 @@ def create_db():
     CREATE TABLE IF NOT EXISTS subtypes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     subtype TEXT
-    )
+    );
     
+    CREATE TABLE IF NOT EXISTS full_dialogs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,    
+    lang TEXT,
+    text TEXT,
+    translation TEXT,
+    dictor1 INTEGER,
+    dictor2 INTEGER,
+    FOREIGN KEY (lang) REFERENCES languages (id),
+    FOREIGN KEY (dictor1) REFERENCES dictors (id),
+    FOREIGN KEY (dictor2) REFERENCES dictors (id)
+    )
     ''')
 
     connection.commit()

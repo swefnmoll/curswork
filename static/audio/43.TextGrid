@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8603174603174604 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.8603174603174604 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1477463235890202 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1477463235890202 
+            xmax = 1.718373948149229 
+            text = "Кызычақ полбады. // Девочки не было. // ККТ // утвердит // верификативное" 
+        intervals [3]:
+            xmin = 1.718373948149229 
+            xmax = 1.8603174603174604 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.8603174603174604 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1477463235890202 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1477463235890202 
+            xmax = 1.718373948149229 
+            text = "Кызычақ полбады" 
+        intervals [3]:
+            xmin = 1.718373948149229 
+            xmax = 1.8603174603174604 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.8603174603174604 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1477463235890202 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1477463235890202 
+            xmax = 0.4185441898925045 
+            text = "qъz HP! HI" 
+        intervals [3]:
+            xmin = 0.4185441898925045 
+            xmax = 0.6796707038280072 
+            text = "ћʃaχ" 
+        intervals [4]:
+            xmin = 0.6796707038280072 
+            xmax = 1.0897360442304262 
+            text = "- LI!" 
+        intervals [5]:
+            xmin = 1.0897360442304262 
+            xmax = 1.2676889278012875 
+            text = "pol LP" 
+        intervals [6]:
+            xmin = 1.2676889278012875 
+            xmax = 1.4630502456345154 
+            text = "va" 
+        intervals [7]:
+            xmin = 1.4630502456345154 
+            xmax = 1.718373948149229 
+            text = "dъ" 
+        intervals [8]:
+            xmin = 1.718373948149229 
+            xmax = 1.8603174603174604 
+            text = "" 

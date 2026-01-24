@@ -2,85 +2,73 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.3836507936507936 
+xmax = 1.0171428571428571 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 1.3836507936507936 
+        xmax = 1.0171428571428571 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010622289945400347 
+            xmax = 0.006751030539426442 
             text = "" 
         intervals [2]:
-            xmin = 0.010622289945400347 
-            xmax = 1.3643965741567554 
-            text = "Қаран кишилер ӧл қалды. // Старики умерли. // СНС // утверждение // информ" 
+            xmin = 0.006751030539426442 
+            xmax = 1.0072190948982758 
+            text = "Қайда тӧреен ? // Где родился? // БМА // вопросительное // диктальный" 
         intervals [3]:
-            xmin = 1.3643965741567554 
-            xmax = 1.3836507936507936 
+            xmin = 1.0072190948982758 
+            xmax = 1.0171428571428571 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "sintagma" 
+        name = "syntagm" 
         xmin = 0 
-        xmax = 1.3836507936507936 
+        xmax = 1.0171428571428571 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010622289945400347 
+            xmax = 0.006751030539426442 
             text = "" 
         intervals [2]:
-            xmin = 0.010622289945400347 
-            xmax = 1.3643965741567554 
-            text = "Қаран кишилер ӧл қалды" 
+            xmin = 0.006751030539426442 
+            xmax = 1.0072190948982758 
+            text = "Қайда тӧреен" 
         intervals [3]:
-            xmin = 1.3643965741567554 
-            xmax = 1.3836507936507936 
+            xmin = 1.0072190948982758 
+            xmax = 1.0171428571428571 
             text = "" 
     item [3]:
         class = "IntervalTier" 
-        name = "syllaby" 
+        name = "syllable" 
         xmin = 0 
-        xmax = 1.3836507936507936 
-        intervals: size = 9 
+        xmax = 1.0171428571428571 
+        intervals: size = 6 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010622289945400347 
+            xmax = 0.006751030539426442 
             text = "" 
         intervals [2]:
-            xmin = 0.010622289945400347 
-            xmax = 0.14989596491238263 
-            text = "qɑ LP!" 
+            xmin = 0.006751030539426442 
+            xmax = 0.2774908027126457 
+            text = "qaj" 
         intervals [3]:
-            xmin = 0.14989596491238263 
-            xmax = 0.357316480666564 
-            text = "rɑn HP!" 
+            xmin = 0.2774908027126457 
+            xmax = 0.4202637294446168 
+            text = "da HP!" 
         intervals [4]:
-            xmin = 0.357316480666564 
-            xmax = 0.5335517089512516 
-            text = "kɪʃ" 
+            xmin = 0.4202637294446168 
+            xmax = 0.5863033553477239 
+            text = "tø LI!" 
         intervals [5]:
-            xmin = 0.5335517089512516 
-            xmax = 0.6910844232138907 
-            text = "lɛr" 
+            xmin = 0.5863033553477239 
+            xmax = 1.0072190948982758 
+            text = "rɛn LP! HI!" 
         intervals [6]:
-            xmin = 0.6910844232138907 
-            xmax = 0.8745562184206821 
-            text = "øl" 
-        intervals [7]:
-            xmin = 0.8745562184206821 
-            xmax = 1.1035565583265523 
-            text = "kɑl HI! LI!" 
-        intervals [8]:
-            xmin = 1.1035565583265523 
-            xmax = 1.3643965741567554 
-            text = "dъ" 
-        intervals [9]:
-            xmin = 1.3643965741567554 
-            xmax = 1.3836507936507936 
+            xmin = 1.0072190948982758 
+            xmax = 1.0171428571428571 
             text = "" 

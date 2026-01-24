@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.7996875 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 4.7996875 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20153334750864574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.20153334750864574 
+            xmax = 4.6280970864639945 
+            text = "Пылтыр jайгыда jышка jилектеп бараға jӱргеӊ ба? // Ходил прошлым летом в тайгу за ягодой? // ЯТН // вопр // мод" 
+        intervals [3]:
+            xmin = 4.6280970864639945 
+            xmax = 4.7996875 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 4.7996875 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20153334750864574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.20153334750864574 
+            xmax = 4.6280970864639945 
+            text = "Пылтыр jайгыда jышқа jилектеп бараға jӱргеӊ ба? " 
+        intervals [3]:
+            xmin = 4.6280970864639945 
+            xmax = 4.7996875 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 4.7996875 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20153334750864574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.20153334750864574 
+            xmax = 0.43714623402376734 
+            text = "pъl HI" 
+        intervals [3]:
+            xmin = 0.43714623402376734 
+            xmax = 0.7453089294921921 
+            text = "tъr" 
+        intervals [4]:
+            xmin = 0.7453089294921921 
+            xmax = 0.982798059994472 
+            text = "ћaj" 
+        intervals [5]:
+            xmin = 0.982798059994472 
+            xmax = 1.1462365745951344 
+            text = "ƣъ LP" 
+        intervals [6]:
+            xmin = 1.1462365745951344 
+            xmax = 1.5290034202957064 
+            text = "da" 
+        intervals [7]:
+            xmin = 1.5290034202957064 
+            xmax = 2.0812216272180906 
+            text = "- LI!" 
+        intervals [8]:
+            xmin = 2.0812216272180906 
+            xmax = 2.400908459543619 
+            text = "ћъʃ" 
+        intervals [9]:
+            xmin = 2.400908459543619 
+            xmax = 2.6454424203201827 
+            text = "ka" 
+        intervals [10]:
+            xmin = 2.6454424203201827 
+            xmax = 2.8937192478433267 
+            text = "ћi" 
+        intervals [11]:
+            xmin = 2.8937192478433267 
+            xmax = 3.0871006964166297 
+            text = "lek HP" 
+        intervals [12]:
+            xmin = 3.0871006964166297 
+            xmax = 3.3972825947669474 
+            text = "tep" 
+        intervals [13]:
+            xmin = 3.3972825947669474 
+            xmax = 3.5285033825066874 
+            text = "pa" 
+        intervals [14]:
+            xmin = 3.5285033825066874 
+            xmax = 3.682622273944784 
+            text = "ra" 
+        intervals [15]:
+            xmin = 3.682622273944784 
+            xmax = 3.813622610075086 
+            text = "ƣa" 
+        intervals [16]:
+            xmin = 3.813622610075086 
+            xmax = 4.008106316695579 
+            text = "ћʏr" 
+        intervals [17]:
+            xmin = 4.008106316695579 
+            xmax = 4.3250023679060225 
+            text = "ƣeŋ" 
+        intervals [18]:
+            xmin = 4.3250023679060225 
+            xmax = 4.6280970864639945 
+            text = "ba" 
+        intervals [19]:
+            xmin = 4.6280970864639945 
+            xmax = 4.7996875 
+            text = "" 

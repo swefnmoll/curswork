@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5895625 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.5895625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13120123426534877 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13120123426534877 
+            xmax = 1.446792000205031 
+            text = "Эт сен сӱбейаӊ ба? // Ты не любишь мясо? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.446792000205031 
+            xmax = 1.5895625 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagma" 
+        xmin = 0 
+        xmax = 1.5895625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13120123426534877 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13120123426534877 
+            xmax = 1.446792000205031 
+            text = "Эт сен сӱбейаӊ ба" 
+        intervals [3]:
+            xmin = 1.446792000205031 
+            xmax = 1.5895625 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.5895625 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13120123426534877 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13120123426534877 
+            xmax = 0.3146567305207567 
+            text = "ɛt LI!" 
+        intervals [3]:
+            xmin = 0.3146567305207567 
+            xmax = 0.5829120615285545 
+            text = "sɛn HP HI!" 
+        intervals [4]:
+            xmin = 0.5829120615285545 
+            xmax = 0.8049649328545576 
+            text = "sʏ" 
+        intervals [5]:
+            xmin = 0.8049649328545576 
+            xmax = 0.9624144483524342 
+            text = "bɛ LP!" 
+        intervals [6]:
+            xmin = 0.9624144483524342 
+            xmax = 1.2185910422225985 
+            text = "jaŋ" 
+        intervals [7]:
+            xmin = 1.2185910422225985 
+            xmax = 1.446792000205031 
+            text = "bɑ" 
+        intervals [8]:
+            xmin = 1.446792000205031 
+            xmax = 1.5895625 
+            text = "" 

@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.2153968253968253 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.2153968253968253 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.014704140642755126 
+            text = "" 
+        intervals [2]:
+            xmin = 0.014704140642755126 
+            xmax = 2.0974784219697122 
+            text = "Сарнап келип, ӱректешер керек. // Подпевая, надо разговаривать. // ГНФ // утвердительное // верификативное" 
+        intervals [3]:
+            xmin = 2.0974784219697122 
+            xmax = 2.2153968253968253 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.2153968253968253 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.014704140642755126 
+            text = "" 
+        intervals [2]:
+            xmin = 0.014704140642755126 
+            xmax = 2.0974784219697122 
+            text = "Сарнап келип ӱректешер керек" 
+        intervals [3]:
+            xmin = 2.0974784219697122 
+            xmax = 2.2153968253968253 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.2153968253968253 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.014704140642755126 
+            text = "" 
+        intervals [2]:
+            xmin = 0.014704140642755126 
+            xmax = 0.3763481885094321 
+            text = "sar HP! LP! LI!" 
+        intervals [3]:
+            xmin = 0.3763481885094321 
+            xmax = 0.6113016463591203 
+            text = "nap" 
+        intervals [4]:
+            xmin = 0.6113016463591203 
+            xmax = 0.8900209443964956 
+            text = "ke HI!" 
+        intervals [5]:
+            xmin = 0.8900209443964956 
+            xmax = 1.0927258884236775 
+            text = "lip" 
+        intervals [6]:
+            xmin = 1.0927258884236775 
+            xmax = 1.2171130131676302 
+            text = "ø" 
+        intervals [7]:
+            xmin = 1.2171130131676302 
+            xmax = 1.3944798391914144 
+            text = "røk" 
+        intervals [8]:
+            xmin = 1.3944798391914144 
+            xmax = 1.471070059519867 
+            text = "tø" 
+        intervals [9]:
+            xmin = 1.471070059519867 
+            xmax = 1.7192684426895128 
+            text = "ʃør" 
+        intervals [10]:
+            xmin = 1.7192684426895128 
+            xmax = 1.894331803440261 
+            text = "ke" 
+        intervals [11]:
+            xmin = 1.894331803440261 
+            xmax = 2.0974784219697122 
+            text = "rek" 
+        intervals [12]:
+            xmin = 2.0974784219697122 
+            xmax = 2.2153968253968253 
+            text = "" 

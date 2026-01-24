@@ -2,7 +2,7 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.1138775510204082 
+xmax = 3.09984126984127 
 tiers? <exists> 
 size = 3 
 item []: 
@@ -10,69 +10,101 @@ item []:
         class = "IntervalTier" 
         name = "Phrase" 
         xmin = 0 
-        xmax = 1.1138775510204082 
+        xmax = 3.09984126984127 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.03982149037996007 
+            xmax = 0.004459074014956588 
             text = "" 
         intervals [2]:
-            xmin = 0.03982149037996007 
-            xmax = 1.0022503010031016 
-            text = "Палар ойноп ҷыт. // Дети играют. // ККТ // утверждение // информ" 
+            xmin = 0.004459074014956588 
+            xmax = 3.0186465436716303 
+            text = "Евдокиевтиӊ ле мееӊ фотографиям пар. // Есть фотография меня с Евдокимовым. // БМА // утвердительное // информативное" 
         intervals [3]:
-            xmin = 1.0022503010031016 
-            xmax = 1.1138775510204082 
+            xmin = 3.0186465436716303 
+            xmax = 3.09984126984127 
             text = "" 
     item [2]:
         class = "IntervalTier" 
         name = "syntagm" 
         xmin = 0 
-        xmax = 1.1138775510204082 
+        xmax = 3.09984126984127 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.03982149037996007 
+            xmax = 0.004459074014956588 
             text = "" 
         intervals [2]:
-            xmin = 0.03982149037996007 
-            xmax = 1.0022503010031016 
-            text = "Паллар ойноп ҷыт" 
+            xmin = 0.004459074014956588 
+            xmax = 3.0186465436716303 
+            text = "Евдокиевтиӊ ле мееӊ фотографиям пар " 
         intervals [3]:
-            xmin = 1.0022503010031016 
-            xmax = 1.1138775510204082 
+            xmin = 3.0186465436716303 
+            xmax = 3.09984126984127 
             text = "" 
     item [3]:
         class = "IntervalTier" 
         name = "syllable" 
         xmin = 0 
-        xmax = 1.1138775510204082 
-        intervals: size = 7 
+        xmax = 3.09984126984127 
+        intervals: size = 15 
         intervals [1]:
             xmin = 0 
-            xmax = 0.03982149037996007 
+            xmax = 0.004459074014956588 
             text = "" 
         intervals [2]:
-            xmin = 0.03982149037996007 
-            xmax = 0.17069327810609125 
-            text = "pɑl LP!" 
+            xmin = 0.004459074014956588 
+            xmax = 0.1649945189172525 
+            text = "ɛv HP!" 
         intervals [3]:
-            xmin = 0.17069327810609125 
-            xmax = 0.36642188098853523 
-            text = "lar HP!" 
+            xmin = 0.1649945189172525 
+            xmax = 0.3132556905578389 
+            text = "dɑ HI!" 
         intervals [4]:
-            xmin = 0.36642188098853523 
-            xmax = 0.537658828084986 
-            text = "ɔj HI!" 
+            xmin = 0.3132556905578389 
+            xmax = 0.44378998253673924 
+            text = "kɪ" 
         intervals [5]:
-            xmin = 0.537658828084986 
-            xmax = 0.7775677627830181 
-            text = "nɔp LI!" 
+            xmin = 0.44378998253673924 
+            xmax = 0.6307279813748885 
+            text = "ev" 
         intervals [6]:
-            xmin = 0.7775677627830181 
-            xmax = 1.0022503010031016 
-            text = "ћʃъt" 
+            xmin = 0.6307279813748885 
+            xmax = 0.9433656690869656 
+            text = "tъŋ" 
         intervals [7]:
-            xmin = 1.0022503010031016 
-            xmax = 1.1138775510204082 
+            xmin = 0.9433656690869656 
+            xmax = 1.3972034961630724 
+            text = "le LP!" 
+        intervals [8]:
+            xmin = 1.3972034961630724 
+            xmax = 1.746906477097934 
+            text = "mɛ:ŋ LI" 
+        intervals [9]:
+            xmin = 1.746906477097934 
+            xmax = 1.93616789447631 
+            text = "fa" 
+        intervals [10]:
+            xmin = 1.93616789447631 
+            xmax = 2.0747598591321794 
+            text = "tɔ" 
+        intervals [11]:
+            xmin = 2.0747598591321794 
+            xmax = 2.2911326107715393 
+            text = "ƣra" 
+        intervals [12]:
+            xmin = 2.2911326107715393 
+            xmax = 2.4254594790980244 
+            text = "fi" 
+        intervals [13]:
+            xmin = 2.4254594790980244 
+            xmax = 2.634389453808984 
+            text = "ъm" 
+        intervals [14]:
+            xmin = 2.634389453808984 
+            xmax = 3.0186465436716303 
+            text = "pɑr" 
+        intervals [15]:
+            xmin = 3.0186465436716303 
+            xmax = 3.09984126984127 
             text = "" 

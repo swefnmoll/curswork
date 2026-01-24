@@ -2,7 +2,7 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 2.121655328798186 
+xmax = 1.3934240362811792 
 tiers? <exists> 
 size = 3 
 item []: 
@@ -10,77 +10,69 @@ item []:
         class = "IntervalTier" 
         name = "Phrase" 
         xmin = 0 
-        xmax = 2.121655328798186 
+        xmax = 1.3934240362811792 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.2611536503511986 
+            xmax = 0.01504376919527928 
             text = "" 
         intervals [2]:
-            xmin = 0.2611536503511986 
-            xmax = 1.8229997246847416 
-            text = "Кызычақ болбады. // Девочки не было. // ККТ // утверждение // верификат" 
+            xmin = 0.01504376919527928 
+            xmax = 1.3812779004501732 
+            text = "Внугым кел парчыт. // Внук приходит навещает. // БМА // утвердит // информ" 
         intervals [3]:
-            xmin = 1.8229997246847416 
-            xmax = 2.121655328798186 
+            xmin = 1.3812779004501732 
+            xmax = 1.3934240362811792 
             text = "" 
     item [2]:
         class = "IntervalTier" 
         name = "syntagm" 
         xmin = 0 
-        xmax = 2.121655328798186 
+        xmax = 1.3934240362811792 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.2611536503511986 
+            xmax = 0.01504376919527928 
             text = "" 
         intervals [2]:
-            xmin = 0.2611536503511986 
-            xmax = 1.8229997246847416 
-            text = "Кызычақ болбады" 
+            xmin = 0.01504376919527928 
+            xmax = 1.3812779004501732 
+            text = "внугым кел парчыт" 
         intervals [3]:
-            xmin = 1.8229997246847416 
-            xmax = 2.121655328798186 
+            xmin = 1.3812779004501732 
+            xmax = 1.3934240362811792 
             text = "" 
     item [3]:
         class = "IntervalTier" 
         name = "syllable" 
         xmin = 0 
-        xmax = 2.121655328798186 
-        intervals: size = 9 
+        xmax = 1.3934240362811792 
+        intervals: size = 7 
         intervals [1]:
             xmin = 0 
-            xmax = 0.2611536503511986 
+            xmax = 0.01504376919527928 
             text = "" 
         intervals [2]:
-            xmin = 0.2611536503511986 
-            xmax = 0.3300080862036544 
-            text = "qъ HI" 
+            xmin = 0.01504376919527928 
+            xmax = 0.39318492323295406 
+            text = "vnu LP!" 
         intervals [3]:
-            xmin = 0.3300080862036544 
-            xmax = 0.5133982059449715 
-            text = "z HP" 
+            xmin = 0.39318492323295406 
+            xmax = 0.6959876097995212 
+            text = "ƣъm HP!" 
         intervals [4]:
-            xmin = 0.5133982059449715 
-            xmax = 0.76572076835903 
-            text = "ћʃaχ " 
+            xmin = 0.6959876097995212 
+            xmax = 0.9596722459483978 
+            text = "kel HI!" 
         intervals [5]:
-            xmin = 0.76572076835903 
-            xmax = 1.1907279910984436 
-            text = "- LI!" 
+            xmin = 0.9596722459483978 
+            xmax = 1.175545931586764 
+            text = "par" 
         intervals [6]:
-            xmin = 1.1907279910984436 
-            xmax = 1.408175849704903 
-            text = "pol LP" 
+            xmin = 1.175545931586764 
+            xmax = 1.3812779004501732 
+            text = "ћъt LI!" 
         intervals [7]:
-            xmin = 1.408175849704903 
-            xmax = 1.5642501572742507 
-            text = "wa" 
-        intervals [8]:
-            xmin = 1.5642501572742507 
-            xmax = 1.8229997246847416 
-            text = "dъ" 
-        intervals [9]:
-            xmin = 1.8229997246847416 
-            xmax = 2.121655328798186 
+            xmin = 1.3812779004501732 
+            xmax = 1.3934240362811792 
             text = "" 

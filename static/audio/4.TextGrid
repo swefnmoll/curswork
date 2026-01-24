@@ -2,77 +2,97 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.2471201814058956 
+xmax = 3.268811444817855 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "1" 
         xmin = 0 
-        xmax = 1.2471201814058956 
-        intervals: size = 3 
+        xmax = 3.268811444817855 
+        intervals: size = 1 
         intervals [1]:
             xmin = 0 
-            xmax = 0.012167537808263896 
-            text = "" 
-        intervals [2]:
-            xmin = 0.012167537808263896 
-            xmax = 1.2155021912255846 
-            text = "Эм ол район jок. // Теперь этого района нет. // СНС // утверждение // верификат" 
-        intervals [3]:
-            xmin = 1.2155021912255846 
-            xmax = 1.2471201814058956 
-            text = "" 
+            xmax = 3.268811444817855 
+            text = "Э мин Новосибирскга бармақмын болыр. // Я, наверное, в Новосибирск поеду. // СЗА // утвержд // информ" 
     item [2]:
         class = "IntervalTier" 
-        name = "sintagma" 
+        name = "2" 
         xmin = 0 
-        xmax = 1.2471201814058956 
+        xmax = 3.268811444817855 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.012167537808263896 
-            text = "" 
+            xmax = 0.970343695891204 
+            text = "э мин " 
         intervals [2]:
-            xmin = 0.012167537808263896 
-            xmax = 1.2155021912255846 
-            text = "Эм ол район jок" 
+            xmin = 0.970343695891204 
+            xmax = 1.5720652056337947 
+            text = "-" 
         intervals [3]:
-            xmin = 1.2155021912255846 
-            xmax = 1.2471201814058956 
-            text = "" 
+            xmin = 1.5720652056337947 
+            xmax = 3.268811444817855 
+            text = "Новосибирскга бармақмын болыр " 
     item [3]:
         class = "IntervalTier" 
-        name = "syllaby" 
+        name = "3" 
         xmin = 0 
-        xmax = 1.2471201814058956 
-        intervals: size = 7 
+        xmax = 3.268811444817855 
+        intervals: size = 14 
         intervals [1]:
             xmin = 0 
-            xmax = 0.012167537808263896 
-            text = "" 
+            xmax = 0.28062513206622164 
+            text = "ɘ LP" 
         intervals [2]:
-            xmin = 0.012167537808263896 
-            xmax = 0.215748939302358 
-            text = "ɛm LP!" 
+            xmin = 0.28062513206622164 
+            xmax = 0.5619053395296536 
+            text = "mʲinʲ HP!" 
         intervals [3]:
-            xmin = 0.215748939302358 
-            xmax = 0.5217693899559007 
-            text = "ɔl HP!" 
+            xmin = 0.5619053395296536 
+            xmax = 0.970343695891204 
+            text = "nʲɛ HI! LI" 
         intervals [4]:
-            xmin = 0.5217693899559007 
-            xmax = 0.6994168549539319 
-            text = "rɑ" 
+            xmin = 0.970343695891204 
+            xmax = 1.5720652056337947 
+            text = "-" 
         intervals [5]:
-            xmin = 0.6994168549539319 
-            xmax = 0.9665364008633802 
-            text = "jɔn" 
+            xmin = 1.5720652056337947 
+            xmax = 1.700844788079685 
+            text = "nʌ" 
         intervals [6]:
-            xmin = 0.9665364008633802 
-            xmax = 1.2155021912255846 
-            text = "ћɔk HI! LI!" 
+            xmin = 1.700844788079685 
+            xmax = 1.8269847179865994 
+            text = "βʌ HP" 
         intervals [7]:
-            xmin = 1.2155021912255846 
-            xmax = 1.2471201814058956 
-            text = "" 
+            xmin = 1.8269847179865994 
+            xmax = 1.987887620702507 
+            text = "sʲi" 
+        intervals [8]:
+            xmin = 1.987887620702507 
+            xmax = 2.1458108400347857 
+            text = "bʲir HI" 
+        intervals [9]:
+            xmin = 2.1458108400347857 
+            xmax = 2.2659914031744446 
+            text = "ʁʌ" 
+        intervals [10]:
+            xmin = 2.2659914031744446 
+            xmax = 2.4471826738999436 
+            text = "βʌr" 
+        intervals [11]:
+            xmin = 2.4471826738999436 
+            xmax = 2.702130640506107 
+            text = "mʌq LP" 
+        intervals [12]:
+            xmin = 2.702130640506107 
+            xmax = 2.8682027938998953 
+            text = "m(ɯ)n" 
+        intervals [13]:
+            xmin = 2.8682027938998953 
+            xmax = 3.004899914009517 
+            text = "bo" 
+        intervals [14]:
+            xmin = 3.004899914009517 
+            xmax = 3.268811444817855 
+            text = "lɯr LI" 

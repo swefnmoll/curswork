@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.231315192743764 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 4.231315192743764 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.46939269846538634 
+            text = "" 
+        intervals [2]:
+            xmin = 0.46939269846538634 
+            xmax = 3.81167342023935 
+            text = "Кем отурсан ҷажыл абраҷта? // Кто сидит в зеленой тележке? // ККТ // вопрос // диктальный" 
+        intervals [3]:
+            xmin = 3.81167342023935 
+            xmax = 4.231315192743764 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 4.231315192743764 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.46939269846538634 
+            text = "" 
+        intervals [2]:
+            xmin = 0.46939269846538634 
+            xmax = 3.81167342023935 
+            text = "Кем отурсан ҷажыл абраҷта" 
+        intervals [3]:
+            xmin = 3.81167342023935 
+            xmax = 4.231315192743764 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 4.231315192743764 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.46939269846538634 
+            text = "" 
+        intervals [2]:
+            xmin = 0.46939269846538634 
+            xmax = 0.7553616441239737 
+            text = "kem HP HI" 
+        intervals [3]:
+            xmin = 0.7553616441239737 
+            xmax = 1.0303317841803077 
+            text = "otur" 
+        intervals [4]:
+            xmin = 1.0303317841803077 
+            xmax = 1.4183333211890192 
+            text = "san" 
+        intervals [5]:
+            xmin = 1.4183333211890192 
+            xmax = 2.531412448137059 
+            text = "- LP! LI!" 
+        intervals [6]:
+            xmin = 2.531412448137059 
+            xmax = 2.8138254513641385 
+            text = "ћʃa" 
+        intervals [7]:
+            xmin = 2.8138254513641385 
+            xmax = 3.0096041910842484 
+            text = "ʒъl" 
+        intervals [8]:
+            xmin = 3.0096041910842484 
+            xmax = 3.21198221416571 
+            text = "ab" 
+        intervals [9]:
+            xmin = 3.21198221416571 
+            xmax = 3.526548054390156 
+            text = "raћ̮ҫ" 
+        intervals [10]:
+            xmin = 3.526548054390156 
+            xmax = 3.81167342023935 
+            text = "ta" 
+        intervals [11]:
+            xmin = 3.81167342023935 
+            xmax = 4.231315192743764 
+            text = "" 

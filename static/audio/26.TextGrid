@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.5712018140589565 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 4.5712018140589565 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02558728490344473 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02558728490344473 
+            xmax = 4.5266028477916755 
+            text = "Ӱч айға, каникулға, паллар куманды тилле унанар. // За три месяца на время каникул дети кумандинский язык выучивали. // ГНФ // утвердит. // информативное" 
+        intervals [3]:
+            xmin = 4.5266028477916755 
+            xmax = 4.5712018140589565 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 4.5712018140589565 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02558728490344473 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02558728490344473 
+            xmax = 1.0902414412782744 
+            text = "Ӱч айға" 
+        intervals [3]:
+            xmin = 1.0902414412782744 
+            xmax = 1.9774651570782154 
+            text = "каникулға" 
+        intervals [4]:
+            xmin = 1.9774651570782154 
+            xmax = 4.5266028477916755 
+            text = "паллар куманды тилле унанар" 
+        intervals [5]:
+            xmin = 4.5266028477916755 
+            xmax = 4.5712018140589565 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 4.5712018140589565 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02558728490344473 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02558728490344473 
+            xmax = 0.4151479705483405 
+            text = "ʏħç LP HI" 
+        intervals [3]:
+            xmin = 0.4151479705483405 
+            xmax = 0.6587351380224924 
+            text = "ɑj HP!" 
+        intervals [4]:
+            xmin = 0.6587351380224924 
+            xmax = 1.0902414412782744 
+            text = "ƣɑ LI" 
+        intervals [5]:
+            xmin = 1.0902414412782744 
+            xmax = 1.2095870519193719 
+            text = "ka" 
+        intervals [6]:
+            xmin = 1.2095870519193719 
+            xmax = 1.3379159011252666 
+            text = "ni HP" 
+        intervals [7]:
+            xmin = 1.3379159011252666 
+            xmax = 1.5696207677470206 
+            text = "kul HI!" 
+        intervals [8]:
+            xmin = 1.5696207677470206 
+            xmax = 1.9774651570782154 
+            text = "qa LP LI" 
+        intervals [9]:
+            xmin = 1.9774651570782154 
+            xmax = 2.461074801770799 
+            text = "" 
+        intervals [10]:
+            xmin = 2.461074801770799 
+            xmax = 2.5862588750578874 
+            text = "pa" 
+        intervals [11]:
+            xmin = 2.5862588750578874 
+            xmax = 2.803704980656764 
+            text = "lar" 
+        intervals [12]:
+            xmin = 2.803704980656764 
+            xmax = 3.268794368962324 
+            text = "- HP LI!" 
+        intervals [13]:
+            xmin = 3.268794368962324 
+            xmax = 3.338077991263418 
+            text = "ku" 
+        intervals [14]:
+            xmin = 3.338077991263418 
+            xmax = 3.510005076265996 
+            text = "man HI" 
+        intervals [15]:
+            xmin = 3.510005076265996 
+            xmax = 3.6395221555571298 
+            text = "dъ LP" 
+        intervals [16]:
+            xmin = 3.6395221555571298 
+            xmax = 3.814140629626071 
+            text = "til" 
+        intervals [17]:
+            xmin = 3.814140629626071 
+            xmax = 3.8884050099535563 
+            text = "le" 
+        intervals [18]:
+            xmin = 3.8884050099535563 
+            xmax = 4.137864112589231 
+            text = "una" 
+        intervals [19]:
+            xmin = 4.137864112589231 
+            xmax = 4.5266028477916755 
+            text = "nar" 
+        intervals [20]:
+            xmin = 4.5266028477916755 
+            xmax = 4.5712018140589565 
+            text = "" 

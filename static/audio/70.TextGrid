@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.1994375 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.1994375 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08320436016957647 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08320436016957647 
+            xmax = 2.077356324021386 
+            text = "Сен курзак эмди быжырбайаӊ ба? // Ты сейчас не готовишь еду? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 2.077356324021386 
+            xmax = 2.1994375 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagma" 
+        xmin = 0 
+        xmax = 2.1994375 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08320436016957647 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08320436016957647 
+            xmax = 2.077356324021386 
+            text = "Сен курзак эмди быжырбайаӊ ба" 
+        intervals [3]:
+            xmin = 2.077356324021386 
+            xmax = 2.1994375 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.1994375 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08320436016957647 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08320436016957647 
+            xmax = 0.3295068240491382 
+            text = "sɛn LI" 
+        intervals [3]:
+            xmin = 0.3295068240491382 
+            xmax = 0.551686935035461 
+            text = "qur HP!" 
+        intervals [4]:
+            xmin = 0.551686935035461 
+            xmax = 0.873867164410245 
+            text = "zɑk" 
+        intervals [5]:
+            xmin = 0.873867164410245 
+            xmax = 1.0811320988968323 
+            text = "ɛm HI!" 
+        intervals [6]:
+            xmin = 1.0811320988968323 
+            xmax = 1.168269666118052 
+            text = "dɪ" 
+        intervals [7]:
+            xmin = 1.168269666118052 
+            xmax = 1.2815250356952053 
+            text = "pъ" 
+        intervals [8]:
+            xmin = 1.2815250356952053 
+            xmax = 1.4804828577767504 
+            text = "ʒъr LP" 
+        intervals [9]:
+            xmin = 1.4804828577767504 
+            xmax = 1.6176951488674713 
+            text = "bɑ" 
+        intervals [10]:
+            xmin = 1.6176951488674713 
+            xmax = 1.8239978698975277 
+            text = "jɑŋ" 
+        intervals [11]:
+            xmin = 1.8239978698975277 
+            xmax = 2.077356324021386 
+            text = "bɑ" 
+        intervals [12]:
+            xmin = 2.077356324021386 
+            xmax = 2.1994375 
+            text = "" 

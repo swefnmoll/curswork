@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.664671201814059 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.664671201814059 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2412514497781482 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2412514497781482 
+            xmax = 1.2139873002450041 
+            text = "Эм не бар анда? // Теперь что там есть? // ККТ // вопрос // диктальный" 
+        intervals [3]:
+            xmin = 1.2139873002450041 
+            xmax = 1.664671201814059 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.664671201814059 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2412514497781482 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2412514497781482 
+            xmax = 1.2139873002450041 
+            text = "эм не бар анда" 
+        intervals [3]:
+            xmin = 1.2139873002450041 
+            xmax = 1.664671201814059 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.664671201814059 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2412514497781482 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2412514497781482 
+            xmax = 0.4160669673887397 
+            text = "ɛm HP" 
+        intervals [3]:
+            xmin = 0.4160669673887397 
+            xmax = 0.6168451856345676 
+            text = "ne HI" 
+        intervals [4]:
+            xmin = 0.6168451856345676 
+            xmax = 0.7674288493189385 
+            text = "bar LP" 
+        intervals [5]:
+            xmin = 0.7674288493189385 
+            xmax = 0.9768613011098453 
+            text = "an" 
+        intervals [6]:
+            xmin = 0.9768613011098453 
+            xmax = 1.2139873002450041 
+            text = "da LI" 
+        intervals [7]:
+            xmin = 1.2139873002450041 
+            xmax = 1.664671201814059 
+            text = "" 

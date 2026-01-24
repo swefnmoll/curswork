@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3192517006802722 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.3192517006802722 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.059508946098668025 
+            text = "" 
+        intervals [2]:
+            xmin = 0.059508946098668025 
+            xmax = 1.1225731764692686 
+            text = "По не болар? // Это что будет? // ККТ // вопрос // диктальный" 
+        intervals [3]:
+            xmin = 1.1225731764692686 
+            xmax = 1.3192517006802722 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.3192517006802722 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.059508946098668025 
+            text = "" 
+        intervals [2]:
+            xmin = 0.059508946098668025 
+            xmax = 1.1225731764692686 
+            text = "по не болар" 
+        intervals [3]:
+            xmin = 1.1225731764692686 
+            xmax = 1.3192517006802722 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.3192517006802722 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.059508946098668025 
+            text = "" 
+        intervals [2]:
+            xmin = 0.059508946098668025 
+            xmax = 0.4051762829417537 
+            text = "pɔ HI" 
+        intervals [3]:
+            xmin = 0.4051762829417537 
+            xmax = 0.7206663126001255 
+            text = "ne HP! LP! LI!" 
+        intervals [4]:
+            xmin = 0.7206663126001255 
+            xmax = 0.8976150683650384 
+            text = "po" 
+        intervals [5]:
+            xmin = 0.8976150683650384 
+            xmax = 1.1225731764692686 
+            text = "lar" 
+        intervals [6]:
+            xmin = 1.1225731764692686 
+            xmax = 1.3192517006802722 
+            text = "" 

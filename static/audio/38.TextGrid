@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.657755102040816 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.657755102040816 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11435948281253255 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11435948281253255 
+            xmax = 2.626297876443838 
+            text = "Пу полза терек полар. // Это возможно тополь будет. // ККТ // утверждение // информативное" 
+        intervals [3]:
+            xmin = 2.626297876443838 
+            xmax = 2.657755102040816 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.657755102040816 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11435948281253255 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11435948281253255 
+            xmax = 2.626297876443838 
+            text = "Пу полза терек полар" 
+        intervals [3]:
+            xmin = 2.626297876443838 
+            xmax = 2.657755102040816 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.657755102040816 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11435948281253255 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11435948281253255 
+            xmax = 0.2326561858458569 
+            text = "pu" 
+        intervals [3]:
+            xmin = 0.2326561858458569 
+            xmax = 0.42194967315470666 
+            text = "bɔl HP!" 
+        intervals [4]:
+            xmin = 0.42194967315470666 
+            xmax = 0.7692873148154142 
+            text = "za" 
+        intervals [5]:
+            xmin = 0.7692873148154142 
+            xmax = 1.8276727986006618 
+            text = "- LP! LI!" 
+        intervals [6]:
+            xmin = 1.8276727986006618 
+            xmax = 1.9622279807703062 
+            text = "te HI" 
+        intervals [7]:
+            xmin = 1.9622279807703062 
+            xmax = 2.168101919316393 
+            text = "rek" 
+        intervals [8]:
+            xmin = 2.168101919316393 
+            xmax = 2.315944277869623 
+            text = "pu" 
+        intervals [9]:
+            xmin = 2.315944277869623 
+            xmax = 2.626297876443838 
+            text = "lar" 
+        intervals [10]:
+            xmin = 2.626297876443838 
+            xmax = 2.657755102040816 
+            text = "" 

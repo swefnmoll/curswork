@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3918958333333333 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.3918958333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09317756766709837 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09317756766709837 
+            xmax = 1.292929354751473 
+            text = "Сен jигелексиӊ бa? // Ты не поел ещё? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.292929354751473 
+            xmax = 1.3918958333333333 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.3918958333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09317756766709837 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09317756766709837 
+            xmax = 1.292929354751473 
+            text = "Сен jилегексиӊ бa? " 
+        intervals [3]:
+            xmin = 1.292929354751473 
+            xmax = 1.3918958333333333 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.3918958333333333 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09317756766709837 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09317756766709837 
+            xmax = 0.34210073700185406 
+            text = "sen" 
+        intervals [3]:
+            xmin = 0.34210073700185406 
+            xmax = 0.48248182668482675 
+            text = "ti" 
+        intervals [4]:
+            xmin = 0.48248182668482675 
+            xmax = 0.6156267777243473 
+            text = "ge" 
+        intervals [5]:
+            xmin = 0.6156267777243473 
+            xmax = 0.7733746001516052 
+            text = "lek HP" 
+        intervals [6]:
+            xmin = 0.7733746001516052 
+            xmax = 1.0454534131454079 
+            text = "sɪŋ LP HI!" 
+        intervals [7]:
+            xmin = 1.0454534131454079 
+            xmax = 1.292929354751473 
+            text = "ba LI!" 
+        intervals [8]:
+            xmin = 1.292929354751473 
+            xmax = 1.3918958333333333 
+            text = "" 

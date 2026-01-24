@@ -2,81 +2,129 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 0.9943083900226758 
+xmax = 5.6892517006802725 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 0.9943083900226758 
+        xmax = 5.6892517006802725 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.011768647650753666 
+            xmax = 0.03184556492452339 
             text = "" 
         intervals [2]:
-            xmin = 0.011768647650753666 
-            xmax = 0.9919603867272315 
-            text = "Ағаш чана полгон. // Деревянные лыжи были. //СНС // утверждение // верификативное" 
+            xmin = 0.03184556492452339 
+            xmax = 5.645575303850742 
+            text = "Меен тӧреем Старобординский район деремне Тайнадай. // Я родилась - Старобординский район деревня Тайнадай.// БМА // утвердит // информативн" 
         intervals [3]:
-            xmin = 0.9919603867272315 
-            xmax = 0.9943083900226758 
+            xmin = 5.645575303850742 
+            xmax = 5.6892517006802725 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "syntagma" 
+        name = "syntagm" 
         xmin = 0 
-        xmax = 0.9943083900226758 
+        xmax = 5.6892517006802725 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.011768647650753666 
+            xmax = 0.03184556492452339 
             text = "" 
         intervals [2]:
-            xmin = 0.011768647650753666 
-            xmax = 0.9919603867272315 
-            text = "Ағаш чана полгон" 
+            xmin = 0.03184556492452339 
+            xmax = 5.645575303850742 
+            text = "Меен тӧреем Старобординский район деремне Тайнадай" 
         intervals [3]:
-            xmin = 0.9919603867272315 
-            xmax = 0.9943083900226758 
+            xmin = 5.645575303850742 
+            xmax = 5.6892517006802725 
             text = "" 
     item [3]:
         class = "IntervalTier" 
         name = "syllable" 
         xmin = 0 
-        xmax = 0.9943083900226758 
-        intervals: size = 8 
+        xmax = 5.6892517006802725 
+        intervals: size = 20 
         intervals [1]:
             xmin = 0 
-            xmax = 0.011768647650753666 
+            xmax = 0.03184556492452339 
             text = "" 
         intervals [2]:
-            xmin = 0.011768647650753666 
-            xmax = 0.12085631718817116 
-            text = "ɑ HP! HI!" 
+            xmin = 0.03184556492452339 
+            xmax = 0.2327471974262797 
+            text = "mɛn" 
         intervals [3]:
-            xmin = 0.12085631718817116 
-            xmax = 0.31653644479215104 
-            text = "ƣɑʃ LI!" 
+            xmin = 0.2327471974262797 
+            xmax = 0.4116885299895232 
+            text = "tø" 
         intervals [4]:
-            xmin = 0.31653644479215104 
-            xmax = 0.5399023961535737 
-            text = "ħçɑ" 
+            xmin = 0.4116885299895232 
+            xmax = 1.0121032491686708 
+            text = "rɛm" 
         intervals [5]:
-            xmin = 0.5399023961535737 
-            xmax = 0.6464714630877131 
-            text = "nɑ LP!" 
+            xmin = 1.0121032491686708 
+            xmax = 1.0800013033447944 
+            text = "-" 
         intervals [6]:
-            xmin = 0.6464714630877131 
-            xmax = 0.8288619793276719 
-            text = "pɔl" 
+            xmin = 1.0800013033447944 
+            xmax = 1.2175347242405106 
+            text = "sta" 
         intervals [7]:
-            xmin = 0.8288619793276719 
-            xmax = 0.9919603867272315 
-            text = "ƣɔn" 
+            xmin = 1.2175347242405106 
+            xmax = 1.3137478118712649 
+            text = "ro" 
         intervals [8]:
-            xmin = 0.9919603867272315 
-            xmax = 0.9943083900226758 
+            xmin = 1.3137478118712649 
+            xmax = 1.5231793824454383 
+            text = "bor HP!" 
+        intervals [9]:
+            xmin = 1.5231793824454383 
+            xmax = 1.7633416724052746 
+            text = "din" 
+        intervals [10]:
+            xmin = 1.7633416724052746 
+            xmax = 2.5484408315519818 
+            text = "ski" 
+        intervals [11]:
+            xmin = 2.5484408315519818 
+            xmax = 2.8819015775922114 
+            text = "ra LI!" 
+        intervals [12]:
+            xmin = 2.8819015775922114 
+            xmax = 3.5936459812160475 
+            text = "jon" 
+        intervals [13]:
+            xmin = 3.5936459812160475 
+            xmax = 3.7489256499692756 
+            text = "- LP!" 
+        intervals [14]:
+            xmin = 3.7489256499692756 
+            xmax = 3.8376568892568343 
+            text = "te HI!" 
+        intervals [15]:
+            xmin = 3.8376568892568343 
+            xmax = 4.07768852723284 
+            text = "re" 
+        intervals [16]:
+            xmin = 4.07768852723284 
+            xmax = 4.545659661622932 
+            text = "ne" 
+        intervals [17]:
+            xmin = 4.545659661622932 
+            xmax = 4.867833020509533 
+            text = "taj" 
+        intervals [18]:
+            xmin = 4.867833020509533 
+            xmax = 5.045339998216699 
+            text = "nъ" 
+        intervals [19]:
+            xmin = 5.045339998216699 
+            xmax = 5.645575303850742 
+            text = "daj" 
+        intervals [20]:
+            xmin = 5.645575303850742 
+            xmax = 5.6892517006802725 
             text = "" 

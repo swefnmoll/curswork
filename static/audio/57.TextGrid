@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.077166666666667 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 3.077166666666667 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09081276698321172 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09081276698321172 
+            xmax = 2.9543589700403583 
+            text = "Сен эмди эзенjаӊ ба, лапкаға бараға? // Ты сейчас думаешь о том, чтобы пойти в магазин? // ЯТН // вопр // мод" 
+        intervals [3]:
+            xmin = 2.9543589700403583 
+            xmax = 3.077166666666667 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 3.077166666666667 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09081276698321172 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09081276698321172 
+            xmax = 1.7345522773973001 
+            text = "Сен эмди эзенjаӊ ба" 
+        intervals [3]:
+            xmin = 1.7345522773973001 
+            xmax = 2.9543589700403583 
+            text = "лапкаға бараға" 
+        intervals [4]:
+            xmin = 2.9543589700403583 
+            xmax = 3.077166666666667 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 3.077166666666667 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09081276698321172 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09081276698321172 
+            xmax = 0.39704386857003326 
+            text = "sen HI!" 
+        intervals [3]:
+            xmin = 0.39704386857003326 
+            xmax = 0.5810147140178388 
+            text = "ɛm HP! LP" 
+        intervals [4]:
+            xmin = 0.5810147140178388 
+            xmax = 0.722874948735011 
+            text = "di" 
+        intervals [5]:
+            xmin = 0.722874948735011 
+            xmax = 1.10170966609595 
+            text = "ɛzin" 
+        intervals [6]:
+            xmin = 1.10170966609595 
+            xmax = 1.3741612423935925 
+            text = "ћaŋ" 
+        intervals [7]:
+            xmin = 1.3741612423935925 
+            xmax = 1.7345522773973001 
+            text = "ba LI!" 
+        intervals [8]:
+            xmin = 1.7345522773973001 
+            xmax = 2.0482679902948804 
+            text = "lap HP LI" 
+        intervals [9]:
+            xmin = 2.0482679902948804 
+            xmax = 2.2100318588755017 
+            text = "ka LP HI" 
+        intervals [10]:
+            xmin = 2.2100318588755017 
+            xmax = 2.336411830965733 
+            text = "ƣa" 
+        intervals [11]:
+            xmin = 2.336411830965733 
+            xmax = 2.486788000288287 
+            text = "ba" 
+        intervals [12]:
+            xmin = 2.486788000288287 
+            xmax = 2.65680612435956 
+            text = "ra" 
+        intervals [13]:
+            xmin = 2.65680612435956 
+            xmax = 2.9543589700403583 
+            text = "ƣa" 
+        intervals [14]:
+            xmin = 2.9543589700403583 
+            xmax = 3.077166666666667 
+            text = "" 

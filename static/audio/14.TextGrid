@@ -2,113 +2,85 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 3.2879138321995467 
+xmax = 2.1050566893424034 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "phrase" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 3.2879138321995467 
+        xmax = 2.1050566893424034 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028659939090127977 
+            xmax = 0.03367043484083541 
             text = "" 
         intervals [2]:
-            xmin = 0.028659939090127977 
-            xmax = 3.2558352751686574 
-            text = "Ҷылғаш ҷана болган, ана қапшай ҷӱртен чана. // Лыжи были, такие лыжи для быстрой езды. // СНС // утверждение // информ" 
+            xmin = 0.03367043484083541 
+            xmax = 2.0429326501454033 
+            text = "Мееӊ кичееште ок анам ӱл каан. // Ещё детстве у меня мамы не стало.// БМА // утвердит // информативное" 
         intervals [3]:
-            xmin = 3.2558352751686574 
-            xmax = 3.2879138321995467 
+            xmin = 2.0429326501454033 
+            xmax = 2.1050566893424034 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "sintagma" 
+        name = "syntagm" 
         xmin = 0 
-        xmax = 3.2879138321995467 
-        intervals: size = 4 
+        xmax = 2.1050566893424034 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028659939090127977 
+            xmax = 0.03367043484083541 
             text = "" 
         intervals [2]:
-            xmin = 0.028659939090127977 
-            xmax = 1.8691583696595 
-            text = "Ҷылғаш ҷана болган ана " 
+            xmin = 0.03367043484083541 
+            xmax = 2.0429326501454033 
+            text = "Мееӊ кичееште ок анам ӱл каан" 
         intervals [3]:
-            xmin = 1.8691583696595 
-            xmax = 3.2558352751686574 
-            text = "қапшай ҷӱртен чана" 
-        intervals [4]:
-            xmin = 3.2558352751686574 
-            xmax = 3.2879138321995467 
+            xmin = 2.0429326501454033 
+            xmax = 2.1050566893424034 
             text = "" 
     item [3]:
         class = "IntervalTier" 
-        name = "syllaby" 
+        name = "syllable" 
         xmin = 0 
-        xmax = 3.2879138321995467 
-        intervals: size = 15 
+        xmax = 2.1050566893424034 
+        intervals: size = 9 
         intervals [1]:
             xmin = 0 
-            xmax = 0.028659939090127977 
+            xmax = 0.03367043484083541 
             text = "" 
         intervals [2]:
-            xmin = 0.028659939090127977 
-            xmax = 0.19209810246464404 
-            text = "ħçъl" 
+            xmin = 0.03367043484083541 
+            xmax = 0.24597809811375815 
+            text = "mɛŋ" 
         intervals [3]:
-            xmin = 0.19209810246464404 
-            xmax = 0.7262098860488985 
-            text = "ƣɑʃ HP LI!" 
+            xmin = 0.24597809811375815 
+            xmax = 0.5261366640821511 
+            text = "kʃe HP!" 
         intervals [4]:
-            xmin = 0.7262098860488985 
-            xmax = 1.086066693973686 
-            text = "ʃɑ LP! HI" 
+            xmin = 0.5261366640821511 
+            xmax = 0.7034245066090247 
+            text = "ʃt" 
         intervals [5]:
-            xmin = 1.086066693973686 
-            xmax = 1.2262300295448934 
-            text = "nɑ" 
+            xmin = 0.7034245066090247 
+            xmax = 0.9792055949841615 
+            text = "ɔq HI" 
         intervals [6]:
-            xmin = 1.2262300295448934 
-            xmax = 1.369511600302762 
-            text = "bɔl" 
+            xmin = 0.9792055949841615 
+            xmax = 1.3053276756817438 
+            text = "anam LP!" 
         intervals [7]:
-            xmin = 1.369511600302762 
-            xmax = 1.5645993441222725 
-            text = "ƣɔn" 
+            xmin = 1.3053276756817438 
+            xmax = 1.6358272339725823 
+            text = "ʏl" 
         intervals [8]:
-            xmin = 1.5645993441222725 
-            xmax = 1.8691583696595 
-            text = "ɑnɑ" 
+            xmin = 1.6358272339725823 
+            xmax = 2.0429326501454033 
+            text = "qan LI" 
         intervals [9]:
-            xmin = 1.8691583696595 
-            xmax = 2.274844587452313 
-            text = "kɑp HI! LI" 
-        intervals [10]:
-            xmin = 2.274844587452313 
-            xmax = 2.4902175177202652 
-            text = "ʃɑj HP" 
-        intervals [11]:
-            xmin = 2.4902175177202652 
-            xmax = 2.6862354252822827 
-            text = "ћʃʏr LP" 
-        intervals [12]:
-            xmin = 2.6862354252822827 
-            xmax = 2.893514854734539 
-            text = "tɪn" 
-        intervals [13]:
-            xmin = 2.893514854734539 
-            xmax = 3.093504004269066 
-            text = "ħçɑ" 
-        intervals [14]:
-            xmin = 3.093504004269066 
-            xmax = 3.2558352751686574 
-            text = "nɑ" 
-        intervals [15]:
-            xmin = 3.2558352751686574 
-            xmax = 3.2879138321995467 
+            xmin = 2.0429326501454033 
+            xmax = 2.1050566893424034 
             text = "" 

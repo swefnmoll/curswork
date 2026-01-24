@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.2358541666666665 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.2358541666666665 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10317988352494244 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10317988352494244 
+            xmax = 2.20939056628875 
+            text = "Тураға бараға сен тергенбедиӊ бa? // Ты не собирался ехать в город? // ЯТН // вопрос // мод" 
+        intervals [3]:
+            xmin = 2.20939056628875 
+            xmax = 2.2358541666666665 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagma" 
+        xmin = 0 
+        xmax = 2.2358541666666665 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10317988352494244 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10317988352494244 
+            xmax = 2.20939056628875 
+            text = "Тураға бараға сен тергенбедиӊ бa" 
+        intervals [3]:
+            xmin = 2.20939056628875 
+            xmax = 2.2358541666666665 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.2358541666666665 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10317988352494244 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10317988352494244 
+            xmax = 0.20779299690725075 
+            text = "tu" 
+        intervals [3]:
+            xmin = 0.20779299690725075 
+            xmax = 0.4170192236718674 
+            text = "rɑ HI!" 
+        intervals [4]:
+            xmin = 0.4170192236718674 
+            xmax = 0.5309312804659365 
+            text = "qɑ" 
+        intervals [5]:
+            xmin = 0.5309312804659365 
+            xmax = 0.7054393895085875 
+            text = "pɑ" 
+        intervals [6]:
+            xmin = 0.7054393895085875 
+            xmax = 0.8524789322070543 
+            text = "rɑ LP" 
+        intervals [7]:
+            xmin = 0.8524789322070543 
+            xmax = 0.9958784510539734 
+            text = "ƣɑ" 
+        intervals [8]:
+            xmin = 0.9958784510539734 
+            xmax = 1.1748831117303677 
+            text = "sɛn" 
+        intervals [9]:
+            xmin = 1.1748831117303677 
+            xmax = 1.358076242952199 
+            text = "tɛr" 
+        intervals [10]:
+            xmin = 1.358076242952199 
+            xmax = 1.5723113693590536 
+            text = "ƣɛn HP" 
+        intervals [11]:
+            xmin = 1.5723113693590536 
+            xmax = 1.714120256388405 
+            text = "bɛ" 
+        intervals [12]:
+            xmin = 1.714120256388405 
+            xmax = 1.91249300549116 
+            text = "dɪŋ" 
+        intervals [13]:
+            xmin = 1.91249300549116 
+            xmax = 2.20939056628875 
+            text = "bɑ LI!" 
+        intervals [14]:
+            xmin = 2.20939056628875 
+            xmax = 2.2358541666666665 
+            text = "" 

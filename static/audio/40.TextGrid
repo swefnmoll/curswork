@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.568798185941043 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 5.568798185941043 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2801488114655164 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2801488114655164 
+            xmax = 5.300229722598093 
+            text = "По ҷажыл абраҷтыӊ ичинде мысык уктапҷыт. // В этой зеленой тележке кошка спит. // ККТ // утвердит. // информативное" 
+        intervals [3]:
+            xmin = 5.300229722598093 
+            xmax = 5.568798185941043 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 5.568798185941043 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2801488114655164 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2801488114655164 
+            xmax = 5.300229722598093 
+            text = "По чажыл абрачтын ичинде мысык уктапчыт" 
+        intervals [3]:
+            xmin = 5.300229722598093 
+            xmax = 5.568798185941043 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 5.568798185941043 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2801488114655164 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2801488114655164 
+            xmax = 0.6796708216940606 
+            text = "pu" 
+        intervals [3]:
+            xmin = 0.6796708216940606 
+            xmax = 1.0965633541064546 
+            text = "- HP!" 
+        intervals [4]:
+            xmin = 1.0965633541064546 
+            xmax = 1.455554145906016 
+            text = "а" 
+        intervals [5]:
+            xmin = 1.455554145906016 
+            xmax = 1.7084878045828586 
+            text = "ћ̮ҫa" 
+        intervals [6]:
+            xmin = 1.7084878045828586 
+            xmax = 1.9415423105495093 
+            text = "ʒъl" 
+        intervals [7]:
+            xmin = 1.9415423105495093 
+            xmax = 2.1900545913424643 
+            text = "ab" 
+        intervals [8]:
+            xmin = 2.1900545913424643 
+            xmax = 2.4766682073759854 
+            text = "raћ̮ҫ" 
+        intervals [9]:
+            xmin = 2.4766682073759854 
+            xmax = 2.7719670845014313 
+            text = "tъŋ" 
+        intervals [10]:
+            xmin = 2.7719670845014313 
+            xmax = 3.053813635184581 
+            text = "-" 
+        intervals [11]:
+            xmin = 3.053813635184581 
+            xmax = 3.405566709407538 
+            text = "iћ̮ҫin LP" 
+        intervals [12]:
+            xmin = 3.405566709407538 
+            xmax = 3.631383497797585 
+            text = "de" 
+        intervals [13]:
+            xmin = 3.631383497797585 
+            xmax = 4.3253555127583585 
+            text = "- LI!" 
+        intervals [14]:
+            xmin = 4.3253555127583585 
+            xmax = 4.4446935239589855 
+            text = "mъ HI" 
+        intervals [15]:
+            xmin = 4.4446935239589855 
+            xmax = 4.684985747502241 
+            text = "sъk" 
+        intervals [16]:
+            xmin = 4.684985747502241 
+            xmax = 4.828292555519001 
+            text = "uk" 
+        intervals [17]:
+            xmin = 4.828292555519001 
+            xmax = 5.0266060171179525 
+            text = "tʌp" 
+        intervals [18]:
+            xmin = 5.0266060171179525 
+            xmax = 5.300229722598093 
+            text = "ћ̮ҫъt" 
+        intervals [19]:
+            xmin = 5.300229722598093 
+            xmax = 5.568798185941043 
+            text = "" 

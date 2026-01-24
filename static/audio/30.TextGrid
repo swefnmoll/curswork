@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.081927437641723 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 3.081927437641723 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010842191222185354 
+            text = "" 
+        intervals [2]:
+            xmin = 0.010842191222185354 
+            xmax = 3.035836373532448 
+            text = "Городто чаткелип, бойыны тилини таштыйсанар. // В город переезжая, свой язык теряют. // ГНФ // утвердительное // информативное" 
+        intervals [3]:
+            xmin = 3.035836373532448 
+            xmax = 3.081927437641723 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 3.081927437641723 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010842191222185354 
+            text = "" 
+        intervals [2]:
+            xmin = 0.010842191222185354 
+            xmax = 1.1644416675269464 
+            text = "городто чаткелип" 
+        intervals [3]:
+            xmin = 1.1644416675269464 
+            xmax = 1.340686031962396 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.340686031962396 
+            xmax = 3.035836373532448 
+            text = "бойыны тилини таштыйсанар" 
+        intervals [5]:
+            xmin = 3.035836373532448 
+            xmax = 3.081927437641723 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 3.081927437641723 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010842191222185354 
+            text = "" 
+        intervals [2]:
+            xmin = 0.010842191222185354 
+            xmax = 0.14450715010133988 
+            text = "qɔ HI!" 
+        intervals [3]:
+            xmin = 0.14450715010133988 
+            xmax = 0.3728237131199905 
+            text = "rdo" 
+        intervals [4]:
+            xmin = 0.3728237131199905 
+            xmax = 0.6872130115825451 
+            text = "ћʃat HP! LP" 
+        intervals [5]:
+            xmin = 0.6872130115825451 
+            xmax = 0.8864546936957122 
+            text = "ke LI" 
+        intervals [6]:
+            xmin = 0.8864546936957122 
+            xmax = 1.1644416675269464 
+            text = "lep" 
+        intervals [7]:
+            xmin = 1.1644416675269464 
+            xmax = 1.340686031962396 
+            text = "-" 
+        intervals [8]:
+            xmin = 1.340686031962396 
+            xmax = 1.4928504040695936 
+            text = "po" 
+        intervals [9]:
+            xmin = 1.4928504040695936 
+            xmax = 1.6554758857986673 
+            text = "jъ" 
+        intervals [10]:
+            xmin = 1.6554758857986673 
+            xmax = 1.774510340036019 
+            text = "nъ" 
+        intervals [11]:
+            xmin = 1.774510340036019 
+            xmax = 1.8669785481559074 
+            text = "til HP" 
+        intervals [12]:
+            xmin = 1.8669785481559074 
+            xmax = 1.999402154846118 
+            text = "li HI" 
+        intervals [13]:
+            xmin = 1.999402154846118 
+            xmax = 2.1158436021081997 
+            text = "ni" 
+        intervals [14]:
+            xmin = 2.1158436021081997 
+            xmax = 2.2842270675117002 
+            text = "taʃ" 
+        intervals [15]:
+            xmin = 2.2842270675117002 
+            xmax = 2.587888096646149 
+            text = "tъj LP LI" 
+        intervals [16]:
+            xmin = 2.587888096646149 
+            xmax = 2.7933730035792346 
+            text = "sa" 
+        intervals [17]:
+            xmin = 2.7933730035792346 
+            xmax = 3.035836373532448 
+            text = "nar" 
+        intervals [18]:
+            xmin = 3.035836373532448 
+            xmax = 3.081927437641723 
+            text = "" 

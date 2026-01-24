@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.2556458333333333 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 3.2556458333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10384893878186932 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10384893878186932 
+            xmax = 3.0513378885699063 
+            text = "Тууға сен чын чыктыӊ ба? //Ты действительно поднимался на гору? // ЯТН // вопр // мод" 
+        intervals [3]:
+            xmin = 3.0513378885699063 
+            xmax = 3.2556458333333333 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 3.2556458333333333 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10384893878186932 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10384893878186932 
+            xmax = 3.0513378885699063 
+            text = "Тууға сен чын чыктыӊ ба" 
+        intervals [3]:
+            xmin = 3.0513378885699063 
+            xmax = 3.2556458333333333 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 3.2556458333333333 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10384893878186932 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10384893878186932 
+            xmax = 0.3572380797048392 
+            text = "tu" 
+        intervals [3]:
+            xmin = 0.3572380797048392 
+            xmax = 0.6159961254149119 
+            text = "ga" 
+        intervals [4]:
+            xmin = 0.6159961254149119 
+            xmax = 1.0741500769368642 
+            text = "sen LP!" 
+        intervals [5]:
+            xmin = 1.0741500769368642 
+            xmax = 1.5855777437520666 
+            text = "ħçъn" 
+        intervals [6]:
+            xmin = 1.5855777437520666 
+            xmax = 2.3611873471300173 
+            text = "«fs» HP! LI!" 
+        intervals [7]:
+            xmin = 2.3611873471300173 
+            xmax = 2.6473433035623333 
+            text = "ħçъk" 
+        intervals [8]:
+            xmin = 2.6473433035623333 
+            xmax = 2.848980833715466 
+            text = "tъŋ" 
+        intervals [9]:
+            xmin = 2.848980833715466 
+            xmax = 3.0513378885699063 
+            text = "ba HI" 
+        intervals [10]:
+            xmin = 3.0513378885699063 
+            xmax = 3.2556458333333333 
+            text = "" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3699773242630386 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.3699773242630386 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12447235031953914 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12447235031953914 
+            xmax = 1.174283079177047 
+            text = "Қанары парҷылар? // Куда идут? // ККТ // вопрос // диктальный" 
+        intervals [3]:
+            xmin = 1.174283079177047 
+            xmax = 1.3699773242630386 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.3699773242630386 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12447235031953914 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12447235031953914 
+            xmax = 1.174283079177047 
+            text = "Қанары парҷылар" 
+        intervals [3]:
+            xmin = 1.174283079177047 
+            xmax = 1.3699773242630386 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.3699773242630386 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12447235031953914 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12447235031953914 
+            xmax = 0.2740383293290891 
+            text = "qa HI LI" 
+        intervals [3]:
+            xmin = 0.2740383293290891 
+            xmax = 0.4421220009779167 
+            text = "na HP" 
+        intervals [4]:
+            xmin = 0.4421220009779167 
+            xmax = 0.5745947252435181 
+            text = "rъ" 
+        intervals [5]:
+            xmin = 0.5745947252435181 
+            xmax = 0.7982314748101785 
+            text = "par LP!" 
+        intervals [6]:
+            xmin = 0.7982314748101785 
+            xmax = 0.9534952054010447 
+            text = "ћʃъ" 
+        intervals [7]:
+            xmin = 0.9534952054010447 
+            xmax = 1.174283079177047 
+            text = "lar" 
+        intervals [8]:
+            xmin = 1.174283079177047 
+            xmax = 1.3699773242630386 
+            text = "" 
