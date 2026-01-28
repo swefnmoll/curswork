@@ -8,14 +8,11 @@
 <body>
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
-  <div align="center">
-    {{ pagination.info }}
-  </div><br>
   <div class="pagination justify-content-center">
     {{ pagination.links }}<br>
   </div>
   <div class="main">
-  {% for file, dictor, text, index in result: %}
+  {% for file, text, dictor, index in result: %}
   {% if index % 2 == 0 %}
   <div class="res-elem-one">
     <audio controls>

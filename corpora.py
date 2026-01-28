@@ -26,6 +26,9 @@ def sen_data():
     cursor.execute('''SELECT name FROM dictors''')
     dictors = list(cursor.fetchall())
 
+    cursor.execute('''SELECT theme FROM themes''')
+    themes = list(cursor.fetchall())
+
     # Обрезка строк
     def cut(lst):
         for index, value in enumerate(lst):
@@ -34,7 +37,8 @@ def sen_data():
     cut(levels)
     cut(settlements)
     cut(dictors)
-    return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors)
+    cut(themes)
+    return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors, themes=themes)
 
 @app.route('/')
 def main_page():
@@ -109,10 +113,51 @@ def results():
         new_elem.append(i)
         result.append(new_elem)
     print(result)
-    pagination = Pagination(page=page, page_per=elem_to_display, total=total, prev_label='<', next_label='>', found=total, display_msg='Найдено записей: <b>{found}</b>, показано: <b>{start} - {end}</b>')
+    pagination = Pagination(page=page, page_per=elem_to_display, total=total, prev_label='<', next_label='>')
 
     return render_template('search_result.html', result=result, pagination=pagination, css_framework='bootstrap5')
 
+@app.route('/results_dialogs', methods=['POST', 'GET'])
+def results_dialogs():
+    page = request.args.get(get_page_parameter(), type=int, default=1)
+    elem_to_display = 10
+    offset = (page - 1) * elem_to_display
+    characteristics = {
+        'lang' : '%', 'dictor' : '%', 'education' : '%', 'theme' : '%',
+        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999}
+    
+    for char in characteristics.keys():
+        req_data = request.form.get(char)
+        if req_data:
+            characteristics[char] = req_data
+    # Поиск по БД
+    cursor.execute(
+    f'''
+    SELECT full_dialogs.id, languages.lang, themes.theme
+    FROM full_dialogs
+    INNER JOIN languages ON full_dialogs.lang = languages.id
+    INNER JOIN themes ON full_dialogs.theme = themes.id
+    WHERE full_dialogs.lang LIKE '{characteristics['lang']}'
+    AND full_dialogs.theme LIKE '{characteristics['theme']}'
+    LIMIT {elem_to_display} OFFSET {offset}
+    ''')
+
+    data = list(cursor.fetchall())
+    
+    def read_text_and_tranls(id):
+        with open(f'static/full_dialogs/texts/{id}.txt', 'r', encoding='utf-8') as file:
+            text = file.read().splitlines()
+        with open(f'static/full_dialogs/translations/{id}.txt', 'r', encoding='utf-8') as file:
+            transl = file.read().splitlines()
+        return text, transl
+    
+    result = []
+    for i, elem in enumerate(data):
+        new_elem = list(str(elem[0])) + list(elem[1:]) + list(read_text_and_tranls(elem[0]))
+        new_elem.append(i)
+        result.append(new_elem)
+    pagination = Pagination(page=page, page_per=elem_to_display, prev_label='<', next_label='>')
+    return render_template('result_dialogs.html', result=result, pagination=pagination, css_framework='bootstrap5')
 app.run(port=4444, debug=True)
 cursor.close()
 connection.close()

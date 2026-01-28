@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% include "top.html" %}
-<div class="title">Поиск по корпусу</div>
+<div class="title">Поиск по фразам</div><br>
 <form class="form" form method="post" action="{{ url_for('results') }}">
 <div>
     <label class="form-label">Язык</label>
@@ -41,7 +41,7 @@
     <div id="dobslider" class="dobslider"</div>
     <input type="hidden" name="dob" id="dob" /><br>
     <span id="result"></span><br>
-    <button type="submit" class="btn btn-primary">Поиск</button>
+    <button type="submit" class="btn btn-primary">Поиск</button><br>
 <script type="text/javascript">
     $("#dobslider").slider({
         animate: "slow",
@@ -58,8 +58,28 @@
     $( "#result" ).text("от " + $("#dobslider").slider("values", 0) + " до " + $("#dobslider").slider("values", 1));
     $("#result").text($("#dobslider").slider("value"));
     $("#dob").val($("#dobslider").slider("value"));
-</script>
-</div>
+</script><br>
+</div><br><br>
+</form><br>
+<div class="title">Поиск по диалогам</div><br>
+<form class="form" form method="post" action="{{ url_for('results_dialogs') }}">
+    <div>
+    <label class="form-label">Язык</label>
+    <select name="lang">
+        <option></option>
+        {% for lang in languages: %}
+            <option>{{ lang }}</option>
+        {% endfor %}
+    </select><br>
+    <label class="form-label">Тема</label>
+    <select name="theme">
+        <option></option>
+        {% for theme in themes: %}
+            <option>{{ theme }}</option>
+        {% endfor %}
+    </select><br>
+    <button type="submit" class="btn btn-primary">Поиск</button>
+    </div>
 </form>
 </body>
 </html>
