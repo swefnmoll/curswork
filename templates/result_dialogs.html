@@ -12,7 +12,7 @@
     {{ pagination.links }}<br>
   </div>
   <div class="main">
-  {% for id, lang, theme, text, transl, index in result: %}
+  {% for lang, theme, text, transl, index, id in result: %}
   {% if index % 2 == 0 %}
   <div class="res-elem-one">
     <audio controls>

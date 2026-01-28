@@ -135,10 +135,10 @@ def results_dialogs():
     f'''
     SELECT full_dialogs.id, languages.lang, themes.theme
     FROM full_dialogs
-    INNER JOIN languages ON full_dialogs.lang = languages.id
-    INNER JOIN themes ON full_dialogs.theme = themes.id
-    WHERE full_dialogs.lang LIKE '{characteristics['lang']}'
-    AND full_dialogs.theme LIKE '{characteristics['theme']}'
+    INNER JOIN languages ON languages.id = full_dialogs.lang 
+    INNER JOIN themes ON themes.id = full_dialogs.theme
+    WHERE languages.lang LIKE '{characteristics['lang']}'
+    AND themes.theme LIKE '{characteristics['theme']}'
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
 
@@ -153,8 +153,12 @@ def results_dialogs():
     
     result = []
     for i, elem in enumerate(data):
-        new_elem = list(str(elem[0])) + list(elem[1:]) + list(read_text_and_tranls(elem[0]))
+        new_elem = list(elem[1:]) + list(read_text_and_tranls(elem[0]))
         new_elem.append(i)
+        new_elem.append(str(elem[0]))
+        print(len(new_elem))
+        if len(new_elem) > 6:
+            print(new_elem)
         result.append(new_elem)
     pagination = Pagination(page=page, page_per=elem_to_display, prev_label='<', next_label='>')
     return render_template('result_dialogs.html', result=result, pagination=pagination, css_framework='bootstrap5')
