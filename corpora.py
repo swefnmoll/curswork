@@ -44,6 +44,27 @@ def sen_data():
 def main_page():
     return render_template('main_page.html')
 
+@app.route('/info_barab')
+def info_barab():
+    return render_template('info_barab.html')
+
+@app.route('/info_chat')
+def info_chat():
+    return render_template('info_chat.html')
+
+@app.route('/info_kumand')
+def info_kumand():
+    return render_template('info_kumand.html')
+
+@app.route('/info_plautdietsch')
+def info_plotd():
+    return render_template('info_plotd.html')
+
+@app.route('/info_teleut')
+def info_teleut():
+    return render_template('info_teleut.html')
+
+
 @app.route('/methods')
 def methods():
     return render_template('methods.html')

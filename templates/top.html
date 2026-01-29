@@ -12,8 +12,8 @@
 </head>
 <body>
 {% block navbar %}
-    <nav class="navbar bg-dark navbar-dark sticky-top justify-content-center">
-        <span class="navbar-brand">Корпус "Интонация диалогической речи миноритарных народов НСО и сопредельных регионов"</span><br>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <span class="navbar-brand">Корпус "Интонация диалогической речи миноритарных народов Новосибирской области и сопредельных регионов"</span><br>
         <div class="container-fluid">
             <ul class="navbar-nav d-flex flex-row align-items-center justify-content-between w-100">
                 <li class="nav-item">
@@ -34,6 +34,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('for_citation') }}">Для цитирования</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="Info" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Информация о языках
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="Info">
+                        <li><a class="dropdown-item" href="{{ url_for('info_barab') }}">Барабинский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_chat') }}">Чатский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_kumand') }}">Кумандинский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_plotd') }}">Плотдич</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_teleut') }}">Телеутский язык</a></li>
+                    </ul>
+                </li>
             </ul>
+        </div>
     </nav>
 {% endblock %}
