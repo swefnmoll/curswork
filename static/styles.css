@@ -60,17 +60,17 @@ width: 25%;
   background-color: white;
 }
 .navbar-brand {
-background-color: green;
+background-color: lightblue;
 display: flex;
 text-align: justify;
 justify-content: center;
 }
 .navbar {
-background-color: green;
+background-color: lightblue;
 justify-content: center;
 flex-direction: column;
-color: whitesmoke;
+color: black;
 }
 .navbar .navbar-nav > li > a {
-    color: whitesmoke;
+    color: rgb(99, 99, 99);
 }
