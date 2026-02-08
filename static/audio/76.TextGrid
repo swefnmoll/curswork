@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0039909297052154 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.0039909297052154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7582449658091664 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7582449658091664 
+            xmax = 1.5954706602973718 
+            text = "Хәләң қандый? // Дела твои как? // ВСА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.5954706602973718 
+            xmax = 2.0039909297052154 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.0039909297052154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7582449658091664 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7582449658091664 
+            xmax = 1.5954706602973718 
+            text = "Хәләң қандый?" 
+        intervals [3]:
+            xmin = 1.5954706602973718 
+            xmax = 2.0039909297052154 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.0039909297052154 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7582449658091664 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7582449658091664 
+            xmax = 0.9437987516345464 
+            text = "xɐ HI" 
+        intervals [3]:
+            xmin = 0.9437987516345464 
+            xmax = 1.1465892742824573 
+            text = "ləŋ HP" 
+        intervals [4]:
+            xmin = 1.1465892742824573 
+            xmax = 1.3985711466667472 
+            text = "qɐn LP" 
+        intervals [5]:
+            xmin = 1.3985711466667472 
+            xmax = 1.5954706602973718 
+            text = "dɨ LI" 
+        intervals [6]:
+            xmin = 1.5954706602973718 
+            xmax = 2.0039909297052154 
+            text = "" 

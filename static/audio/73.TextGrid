@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2670068027210883 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.2670068027210883 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22706151094995558 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22706151094995558 
+            xmax = 1.0578600858388172 
+            text = "Немедэ бардыңнар? // На чем ездили? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.0578600858388172 
+            xmax = 1.2670068027210883 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.2670068027210883 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22706151094995558 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22706151094995558 
+            xmax = 1.0578600858388172 
+            text = "немедэ бардыңнар" 
+        intervals [3]:
+            xmin = 1.0578600858388172 
+            xmax = 1.2670068027210883 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.2670068027210883 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22706151094995558 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22706151094995558 
+            xmax = 0.3071829567116772 
+            text = "nʲɪ HP" 
+        intervals [3]:
+            xmin = 0.3071829567116772 
+            xmax = 0.4377416800333829 
+            text = "mʲɪ" 
+        intervals [4]:
+            xmin = 0.4377416800333829 
+            xmax = 0.564363493005575 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.564363493005575 
+            xmax = 0.7356645849386004 
+            text = "bʌɾ LP HI" 
+        intervals [6]:
+            xmin = 0.7356645849386004 
+            xmax = 0.8228867866537397 
+            text = "dɨ" 
+        intervals [7]:
+            xmin = 0.8228867866537397 
+            xmax = 1.0578600858388172 
+            text = "nɐr̥ LI" 
+        intervals [8]:
+            xmin = 1.0578600858388172 
+            xmax = 1.2670068027210883 
+            text = "" 

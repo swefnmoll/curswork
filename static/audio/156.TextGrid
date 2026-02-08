@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.264354196404363 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 5.264354196404363 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16864274919881578 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16864274919881578 
+            xmax = 4.834774940178099 
+            text = "А... öстä... ммм... мостик қатында кемлäр йöреп йады? // А наверху, возле мостика, кто ходит? // СРС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 4.834774940178099 
+            xmax = 5.264354196404363 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 5.264354196404363 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16864274919881578 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16864274919881578 
+            xmax = 0.6888076053226188 
+            text = "ааа" 
+        intervals [3]:
+            xmin = 0.6888076053226188 
+            xmax = 1.39008668039431 
+            text = "öстä" 
+        intervals [4]:
+            xmin = 1.39008668039431 
+            xmax = 1.8326215727313113 
+            text = "-" 
+        intervals [5]:
+            xmin = 1.8326215727313113 
+            xmax = 2.6826123720371378 
+            text = "ммм" 
+        intervals [6]:
+            xmin = 2.6826123720371378 
+            xmax = 2.944355570553535 
+            text = "-" 
+        intervals [7]:
+            xmin = 2.944355570553535 
+            xmax = 3.9384856306937617 
+            text = "мостик қатында " 
+        intervals [8]:
+            xmin = 3.9384856306937617 
+            xmax = 4.834774940178099 
+            text = "кымнар йöрып йады?" 
+        intervals [9]:
+            xmin = 4.834774940178099 
+            xmax = 5.264354196404363 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 5.264354196404363 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16864274919881578 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16864274919881578 
+            xmax = 0.6888076053226188 
+            text = "ɛː HP! LP HI LI" 
+        intervals [3]:
+            xmin = 0.6888076053226188 
+            xmax = 0.9578752113605002 
+            text = "ʏsʲ HP" 
+        intervals [4]:
+            xmin = 0.9578752113605002 
+            xmax = 1.39008668039431 
+            text = "tʲø LP HI LI" 
+        intervals [5]:
+            xmin = 1.39008668039431 
+            xmax = 1.8326215727313113 
+            text = "-" 
+        intervals [6]:
+            xmin = 1.8326215727313113 
+            xmax = 2.6826123720371378 
+            text = "mː HP LP! HI LI" 
+        intervals [7]:
+            xmin = 2.6826123720371378 
+            xmax = 2.944355570553535 
+            text = "-" 
+        intervals [8]:
+            xmin = 2.944355570553535 
+            xmax = 3.260891541127176 
+            text = "mɔsʲ HI" 
+        intervals [9]:
+            xmin = 3.260891541127176 
+            xmax = 3.439250749675014 
+            text = "tʲik HP" 
+        intervals [10]:
+            xmin = 3.439250749675014 
+            xmax = 3.6267827175195984 
+            text = "qʌ LP LI" 
+        intervals [11]:
+            xmin = 3.6267827175195984 
+            xmax = 3.793930775815858 
+            text = "tɯn" 
+        intervals [12]:
+            xmin = 3.793930775815858 
+            xmax = 3.9384856306937617 
+            text = "dʌ" 
+        intervals [13]:
+            xmin = 3.9384856306937617 
+            xmax = 4.072927268971039 
+            text = "qɯm LP" 
+        intervals [14]:
+            xmin = 4.072927268971039 
+            xmax = 4.26657440968012 
+            text = "nʲɛrʲ HI" 
+        intervals [15]:
+            xmin = 4.26657440968012 
+            xmax = 4.620235240343548 
+            text = "jørʲpʲ HP LI" 
+        intervals [16]:
+            xmin = 4.620235240343548 
+            xmax = 4.739481111201245 
+            text = "jʌ" 
+        intervals [17]:
+            xmin = 4.739481111201245 
+            xmax = 4.834774940178099 
+            text = "dɯ" 
+        intervals [18]:
+            xmin = 4.834774940178099 
+            xmax = 5.264354196404363 
+            text = "" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4119954648526076 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.4119954648526076 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2319435603077386 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2319435603077386 
+            xmax = 1.0706253235491499 
+            text = "Көш менэ неме этезең? // C мясом что будешь делать? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.0706253235491499 
+            xmax = 1.4119954648526076 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.4119954648526076 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2319435603077386 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2319435603077386 
+            xmax = 1.0706253235491499 
+            text = "Көш менэ неме этезең" 
+        intervals [3]:
+            xmin = 1.0706253235491499 
+            xmax = 1.4119954648526076 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.4119954648526076 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2319435603077386 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2319435603077386 
+            xmax = 0.4511673270366532 
+            text = "kɵʃ HP HI" 
+        intervals [3]:
+            xmin = 0.4511673270366532 
+            xmax = 0.5618764303983693 
+            text = "mn̩" 
+        intervals [4]:
+            xmin = 0.5618764303983693 
+            xmax = 0.7305455966272221 
+            text = "nʲim LP" 
+        intervals [5]:
+            xmin = 0.7305455966272221 
+            xmax = 0.8798486130152846 
+            text = "te" 
+        intervals [6]:
+            xmin = 0.8798486130152846 
+            xmax = 1.0706253235491499 
+            text = "zn̩ LI" 
+        intervals [7]:
+            xmin = 1.0706253235491499 
+            xmax = 1.4119954648526076 
+            text = "" 

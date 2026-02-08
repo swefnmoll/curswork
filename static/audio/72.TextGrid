@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3229931972789115 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.3229931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11778557599698045 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11778557599698045 
+            xmax = 1.104866306023211 
+            text = "Балларың қандый? // Дети твои как? // ВСА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.104866306023211 
+            xmax = 1.3229931972789115 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.3229931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11778557599698045 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11778557599698045 
+            xmax = 1.104866306023211 
+            text = "балларың қандый" 
+        intervals [3]:
+            xmin = 1.104866306023211 
+            xmax = 1.3229931972789115 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.3229931972789115 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11778557599698045 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11778557599698045 
+            xmax = 0.3496844562183565 
+            text = "bɑl LP" 
+        intervals [3]:
+            xmin = 0.3496844562183565 
+            xmax = 0.5134405315094316 
+            text = "lɐ HI" 
+        intervals [4]:
+            xmin = 0.5134405315094316 
+            xmax = 0.6878149124608763 
+            text = "rəŋ HP" 
+        intervals [5]:
+            xmin = 0.6878149124608763 
+            xmax = 0.9027206411135461 
+            text = "qan" 
+        intervals [6]:
+            xmin = 0.9027206411135461 
+            xmax = 1.104866306023211 
+            text = "dɨ LI!" 
+        intervals [7]:
+            xmin = 1.104866306023211 
+            xmax = 1.3229931972789115 
+            text = "" 

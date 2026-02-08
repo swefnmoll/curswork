@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3508843537414967 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.3508843537414967 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2725449027721975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2725449027721975 
+            xmax = 1.323478126083236 
+            text = "Ӓ синеке болҕан ма? //  А у тебя бывало? // КРХ // вопрос // модал" 
+        intervals [3]:
+            xmin = 1.323478126083236 
+            xmax = 1.3508843537414967 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.3508843537414967 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2725449027721975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2725449027721975 
+            xmax = 1.323478126083236 
+            text = "ӓ синеке болҕан ма" 
+        intervals [3]:
+            xmin = 1.323478126083236 
+            xmax = 1.3508843537414967 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.3508843537414967 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2725449027721975 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2725449027721975 
+            xmax = 0.3626926736205484 
+            text = "ʔɜ" 
+        intervals [3]:
+            xmin = 0.3626926736205484 
+            xmax = 0.5061053223711123 
+            text = "sʲi LP" 
+        intervals [4]:
+            xmin = 0.5061053223711123 
+            xmax = 0.6020744814034206 
+            text = "nʲi" 
+        intervals [5]:
+            xmin = 0.6020744814034206 
+            xmax = 0.7103473787732044 
+            text = "kɪ" 
+        intervals [6]:
+            xmin = 0.7103473787732044 
+            xmax = 0.8893667715834718 
+            text = "bol HP HI" 
+        intervals [7]:
+            xmin = 0.8893667715834718 
+            xmax = 1.0511609307212737 
+            text = "ɣʌn" 
+        intervals [8]:
+            xmin = 1.0511609307212737 
+            xmax = 1.323478126083236 
+            text = "mʌ LI" 
+        intervals [9]:
+            xmin = 1.323478126083236 
+            xmax = 1.3508843537414967 
+            text = "" 

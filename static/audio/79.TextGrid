@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.950997732426304 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.950997732426304 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16983402686119536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16983402686119536 
+            xmax = 1.736064919133643 
+            text = "Сенең дэ белең аβырғанты? // У тебя тоже поясница болела? // ВСА // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.736064919133643 
+            xmax = 1.950997732426304 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.950997732426304 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16983402686119536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16983402686119536 
+            xmax = 1.736064919133643 
+            text = "Сенең дэ белең аβырғанты? " 
+        intervals [3]:
+            xmin = 1.736064919133643 
+            xmax = 1.950997732426304 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.950997732426304 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16983402686119536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16983402686119536 
+            xmax = 0.3934530823094498 
+            text = "sʲe" 
+        intervals [3]:
+            xmin = 0.3934530823094498 
+            xmax = 0.5651978236447996 
+            text = "nɨm HP HI" 
+        intervals [4]:
+            xmin = 0.5651978236447996 
+            xmax = 0.6615823143492453 
+            text = "dɘ" 
+        intervals [5]:
+            xmin = 0.6615823143492453 
+            xmax = 0.8331426281656289 
+            text = "bʲe" 
+        intervals [6]:
+            xmin = 0.8331426281656289 
+            xmax = 1.0271941531163777 
+            text = "lʲəm LP" 
+        intervals [7]:
+            xmin = 1.0271941531163777 
+            xmax = 1.1118641785913066 
+            text = "ɔ" 
+        intervals [8]:
+            xmin = 1.1118641785913066 
+            xmax = 1.2515297477350402 
+            text = "ur" 
+        intervals [9]:
+            xmin = 1.2515297477350402 
+            xmax = 1.5211157652868088 
+            text = "ɣɘn" 
+        intervals [10]:
+            xmin = 1.5211157652868088 
+            xmax = 1.736064919133643 
+            text = "tɨ LI" 
+        intervals [11]:
+            xmin = 1.736064919133643 
+            xmax = 1.950997732426304 
+            text = "" 

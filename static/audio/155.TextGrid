@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1071975921827648 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.1071975921827648 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06465034332009356 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06465034332009356 
+            xmax = 0.9796914138172466 
+            text = "Кем анда тäрäзä отысып йады? // Кто там окно ставит? // СРС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 0.9796914138172466 
+            xmax = 1.1071975921827648 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 1.1071975921827648 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06465034332009356 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06465034332009356 
+            xmax = 0.9796914138172466 
+            text = "Кем анда тäрäзä отысып йады" 
+        intervals [3]:
+            xmin = 0.9796914138172466 
+            xmax = 1.1071975921827648 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.1071975921827648 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06465034332009356 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06465034332009356 
+            xmax = 0.22997955794434022 
+            text = "qɯm HP! HI!" 
+        intervals [3]:
+            xmin = 0.22997955794434022 
+            xmax = 0.37086973394976874 
+            text = "ʌn LP" 
+        intervals [4]:
+            xmin = 0.37086973394976874 
+            xmax = 0.4779806238454669 
+            text = "də" 
+        intervals [5]:
+            xmin = 0.4779806238454669 
+            xmax = 0.6007045883148578 
+            text = "tɘ" 
+        intervals [6]:
+            xmin = 0.6007045883148578 
+            xmax = 0.7559774990132531 
+            text = "rɘs" 
+        intervals [7]:
+            xmin = 0.7559774990132531 
+            xmax = 0.8139747684914722 
+            text = "o" 
+        intervals [8]:
+            xmin = 0.8139747684914722 
+            xmax = 0.9796914138172466 
+            text = "tsup LI!" 
+        intervals [9]:
+            xmin = 0.9796914138172466 
+            xmax = 1.1071975921827648 
+            text = "" 

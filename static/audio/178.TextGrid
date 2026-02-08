@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.697641723356009 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.697641723356009 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28387285767544806 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28387285767544806 
+            xmax = 1.4644502169631122 
+            text = "Син бöгӱн аш иден мӓ? // Ты сегодня ела? // ШСГ // вопрос // модал" 
+        intervals [3]:
+            xmin = 1.4644502169631122 
+            xmax = 1.697641723356009 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.697641723356009 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28387285767544806 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28387285767544806 
+            xmax = 1.4644502169631122 
+            text = "син бöгӱн аш иден мӓ" 
+        intervals [3]:
+            xmin = 1.4644502169631122 
+            xmax = 1.697641723356009 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.697641723356009 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28387285767544806 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28387285767544806 
+            xmax = 0.49717905114297256 
+            text = "sʲinʲ LI" 
+        intervals [3]:
+            xmin = 0.49717905114297256 
+            xmax = 0.5925476727604436 
+            text = "bʲʏ" 
+        intervals [4]:
+            xmin = 0.5925476727604436 
+            xmax = 0.7293809124724672 
+            text = "gʉn HI" 
+        intervals [5]:
+            xmin = 0.7293809124724672 
+            xmax = 0.9297932332628048 
+            text = "ʌʃ HP" 
+        intervals [6]:
+            xmin = 0.9297932332628048 
+            xmax = 1.028865300751007 
+            text = "ɪ LP" 
+        intervals [7]:
+            xmin = 1.028865300751007 
+            xmax = 1.1979291601726387 
+            text = "dɘn" 
+        intervals [8]:
+            xmin = 1.1979291601726387 
+            xmax = 1.4644502169631122 
+            text = "mʌ" 
+        intervals [9]:
+            xmin = 1.4644502169631122 
+            xmax = 1.697641723356009 
+            text = "" 

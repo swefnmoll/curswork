@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8567120181405896 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.8567120181405896 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13983379185188358 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13983379185188358 
+            xmax = 1.715791359001017 
+            text = "Ниме ешледе кöгäль? // Что делает утка? // СРС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 1.715791359001017 
+            xmax = 1.8567120181405896 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.8567120181405896 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13983379185188358 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13983379185188358 
+            xmax = 0.7082653833132606 
+            text = "Ним(е) еш(л)еде " 
+        intervals [3]:
+            xmin = 0.7082653833132606 
+            xmax = 1.306042391542242 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.306042391542242 
+            xmax = 1.715791359001017 
+            text = "кöгäль" 
+        intervals [5]:
+            xmin = 1.715791359001017 
+            xmax = 1.8567120181405896 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.8567120181405896 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13983379185188358 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13983379185188358 
+            xmax = 0.3243904186096897 
+            text = "nʲim HP!" 
+        intervals [3]:
+            xmin = 0.3243904186096897 
+            xmax = 0.7082653833132606 
+            text = "ʃɯlʲ LP! HI LI!" 
+        intervals [4]:
+            xmin = 0.7082653833132606 
+            xmax = 1.306042391542242 
+            text = "-" 
+        intervals [5]:
+            xmin = 1.306042391542242 
+            xmax = 1.4387077231242182 
+            text = "ko HP LP HI" 
+        intervals [6]:
+            xmin = 1.4387077231242182 
+            xmax = 1.715791359001017 
+            text = "gʌlʲ LI" 
+        intervals [7]:
+            xmin = 1.715791359001017 
+            xmax = 1.8567120181405896 
+            text = "" 

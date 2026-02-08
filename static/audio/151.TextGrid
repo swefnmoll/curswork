@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0318820861678004 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.0318820861678004 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.32287586039102334 
+            text = "" 
+        intervals [2]:
+            xmin = 0.32287586039102334 
+            xmax = 1.664292343022398 
+            text = "Техника бойында кем анда? // Кто там рядом с техникой? // АФС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 1.664292343022398 
+            xmax = 2.0318820861678004 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.0318820861678004 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.32287586039102334 
+            text = "" 
+        intervals [2]:
+            xmin = 0.32287586039102334 
+            xmax = 1.1583866981442794 
+            text = "техника бойында " 
+        intervals [3]:
+            xmin = 1.1583866981442794 
+            xmax = 1.664292343022398 
+            text = "кым анда" 
+        intervals [4]:
+            xmin = 1.664292343022398 
+            xmax = 2.0318820861678004 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.0318820861678004 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.32287586039102334 
+            text = "" 
+        intervals [2]:
+            xmin = 0.32287586039102334 
+            xmax = 0.5134514467037375 
+            text = "tʲeχ HP HI" 
+        intervals [3]:
+            xmin = 0.5134514467037375 
+            xmax = 0.6318099385884892 
+            text = "nʲi" 
+        intervals [4]:
+            xmin = 0.6318099385884892 
+            xmax = 0.7408758216062563 
+            text = "kɘ" 
+        intervals [5]:
+            xmin = 0.7408758216062563 
+            xmax = 0.8890684788008008 
+            text = "bɵ LP" 
+        intervals [6]:
+            xmin = 0.8890684788008008 
+            xmax = 1.0181868335841662 
+            text = "ɪn" 
+        intervals [7]:
+            xmin = 1.0181868335841662 
+            xmax = 1.1583866981442794 
+            text = "dʌ LI" 
+        intervals [8]:
+            xmin = 1.1583866981442794 
+            xmax = 1.3573205745319061 
+            text = "qɯm HP HI LI" 
+        intervals [9]:
+            xmin = 1.3573205745319061 
+            xmax = 1.5094259091441282 
+            text = "ʌn LP" 
+        intervals [10]:
+            xmin = 1.5094259091441282 
+            xmax = 1.664292343022398 
+            text = "dʌ" 
+        intervals [11]:
+            xmin = 1.664292343022398 
+            xmax = 2.0318820861678004 
+            text = "" 

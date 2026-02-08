@@ -24,11 +24,12 @@ class AddedFile:
         self.filename = str(max_id + 1) + path.splitext(file.filename)[1]
         self.path = fr'static\audio\{self.filename}'
         file.save(self.path)
-        self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))
+        self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))        
         if self.filename.endswith('.wav'):
             ann_file = Annotation(self.path)
             ann_file.annotate()
             data = self.read_data()
+            self.tg = mtg.read_from_file(pathlib.PurePath(self.path).with_suffix('.TextGrid'))
             self.draw_image()
             self.upload_file(data)
 

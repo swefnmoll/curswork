@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5501321344415493 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.5501321344415493 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.053536745616505566 
+            text = "" 
+        intervals [2]:
+            xmin = 0.053536745616505566 
+            xmax = 1.3676205016580074 
+            text = "Берегта мында кем? // Кто там на берегу? // АФС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 1.3676205016580074 
+            xmax = 1.5501321344415493 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.5501321344415493 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.053536745616505566 
+            text = "" 
+        intervals [2]:
+            xmin = 0.053536745616505566 
+            xmax = 1.3676205016580074 
+            text = "беректа мында кым" 
+        intervals [3]:
+            xmin = 1.3676205016580074 
+            xmax = 1.5501321344415493 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.5501321344415493 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.053536745616505566 
+            text = "" 
+        intervals [2]:
+            xmin = 0.053536745616505566 
+            xmax = 0.23924400636211035 
+            text = "pʲe HP!" 
+        intervals [3]:
+            xmin = 0.23924400636211035 
+            xmax = 0.4443173099252909 
+            text = "rʲek" 
+        intervals [4]:
+            xmin = 0.4443173099252909 
+            xmax = 0.5559280016875529 
+            text = "tɘ LI" 
+        intervals [5]:
+            xmin = 0.5559280016875529 
+            xmax = 0.8181677571289652 
+            text = "mɘn" 
+        intervals [6]:
+            xmin = 0.8181677571289652 
+            xmax = 1.0177966367037428 
+            text = "dʌ LP!" 
+        intervals [7]:
+            xmin = 1.0177966367037428 
+            xmax = 1.3676205016580074 
+            text = "qɯm HI!" 
+        intervals [8]:
+            xmin = 1.3676205016580074 
+            xmax = 1.5501321344415493 
+            text = "" 

@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.9690022675736962 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.9690022675736962 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05264149241956481 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05264149241956481 
+            xmax = 3.651499681809729 
+            text = "Син таў башына аҕынып пақтымады бербер чақны? // Ты на вершину горы когда-нибудь поднималась? // АМГ // вопрос // модал" 
+        intervals [3]:
+            xmin = 3.651499681809729 
+            xmax = 3.9690022675736962 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.9690022675736962 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05264149241956481 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05264149241956481 
+            xmax = 0.6450939380583588 
+            text = "син" 
+        intervals [3]:
+            xmin = 0.6450939380583588 
+            xmax = 1.1144092087212465 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.1144092087212465 
+            xmax = 2.840653001308007 
+            text = "таў башына аҕынып пақтымады " 
+        intervals [5]:
+            xmin = 2.840653001308007 
+            xmax = 3.651499681809729 
+            text = "бербер чақны" 
+        intervals [6]:
+            xmin = 3.651499681809729 
+            xmax = 3.9690022675736962 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.9690022675736962 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05264149241956481 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05264149241956481 
+            xmax = 0.31082227523445594 
+            text = "sʲinʲ HP HI" 
+        intervals [3]:
+            xmin = 0.31082227523445594 
+            xmax = 0.6450939380583588 
+            text = "nʲe LP LI!" 
+        intervals [4]:
+            xmin = 0.6450939380583588 
+            xmax = 1.1144092087212465 
+            text = "-" 
+        intervals [5]:
+            xmin = 1.1144092087212465 
+            xmax = 1.3561546660245662 
+            text = "tʌw" 
+        intervals [6]:
+            xmin = 1.3561546660245662 
+            xmax = 1.6697397649881622 
+            text = "βʌʃ HI" 
+        intervals [7]:
+            xmin = 1.6697397649881622 
+            xmax = 1.8136449704081847 
+            text = "nʌ" 
+        intervals [8]:
+            xmin = 1.8136449704081847 
+            xmax = 2.0303180245375265 
+            text = "ʌŋ HP" 
+        intervals [9]:
+            xmin = 2.0303180245375265 
+            xmax = 2.3123715493858845 
+            text = "pʌχ LP LI" 
+        intervals [10]:
+            xmin = 2.3123715493858845 
+            xmax = 2.5021175258872854 
+            text = "tɯn" 
+        intervals [11]:
+            xmin = 2.5021175258872854 
+            xmax = 2.659949041509246 
+            text = "mɘ" 
+        intervals [12]:
+            xmin = 2.659949041509246 
+            xmax = 2.840653001308007 
+            text = "dʲe" 
+        intervals [13]:
+            xmin = 2.840653001308007 
+            xmax = 2.950458985664328 
+            text = "pɯr HP HI" 
+        intervals [14]:
+            xmin = 2.950458985664328 
+            xmax = 3.131501018289518 
+            text = "βɘr" 
+        intervals [15]:
+            xmin = 3.131501018289518 
+            xmax = 3.484300876738606 
+            text = "tʃʌq LP LI" 
+        intervals [16]:
+            xmin = 3.484300876738606 
+            xmax = 3.651499681809729 
+            text = "nɘ" 
+        intervals [17]:
+            xmin = 3.651499681809729 
+            xmax = 3.9690022675736962 
+            text = "" 

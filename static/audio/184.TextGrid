@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7969160997732426 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 0.7969160997732426 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0679481866139623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0679481866139623 
+            xmax = 0.7257024663802984 
+            text = "Ӓ синчӓ? // А ты? // ЮНХ // вопрос // модал" 
+        intervals [3]:
+            xmin = 0.7257024663802984 
+            xmax = 0.7969160997732426 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 0.7969160997732426 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0679481866139623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0679481866139623 
+            xmax = 0.7257024663802984 
+            text = "ӓ синчӓ" 
+        intervals [3]:
+            xmin = 0.7257024663802984 
+            xmax = 0.7969160997732426 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 0.7969160997732426 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0679481866139623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0679481866139623 
+            xmax = 0.2204912004321126 
+            text = "ʔɜ LP" 
+        intervals [3]:
+            xmin = 0.2204912004321126 
+            xmax = 0.47286358720770677 
+            text = "sʲɪnʲ HP! HI!" 
+        intervals [4]:
+            xmin = 0.47286358720770677 
+            xmax = 0.7257024663802984 
+            text = "tʃɘ LI!" 
+        intervals [5]:
+            xmin = 0.7257024663802984 
+            xmax = 0.7969160997732426 
+            text = "" 

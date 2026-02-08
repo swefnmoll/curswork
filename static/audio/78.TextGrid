@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6409977324263039 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.6409977324263039 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11708692789377532 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11708692789377532 
+            xmax = 1.4151955324990062 
+            text = "Тэзезэ аβырар йоқ па? // Колено его не болит? // ВСА // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.4151955324990062 
+            xmax = 1.6409977324263039 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.6409977324263039 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11708692789377532 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11708692789377532 
+            xmax = 1.4151955324990062 
+            text = "Тэзезэ аβырар йоқ па?" 
+        intervals [3]:
+            xmin = 1.4151955324990062 
+            xmax = 1.6409977324263039 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.6409977324263039 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11708692789377532 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11708692789377532 
+            xmax = 0.20521210456477026 
+            text = "tɨ" 
+        intervals [3]:
+            xmin = 0.20521210456477026 
+            xmax = 0.44554307668063375 
+            text = "zʲe HI!" 
+        intervals [4]:
+            xmin = 0.44554307668063375 
+            xmax = 0.5984279271348497 
+            text = "zɛ" 
+        intervals [5]:
+            xmin = 0.5984279271348497 
+            xmax = 0.6903151097367818 
+            text = "ɐ" 
+        intervals [6]:
+            xmin = 0.6903151097367818 
+            xmax = 0.8078515316986664 
+            text = "βu HP" 
+        intervals [7]:
+            xmin = 0.8078515316986664 
+            xmax = 1.000112802149334 
+            text = "ɾʌɾ LP!" 
+        intervals [8]:
+            xmin = 1.000112802149334 
+            xmax = 1.28549594836515 
+            text = "jɔx LI!" 
+        intervals [9]:
+            xmin = 1.28549594836515 
+            xmax = 1.4151955324990062 
+            text = "pə" 
+        intervals [10]:
+            xmin = 1.4151955324990062 
+            xmax = 1.6409977324263039 
+            text = "" 

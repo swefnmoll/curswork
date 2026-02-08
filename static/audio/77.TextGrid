@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.63 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 0.63 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07471067243303572 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07471067243303572 
+            xmax = 0.5567922894474036 
+            text = "Алдың ба? // Взяла? // МАА // вопрос // мод" 
+        intervals [3]:
+            xmin = 0.5567922894474036 
+            xmax = 0.63 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 0.63 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07471067243303572 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07471067243303572 
+            xmax = 0.5567922894474036 
+            text = "алдың бa" 
+        intervals [3]:
+            xmin = 0.5567922894474036 
+            xmax = 0.63 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 0.63 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07471067243303572 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07471067243303572 
+            xmax = 0.2447631170781323 
+            text = "ɑl LP" 
+        intervals [3]:
+            xmin = 0.2447631170781323 
+            xmax = 0.44748518868155374 
+            text = "dɨŋ HP HI! LI" 
+        intervals [4]:
+            xmin = 0.44748518868155374 
+            xmax = 0.5567922894474036 
+            text = "bʌ" 
+        intervals [5]:
+            xmin = 0.5567922894474036 
+            xmax = 0.63 
+            text = "" 

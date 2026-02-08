@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.4902267573696144 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.4902267573696144 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11903310035351237 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11903310035351237 
+            xmax = 2.3070544566969087 
+            text = "Ӱӱ тäбäзендä анда чердақта нимä ешлäп едылар? // На крыше дома, там, на чердаке, что делают? // СРС // вопрос // диктал" 
+        intervals [3]:
+            xmin = 2.3070544566969087 
+            xmax = 2.4902267573696144 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.4902267573696144 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11903310035351237 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11903310035351237 
+            xmax = 0.8391413948462757 
+            text = "Ӱӱ тäбäзендä" 
+        intervals [3]:
+            xmin = 0.8391413948462757 
+            xmax = 1.00386252293875 
+            text = "анда" 
+        intervals [4]:
+            xmin = 1.00386252293875 
+            xmax = 1.5009413254124995 
+            text = "чирдакта" 
+        intervals [5]:
+            xmin = 1.5009413254124995 
+            xmax = 1.616100344167415 
+            text = "ним(ä)" 
+        intervals [6]:
+            xmin = 1.616100344167415 
+            xmax = 2.3070544566969087 
+            text = "ешлäп едылар" 
+        intervals [7]:
+            xmin = 2.3070544566969087 
+            xmax = 2.4902267573696144 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.4902267573696144 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11903310035351237 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11903310035351237 
+            xmax = 0.27068795064848766 
+            text = "ʔʉ HP" 
+        intervals [3]:
+            xmin = 0.27068795064848766 
+            xmax = 0.3898694548824099 
+            text = "tʲø HI LI" 
+        intervals [4]:
+            xmin = 0.3898694548824099 
+            xmax = 0.5474314435306461 
+            text = "βɛ LP" 
+        intervals [5]:
+            xmin = 0.5474314435306461 
+            xmax = 0.7305804217884249 
+            text = "zɪn" 
+        intervals [6]:
+            xmin = 0.7305804217884249 
+            xmax = 0.8391413948462757 
+            text = "dʌ" 
+        intervals [7]:
+            xmin = 0.8391413948462757 
+            xmax = 1.00386252293875 
+            text = "nʌ HP LP HI LI" 
+        intervals [8]:
+            xmin = 1.00386252293875 
+            xmax = 1.231142547810237 
+            text = "tʃɪr HP LP HI" 
+        intervals [9]:
+            xmin = 1.231142547810237 
+            xmax = 1.4076950091374625 
+            text = "dʌq" 
+        intervals [10]:
+            xmin = 1.4076950091374625 
+            xmax = 1.5009413254124995 
+            text = "tɘ LI" 
+        intervals [11]:
+            xmin = 1.5009413254124995 
+            xmax = 1.616100344167415 
+            text = "nʲim HP LP HI LI" 
+        intervals [12]:
+            xmin = 1.616100344167415 
+            xmax = 1.7496033510986224 
+            text = "ɪʃ HI" 
+        intervals [13]:
+            xmin = 1.7496033510986224 
+            xmax = 1.9439196692831286 
+            text = "lʲɛp LP" 
+        intervals [14]:
+            xmin = 1.9439196692831286 
+            xmax = 2.117564565001327 
+            text = "jʌ HP" 
+        intervals [15]:
+            xmin = 2.117564565001327 
+            xmax = 2.3070544566969087 
+            text = "dɯr LI!" 
+        intervals [16]:
+            xmin = 2.3070544566969087 
+            xmax = 2.4902267573696144 
+            text = "" 

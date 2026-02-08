@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.4780725623582764 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.4780725623582764 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025770551579177313 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025770551579177313 
+            xmax = 3.4223153039198237 
+            text = "Син, наверное, балық тотқалы йаратқан йоқ кӱчӱ чақта? // Ты, наверное, в детстве не любила рыбу ловить? // ЮНХ // вопрос // модал" 
+        intervals [3]:
+            xmin = 3.4223153039198237 
+            xmax = 3.4780725623582764 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.4780725623582764 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025770551579177313 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025770551579177313 
+            xmax = 0.4716471942201653 
+            text = "син" 
+        intervals [3]:
+            xmin = 0.4716471942201653 
+            xmax = 1.2005231671218717 
+            text = "наверное" 
+        intervals [4]:
+            xmin = 1.2005231671218717 
+            xmax = 3.4223153039198237 
+            text = "балық тотқалы йаратқан йоқ кӱчӱ чақта" 
+        intervals [5]:
+            xmin = 3.4223153039198237 
+            xmax = 3.4780725623582764 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.4780725623582764 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025770551579177313 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025770551579177313 
+            xmax = 0.4716471942201653 
+            text = "sʲinʲ HP! LP HI LI" 
+        intervals [3]:
+            xmin = 0.4716471942201653 
+            xmax = 0.7116149981465443 
+            text = "nʌ HI! LI" 
+        intervals [4]:
+            xmin = 0.7116149981465443 
+            xmax = 0.9029700516785353 
+            text = "βɘr LP" 
+        intervals [5]:
+            xmin = 0.9029700516785353 
+            xmax = 1.2005231671218717 
+            text = "nɵ HP" 
+        intervals [6]:
+            xmin = 1.2005231671218717 
+            xmax = 1.5145698896862108 
+            text = "pʌlχ HP" 
+        intervals [7]:
+            xmin = 1.5145698896862108 
+            xmax = 1.701634471165915 
+            text = "tʉt" 
+        intervals [8]:
+            xmin = 1.701634471165915 
+            xmax = 1.796257674062249 
+            text = "qʌ HI" 
+        intervals [9]:
+            xmin = 1.796257674062249 
+            xmax = 1.9123256700330966 
+            text = "lɯ" 
+        intervals [10]:
+            xmin = 1.9123256700330966 
+            xmax = 2.0371493856547422 
+            text = "jʌ" 
+        intervals [11]:
+            xmin = 2.0371493856547422 
+            xmax = 2.1712133933881477 
+            text = "rt" 
+        intervals [12]:
+            xmin = 2.1712133933881477 
+            xmax = 2.431608966950466 
+            text = "qʌn LP" 
+        intervals [13]:
+            xmin = 2.431608966950466 
+            xmax = 2.6031197554942183 
+            text = "jɵq" 
+        intervals [14]:
+            xmin = 2.6031197554942183 
+            xmax = 2.645322888730686 
+            text = "ʏ" 
+        intervals [15]:
+            xmin = 2.645322888730686 
+            xmax = 2.793536110140152 
+            text = "zʲʏ" 
+        intervals [16]:
+            xmin = 2.793536110140152 
+            xmax = 2.9356064285361283 
+            text = "tʃʌ" 
+        intervals [17]:
+            xmin = 2.9356064285361283 
+            xmax = 3.0836039103874326 
+            text = "ɣɯn" 
+        intervals [18]:
+            xmin = 3.0836039103874326 
+            xmax = 3.4223153039198237 
+            text = "dɘj LI!" 
+        intervals [19]:
+            xmin = 3.4223153039198237 
+            xmax = 3.4780725623582764 
+            text = "" 
