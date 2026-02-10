@@ -10,6 +10,20 @@
             <option>{{ lang }}</option>
         {% endfor %}
     </select><br>
+    Тип фразы:
+    <select name="type">
+        <option></option>
+        {% for type in types: %}
+            <option>{{ type }}</option>
+        {% endfor %}
+    </select><br>
+    Подтип фразы:
+    <select name="subtype">
+        <option></option>
+        {% for subtype in subtypes: %}
+            <option>{{ subtype }}</option>
+        {% endfor %}
+    </select><br>
     Образование:
     <select name="education">
         <option></option>

@@ -12,13 +12,14 @@
     {{ pagination.links }}<br>
   </div>
   <div class="main">
-  {% for file, text, dictor, index in result: %}
+  {% for file, text, translation, dictor, index in result: %}
   {% if index % 2 == 0 %}
   <div class="res-elem-one">
     <audio controls>
         <source src="static/audio/{{file}}.wav" type="audio/wav">
     </audio><br>
-    {{ text }}<br>
+    Текст: {{ text }}<br>
+    Перевод: {{ translation }}<br>
     (Диктор: {{ dictor }}) <br>
     <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ file + '_annimage' }}">Разметка</div>
     <div class="collapse" id="{{ file + '_annimage' }}">
@@ -30,7 +31,8 @@
     <audio controls>
         <source src="static/audio/{{file}}.wav" type="audio/wav">
     </audio><br>
-    {{ text }}<br>
+    Текст: {{ text }}<br>
+    Перевод: {{ translation }}<br>
     (Диктор: {{ dictor }}) <br>
     <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ file + '_annimage' }}">Разметка</div>
     <div class="collapse" id="{{ file + '_annimage' }}">

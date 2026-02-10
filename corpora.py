@@ -29,6 +29,13 @@ def sen_data():
     cursor.execute('''SELECT theme FROM themes''')
     themes = list(cursor.fetchall())
 
+    cursor.execute('''SELECT type FROM types''')
+    types = list(cursor.fetchall())
+
+    cursor.execute('''SELECT subtype FROM subtypes''')
+    subtypes = list(cursor.fetchall())
+
+
     # Обрезка строк
     def cut(lst):
         for index, value in enumerate(lst):
@@ -38,7 +45,9 @@ def sen_data():
     cut(settlements)
     cut(dictors)
     cut(themes)
-    return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors, themes=themes)
+    cut(types)
+    cut(subtypes)
+    return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors, themes=themes, types=types, subtypes=subtypes)
 
 @app.route('/')
 def main_page():
@@ -88,13 +97,14 @@ def results():
     offset = (page - 1) * elem_to_display
     characteristics = {
         'lang' : '%', 'dictor' : '%', 'education' : '%',
-        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999}
+        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999, 'type' : '%', 'subtype' : '%'}
 
     # Получение данных из формы
     for char in characteristics.keys():
         req_data = request.form.get(char)
         if req_data:
             characteristics[char] = req_data
+    print(characteristics['type'])
     # Поиск по БД
     cursor.execute(f'''
     SELECT files.file, files.text, files.dictor
@@ -109,11 +119,13 @@ def results():
     AND dictors.gender LIKE '{characteristics['gender']}'
     AND dictors.DOB >= {characteristics['age_from']}
     AND dictors.DOB <= {characteristics['age_to']})
+    AND files.type LIKE '{characteristics['type']}'
+    AND files.subtype LIKE '{characteristics['subtype']}'
     ''')
     total = len(cursor.fetchall())
 
     cursor.execute(f'''
-    SELECT files.file, files.text, files.dictor
+    SELECT files.file, files.text, files.translation, files.dictor
     FROM files WHERE files.dictor IN (SELECT dictors.name FROM dictors
     INNER JOIN languages ON languages.id = dictors.lang
     INNER JOIN education ON education.id = dictors.education
@@ -125,6 +137,8 @@ def results():
     AND dictors.gender LIKE '{characteristics['gender']}'
     AND dictors.DOB >= {characteristics['age_from']}
     AND dictors.DOB <= {characteristics['age_to']})
+    AND files.type LIKE '{characteristics['type']}'
+    AND files.subtype LIKE '{characteristics['subtype']}'
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
     data = list(cursor.fetchall())
