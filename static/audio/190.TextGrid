@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0671201814058957 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.0671201814058957 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24038257961455184 
+            text = "" 
+        intervals [2]:
+            xmin = 0.24038257961455184 
+            xmax = 1.847308185602942 
+            text = "Син аш бешермӓйдең мӓ хӓзер? // Ты сейчас не готовишь еду? // ААР // вопрос // модал" 
+        intervals [3]:
+            xmin = 1.847308185602942 
+            xmax = 2.0671201814058957 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.0671201814058957 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24038257961455184 
+            text = "" 
+        intervals [2]:
+            xmin = 0.24038257961455184 
+            xmax = 1.394755341747778 
+            text = "син аш бешермӓйдең мӓ" 
+        intervals [3]:
+            xmin = 1.394755341747778 
+            xmax = 1.847308185602942 
+            text = "хӓзер" 
+        intervals [4]:
+            xmin = 1.847308185602942 
+            xmax = 2.0671201814058957 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.0671201814058957 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24038257961455184 
+            text = "" 
+        intervals [2]:
+            xmin = 0.24038257961455184 
+            xmax = 0.4404188515683913 
+            text = "sʲɪn LI" 
+        intervals [3]:
+            xmin = 0.4404188515683913 
+            xmax = 0.6736998799362919 
+            text = "ʔʌʃ" 
+        intervals [4]:
+            xmin = 0.6736998799362919 
+            xmax = 0.7807412652990348 
+            text = "bʲi HP" 
+        intervals [5]:
+            xmin = 0.7807412652990348 
+            xmax = 0.9638661359147643 
+            text = "ʒɪr LP" 
+        intervals [6]:
+            xmin = 0.9638661359147643 
+            xmax = 1.1165828176828634 
+            text = "mʲɘj HI" 
+        intervals [7]:
+            xmin = 1.1165828176828634 
+            xmax = 1.2875444127595408 
+            text = "dɯŋ" 
+        intervals [8]:
+            xmin = 1.2875444127595408 
+            xmax = 1.394755341747778 
+            text = "mʲɛ" 
+        intervals [9]:
+            xmin = 1.394755341747778 
+            xmax = 1.5626134759349453 
+            text = "ʁʌ HP LP HI" 
+        intervals [10]:
+            xmin = 1.5626134759349453 
+            xmax = 1.847308185602942 
+            text = "zɘr LI!" 
+        intervals [11]:
+            xmin = 1.847308185602942 
+            xmax = 2.0671201814058957 
+            text = "" 

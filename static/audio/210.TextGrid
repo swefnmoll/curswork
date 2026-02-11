@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.3302040816326532 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.3302040816326532 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10399940863428495 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10399940863428495 
+            xmax = 3.2324783607365415 
+            text = "Болтыр йӓйгӓде йелӓккӓ йӧрдең еди мӓ? // Прошлым летом ты ходила за ягодой? // СЗА // вопрос // модал" 
+        intervals [3]:
+            xmin = 3.2324783607365415 
+            xmax = 3.3302040816326532 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.3302040816326532 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10399940863428495 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10399940863428495 
+            xmax = 0.7089172541374685 
+            text = "болтыр" 
+        intervals [3]:
+            xmin = 0.7089172541374685 
+            xmax = 1.0638225940153392 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.0638225940153392 
+            xmax = 1.8941575197862874 
+            text = "йӓйгӓде" 
+        intervals [5]:
+            xmin = 1.8941575197862874 
+            xmax = 2.0325655113340937 
+            text = "-" 
+        intervals [6]:
+            xmin = 2.0325655113340937 
+            xmax = 3.2324783607365415 
+            text = "йелӓккӓ йӧрдең еди мӓ" 
+        intervals [7]:
+            xmin = 3.2324783607365415 
+            xmax = 3.3302040816326532 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.3302040816326532 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10399940863428495 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10399940863428495 
+            xmax = 0.35162334376619664 
+            text = "pʉl LP" 
+        intervals [3]:
+            xmin = 0.35162334376619664 
+            xmax = 0.7089172541374685 
+            text = "tʉrʰ HP HI LI" 
+        intervals [4]:
+            xmin = 0.7089172541374685 
+            xmax = 1.0638225940153392 
+            text = "-" 
+        intervals [5]:
+            xmin = 1.0638225940153392 
+            xmax = 1.3058715366227116 
+            text = "jɛj HP LP" 
+        intervals [6]:
+            xmin = 1.3058715366227116 
+            xmax = 1.4243686664039208 
+            text = "ɣɪ" 
+        intervals [7]:
+            xmin = 1.4243686664039208 
+            xmax = 1.5450601874773744 
+            text = "ɣɪ" 
+        intervals [8]:
+            xmin = 1.5450601874773744 
+            xmax = 1.8941575197862874 
+            text = "dɛ HI LI" 
+        intervals [9]:
+            xmin = 1.8941575197862874 
+            xmax = 2.0325655113340937 
+            text = "-" 
+        intervals [10]:
+            xmin = 2.0325655113340937 
+            xmax = 2.1447870096441846 
+            text = "ʔɪ" 
+        intervals [11]:
+            xmin = 2.1447870096441846 
+            xmax = 2.352522718643341 
+            text = "lʲɛk HI" 
+        intervals [12]:
+            xmin = 2.352522718643341 
+            xmax = 2.4827232686498544 
+            text = "kɛ" 
+        intervals [13]:
+            xmin = 2.4827232686498544 
+            xmax = 2.6948477602335 
+            text = "jʏr HP" 
+        intervals [14]:
+            xmin = 2.6948477602335 
+            xmax = 2.902583469232656 
+            text = "tʉŋ LP" 
+        intervals [15]:
+            xmin = 2.902583469232656 
+            xmax = 3.0590814414753478 
+            text = "mʲɪ" 
+        intervals [16]:
+            xmin = 3.0590814414753478 
+            xmax = 3.2324783607365415 
+            text = "tɘ LI" 
+        intervals [17]:
+            xmin = 3.2324783607365415 
+            xmax = 3.3302040816326532 
+            text = "" 

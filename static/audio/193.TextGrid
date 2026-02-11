@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.040408163265306 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.040408163265306 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06289418601473594 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06289418601473594 
+            xmax = 1.8222422536943264 
+            text = "Тауҕа аҕынып пақтың ма йады? // Ты забиралась на гору? // ААР // вопрос // модал" 
+        intervals [3]:
+            xmin = 1.8222422536943264 
+            xmax = 2.040408163265306 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.040408163265306 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06289418601473594 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06289418601473594 
+            xmax = 1.8222422536943264 
+            text = "тауҕа аҕынып пақтың ма йады" 
+        intervals [3]:
+            xmin = 1.8222422536943264 
+            xmax = 2.040408163265306 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.040408163265306 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06289418601473594 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06289418601473594 
+            xmax = 0.3269441662701904 
+            text = "ʔɘː HP!" 
+        intervals [3]:
+            xmin = 0.3269441662701904 
+            xmax = 0.5499106553870804 
+            text = "tʌʉ HI!" 
+        intervals [4]:
+            xmin = 0.5499106553870804 
+            xmax = 0.7145066621004021 
+            text = "ʁʌ" 
+        intervals [5]:
+            xmin = 0.7145066621004021 
+            xmax = 0.7760023321144074 
+            text = "ʌ" 
+        intervals [6]:
+            xmin = 0.7760023321144074 
+            xmax = 0.9234105307405426 
+            text = "ɢɯŋ" 
+        intervals [7]:
+            xmin = 0.9234105307405426 
+            xmax = 1.154872054663256 
+            text = "bʌɣ LP" 
+        intervals [8]:
+            xmin = 1.154872054663256 
+            xmax = 1.3722759702470844 
+            text = "tɯŋ" 
+        intervals [9]:
+            xmin = 1.3722759702470844 
+            xmax = 1.5081156129613107 
+            text = "mʲɘj" 
+        intervals [10]:
+            xmin = 1.5081156129613107 
+            xmax = 1.8222422536943264 
+            text = "dɘp LI!" 
+        intervals [11]:
+            xmin = 1.8222422536943264 
+            xmax = 2.040408163265306 
+            text = "" 
