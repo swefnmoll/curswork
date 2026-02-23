@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3555102040816327 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.3555102040816327 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04790979626435436 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04790979626435436 
+            xmax = 1.2170900933777191 
+            text = "Пенсия алjаң ба? // Пенсию получаешь? // ПИМ // вопр // мод" 
+        intervals [3]:
+            xmin = 1.2170900933777191 
+            xmax = 1.3555102040816327 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.3555102040816327 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04790979626435436 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04790979626435436 
+            xmax = 1.2170900933777191 
+            text = "пенсия алjаң ба" 
+        intervals [3]:
+            xmin = 1.2170900933777191 
+            xmax = 1.3555102040816327 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.3555102040816327 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04790979626435436 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04790979626435436 
+            xmax = 0.326365831083175 
+            text = "pen HP! LP" 
+        intervals [3]:
+            xmin = 0.326365831083175 
+            xmax = 0.48289543370217747 
+            text = "s'a" 
+        intervals [4]:
+            xmin = 0.48289543370217747 
+            xmax = 0.6705675182470866 
+            text = "al" 
+        intervals [5]:
+            xmin = 0.6705675182470866 
+            xmax = 0.9452929432518662 
+            text = "ћaŋ LI" 
+        intervals [6]:
+            xmin = 0.9452929432518662 
+            xmax = 1.2170900933777191 
+            text = "ba HI" 
+        intervals [7]:
+            xmin = 1.2170900933777191 
+            xmax = 1.3555102040816327 
+            text = "" 

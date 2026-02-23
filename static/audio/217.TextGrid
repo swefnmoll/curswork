@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.1061451247165532 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.1061451247165532 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07940406906079738 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07940406906079738 
+            xmax = 1.4708317714621229 
+            text = "Сен тергенқойдын ба? // Ты собрался? // ТГТ // вопр // модаль" 
+        intervals [3]:
+            xmin = 1.4708317714621229 
+            xmax = 2.1061451247165532 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.1061451247165532 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07940406906079738 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07940406906079738 
+            xmax = 1.4708317714621229 
+            text = "Сен тергенқойдын ба" 
+        intervals [3]:
+            xmin = 1.4708317714621229 
+            xmax = 2.1061451247165532 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.1061451247165532 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07940406906079738 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07940406906079738 
+            xmax = 0.3970665171714448 
+            text = "sen HI!" 
+        intervals [3]:
+            xmin = 0.3970665171714448 
+            xmax = 0.5939510553233565 
+            text = "ter LP!" 
+        intervals [4]:
+            xmin = 0.5939510553233565 
+            xmax = 0.7775996581373246 
+            text = "qen" 
+        intervals [5]:
+            xmin = 0.7775996581373246 
+            xmax = 0.982756655875451 
+            text = "koj HP!" 
+        intervals [6]:
+            xmin = 0.982756655875451 
+            xmax = 1.1498603395169895 
+            text = "dъn" 
+        intervals [7]:
+            xmin = 1.1498603395169895 
+            xmax = 1.4708317714621229 
+            text = "ba LI!" 
+        intervals [8]:
+            xmin = 1.4708317714621229 
+            xmax = 2.1061451247165532 
+            text = "" 

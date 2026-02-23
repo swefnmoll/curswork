@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.7100416666666667 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.7100416666666667 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4177665806058148 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4177665806058148 
+            xmax = 1.3782482724650336 
+            text = "Кем полуп иштепjаң? // Кем работаешь? // ТЗИ // вопр // дикт" 
+        intervals [3]:
+            xmin = 1.3782482724650336 
+            xmax = 1.7100416666666667 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.7100416666666667 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4177665806058148 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4177665806058148 
+            xmax = 1.3782482724650336 
+            text = "Кем полуп иштепjаң" 
+        intervals [3]:
+            xmin = 1.3782482724650336 
+            xmax = 1.7100416666666667 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.7100416666666667 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4177665806058148 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4177665806058148 
+            xmax = 0.5742844840451736 
+            text = "kem HI" 
+        intervals [3]:
+            xmin = 0.5742844840451736 
+            xmax = 0.680926536676416 
+            text = "po LP" 
+        intervals [4]:
+            xmin = 0.680926536676416 
+            xmax = 0.8105579818014714 
+            text = "lup HP" 
+        intervals [5]:
+            xmin = 0.8105579818014714 
+            xmax = 0.9754996634003281 
+            text = "ɪʃ LI" 
+        intervals [6]:
+            xmin = 0.9754996634003281 
+            xmax = 1.10361751723385 
+            text = "tep" 
+        intervals [7]:
+            xmin = 1.10361751723385 
+            xmax = 1.3782482724650336 
+            text = "ћaŋ" 
+        intervals [8]:
+            xmin = 1.3782482724650336 
+            xmax = 1.7100416666666667 
+            text = "" 

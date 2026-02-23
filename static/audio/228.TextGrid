@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7926303854875284 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 0.7926303854875284 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01805263401172306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.01805263401172306 
+            xmax = 0.6992365669382301 
+            text = "А нени этjаң? // Я что делаешь? // ЯЛВ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 0.6992365669382301 
+            xmax = 0.7926303854875284 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 0.7926303854875284 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01805263401172306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.01805263401172306 
+            xmax = 0.6992365669382301 
+            text = "а нени этjаң" 
+        intervals [3]:
+            xmin = 0.6992365669382301 
+            xmax = 0.7926303854875284 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 0.7926303854875284 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01805263401172306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.01805263401172306 
+            xmax = 0.15005537055689627 
+            text = "a HP! LP!" 
+        intervals [3]:
+            xmin = 0.15005537055689627 
+            xmax = 0.30758693822637184 
+            text = "ne HI!" 
+        intervals [4]:
+            xmin = 0.30758693822637184 
+            xmax = 0.4171741157355722 
+            text = "ni" 
+        intervals [5]:
+            xmin = 0.4171741157355722 
+            xmax = 0.6992365669382301 
+            text = "ћaŋ LI!" 
+        intervals [6]:
+            xmin = 0.6992365669382301 
+            xmax = 0.7926303854875284 
+            text = "" 

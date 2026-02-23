@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.106984126984127 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.106984126984127 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.102607814391754 
+            text = "" 
+        intervals [2]:
+            xmin = 0.102607814391754 
+            xmax = 1.8537575716556833 
+            text = "Қанди юртта? // Откуда родом? // ЧВИ // вопр // дикт" 
+        intervals [3]:
+            xmin = 1.8537575716556833 
+            xmax = 2.106984126984127 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.106984126984127 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.102607814391754 
+            text = "" 
+        intervals [2]:
+            xmin = 0.102607814391754 
+            xmax = 0.6686694561538181 
+            text = "Қанди" 
+        intervals [3]:
+            xmin = 0.6686694561538181 
+            xmax = 1.3257644028776177 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.3257644028776177 
+            xmax = 1.8537575716556833 
+            text = "юртта" 
+        intervals [5]:
+            xmin = 1.8537575716556833 
+            xmax = 2.106984126984127 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.106984126984127 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.102607814391754 
+            text = "" 
+        intervals [2]:
+            xmin = 0.102607814391754 
+            xmax = 0.3392944072922662 
+            text = "qan LP!" 
+        intervals [3]:
+            xmin = 0.3392944072922662 
+            xmax = 0.6686694561538181 
+            text = "di HP! HI LI" 
+        intervals [4]:
+            xmin = 0.6686694561538181 
+            xmax = 1.3257644028776177 
+            text = "-" 
+        intervals [5]:
+            xmin = 1.3257644028776177 
+            xmax = 1.5823128077697812 
+            text = "jur HP LP HI" 
+        intervals [6]:
+            xmin = 1.5823128077697812 
+            xmax = 1.8537575716556833 
+            text = "ta LI" 
+        intervals [7]:
+            xmin = 1.8537575716556833 
+            xmax = 2.106984126984127 
+            text = "" 

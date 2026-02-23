@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4667800453514739 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.4667800453514739 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04723362732452982 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04723362732452982 
+            xmax = 1.3135407280650448 
+            text = "Нени этjаң буун? // Что делаешь сегодня? // ТГТ // вопр // дикт" 
+        intervals [3]:
+            xmin = 1.3135407280650448 
+            xmax = 1.4667800453514739 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.4667800453514739 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04723362732452982 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04723362732452982 
+            xmax = 1.3135407280650448 
+            text = "Нени этjаң буун" 
+        intervals [3]:
+            xmin = 1.3135407280650448 
+            xmax = 1.4667800453514739 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.4667800453514739 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04723362732452982 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04723362732452982 
+            xmax = 0.2834419582178925 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.2834419582178925 
+            xmax = 0.5311726467158094 
+            text = "ni HP HI!" 
+        intervals [4]:
+            xmin = 0.5311726467158094 
+            xmax = 0.8733866675710714 
+            text = "ћaŋ LP!" 
+        intervals [5]:
+            xmin = 0.8733866675710714 
+            xmax = 1.3135407280650448 
+            text = "bu:n LI!" 
+        intervals [6]:
+            xmin = 1.3135407280650448 
+            xmax = 1.4667800453514739 
+            text = "" 

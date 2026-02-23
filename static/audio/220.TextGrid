@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.537125 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.537125 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4866122865757859 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4866122865757859 
+            xmax = 1.4187988594387122 
+            text = "А сен канди сӧӧгиң? // А у тебя какой род? // ТЗИ // вопр // дикт" 
+        intervals [3]:
+            xmin = 1.4187988594387122 
+            xmax = 1.537125 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.537125 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4866122865757859 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4866122865757859 
+            xmax = 1.4187988594387122 
+            text = "А сен канди сӧӧгиң" 
+        intervals [3]:
+            xmin = 1.4187988594387122 
+            xmax = 1.537125 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.537125 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4866122865757859 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4866122865757859 
+            xmax = 0.5817025619811687 
+            text = "a LP HI" 
+        intervals [3]:
+            xmin = 0.5817025619811687 
+            xmax = 0.8052380715594538 
+            text = "sen HP" 
+        intervals [4]:
+            xmin = 0.8052380715594538 
+            xmax = 0.9072399953917179 
+            text = "kan" 
+        intervals [5]:
+            xmin = 0.9072399953917179 
+            xmax = 1.0243985158270978 
+            text = "di" 
+        intervals [6]:
+            xmin = 1.0243985158270978 
+            xmax = 1.1897939565962836 
+            text = "sø" 
+        intervals [7]:
+            xmin = 1.1897939565962836 
+            xmax = 1.4187988594387122 
+            text = "qɪŋ LI" 
+        intervals [8]:
+            xmin = 1.4187988594387122 
+            xmax = 1.537125 
+            text = "" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8069791666666667 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 0.8069791666666667 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14009326043661 
+            text = "" 
+        intervals [2]:
+            xmin = 0.14009326043661 
+            xmax = 0.597154027725509 
+            text = "Қайдаң? // Откуда? // ТЗИ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 0.597154027725509 
+            xmax = 0.8069791666666667 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 0.8069791666666667 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14009326043661 
+            text = "" 
+        intervals [2]:
+            xmin = 0.14009326043661 
+            xmax = 0.597154027725509 
+            text = "қайдаң" 
+        intervals [3]:
+            xmin = 0.597154027725509 
+            xmax = 0.8069791666666667 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 0.8069791666666667 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14009326043661 
+            text = "" 
+        intervals [2]:
+            xmin = 0.14009326043661 
+            xmax = 0.3220300707166572 
+            text = "qaj HP LP HI" 
+        intervals [3]:
+            xmin = 0.3220300707166572 
+            xmax = 0.597154027725509 
+            text = "daŋ LI" 
+        intervals [4]:
+            xmin = 0.597154027725509 
+            xmax = 0.8069791666666667 
+            text = "" 

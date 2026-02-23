@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1588333333333334 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.1588333333333334 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02184149244406121 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02184149244406121 
+            xmax = 1.0268422962673371 
+            text = "Сергей эмес пе? // Не Сергей ли? // ТГН // вопр // модальный" 
+        intervals [3]:
+            xmin = 1.0268422962673371 
+            xmax = 1.1588333333333334 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.1588333333333334 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02184149244406121 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02184149244406121 
+            xmax = 1.0268422962673371 
+            text = "Сергей эмес пе" 
+        intervals [3]:
+            xmin = 1.0268422962673371 
+            xmax = 1.1588333333333334 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.1588333333333334 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02184149244406121 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02184149244406121 
+            xmax = 0.32042868778286054 
+            text = "ser LP! HI! LI!" 
+        intervals [3]:
+            xmin = 0.32042868778286054 
+            xmax = 0.5288935284309857 
+            text = "qej HP!" 
+        intervals [4]:
+            xmin = 0.5288935284309857 
+            xmax = 0.7628475199007158 
+            text = "mes" 
+        intervals [5]:
+            xmin = 0.7628475199007158 
+            xmax = 1.0268422962673371 
+            text = "pa" 
+        intervals [6]:
+            xmin = 1.0268422962673371 
+            xmax = 1.1588333333333334 
+            text = "" 
