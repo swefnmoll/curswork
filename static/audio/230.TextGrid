@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.861746031746032 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 5.861746031746032 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06443397299339379 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06443397299339379 
+            xmax = 5.677589303548027 
+            text = "А араа алар эдим, ақча пар полза, ақчам чоқта, араа да чоқ. // А купила бы водку, были бы деньги, раз денег нет, и водки нет. // ГНФ // утверд // информ" 
+        intervals [3]:
+            xmin = 5.677589303548027 
+            xmax = 5.861746031746032 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 5.861746031746032 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06443397299339379 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06443397299339379 
+            xmax = 3.098945345294873 
+            text = "араа алар эдим, ақча пар ползa" 
+        intervals [3]:
+            xmin = 3.098945345294873 
+            xmax = 3.341436661775822 
+            text = "-" 
+        intervals [4]:
+            xmin = 3.341436661775822 
+            xmax = 5.677589303548027 
+            text = "ақчам чоқта, араа да чоқ" 
+        intervals [5]:
+            xmin = 5.677589303548027 
+            xmax = 5.861746031746032 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 5.861746031746032 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06443397299339379 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06443397299339379 
+            xmax = 0.1680562664403899 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.1680562664403899 
+            xmax = 0.520317450023187 
+            text = "ara" 
+        intervals [4]:
+            xmin = 0.520317450023187 
+            xmax = 1.0521627664129 
+            text = "al HP!" 
+        intervals [5]:
+            xmin = 1.0521627664129 
+            xmax = 1.234049259896828 
+            text = "ъr LP" 
+        intervals [6]:
+            xmin = 1.234049259896828 
+            xmax = 1.4113310320267325 
+            text = "ɛ" 
+        intervals [7]:
+            xmin = 1.4113310320267325 
+            xmax = 1.913245659615293 
+            text = "dim" 
+        intervals [8]:
+            xmin = 1.913245659615293 
+            xmax = 2.1837569761827056 
+            text = "aχ LI!" 
+        intervals [9]:
+            xmin = 2.1837569761827056 
+            xmax = 2.289729551534757 
+            text = "ћ̮ҫɪ" 
+        intervals [10]:
+            xmin = 2.289729551534757 
+            xmax = 2.512994552995385 
+            text = "par HI" 
+        intervals [11]:
+            xmin = 2.512994552995385 
+            xmax = 2.698278631845178 
+            text = "pul" 
+        intervals [12]:
+            xmin = 2.698278631845178 
+            xmax = 3.098945345294873 
+            text = "za" 
+        intervals [13]:
+            xmin = 3.098945345294873 
+            xmax = 3.341436661775822 
+            text = "-" 
+        intervals [14]:
+            xmin = 3.341436661775822 
+            xmax = 3.5199815167509163 
+            text = "aχ" 
+        intervals [15]:
+            xmin = 3.5199815167509163 
+            xmax = 3.8146836834084197 
+            text = "ћ̮ҫɪm" 
+        intervals [16]:
+            xmin = 3.8146836834084197 
+            xmax = 4.09087701195361 
+            text = "ћ̮ҫɔk HP" 
+        intervals [17]:
+            xmin = 4.09087701195361 
+            xmax = 4.344136686424902 
+            text = "ta HI" 
+        intervals [18]:
+            xmin = 4.344136686424902 
+            xmax = 4.6267734093385595 
+            text = "- LP" 
+        intervals [19]:
+            xmin = 4.6267734093385595 
+            xmax = 4.8995431781694325 
+            text = "ara" 
+        intervals [20]:
+            xmin = 4.8995431781694325 
+            xmax = 5.1165406719777895 
+            text = "da" 
+        intervals [21]:
+            xmin = 5.1165406719777895 
+            xmax = 5.677589303548027 
+            text = "ћ̮ҫɔk LI" 
+        intervals [22]:
+            xmin = 5.677589303548027 
+            xmax = 5.861746031746032 
+            text = "" 

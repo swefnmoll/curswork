@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.368004535147392 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.368004535147392 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30688119258796676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30688119258796676 
+            xmax = 3.131294518837241 
+            text = "М-м-м, сен неме, қандый праздниктарны йаратазың? // Ты что, какие праздники любишь? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 3.131294518837241 
+            xmax = 3.368004535147392 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.368004535147392 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30688119258796676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30688119258796676 
+            xmax = 0.5092737188400673 
+            text = "м-м-м // маркер хезитации" 
+        intervals [3]:
+            xmin = 0.5092737188400673 
+            xmax = 3.131294518837241 
+            text = " сен неме, қандый праздниктарны йаратазың?" 
+        intervals [4]:
+            xmin = 3.131294518837241 
+            xmax = 3.368004535147392 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.368004535147392 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30688119258796676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.30688119258796676 
+            xmax = 0.5092737188400673 
+            text = "ɐ̃ HP LP HI LI" 
+        intervals [3]:
+            xmin = 0.5092737188400673 
+            xmax = 0.8406186477402222 
+            text = "sʲen" 
+        intervals [4]:
+            xmin = 0.8406186477402222 
+            xmax = 1.0052381143265936 
+            text = "nʲi" 
+        intervals [5]:
+            xmin = 1.0052381143265936 
+            xmax = 1.3810673516125476 
+            text = "mʲeː HP" 
+        intervals [6]:
+            xmin = 1.3810673516125476 
+            xmax = 1.571702789375172 
+            text = "qɐn" 
+        intervals [7]:
+            xmin = 1.571702789375172 
+            xmax = 1.9761378762428652 
+            text = "dɪː HI" 
+        intervals [8]:
+            xmin = 1.9761378762428652 
+            xmax = 2.2393977072559292 
+            text = "prɐzʲ LP" 
+        intervals [9]:
+            xmin = 2.2393977072559292 
+            xmax = 2.4015694336486915 
+            text = "nʲik LI" 
+        intervals [10]:
+            xmin = 2.4015694336486915 
+            xmax = 2.5224387835446413 
+            text = "təɾ" 
+        intervals [11]:
+            xmin = 2.5224387835446413 
+            xmax = 2.6466068244402363 
+            text = "nɛ" 
+        intervals [12]:
+            xmin = 2.6466068244402363 
+            xmax = 2.7961824134791025 
+            text = "jəɾ" 
+        intervals [13]:
+            xmin = 2.7961824134791025 
+            xmax = 2.9579215092168756 
+            text = "tɐ" 
+        intervals [14]:
+            xmin = 2.9579215092168756 
+            xmax = 3.131294518837241 
+            text = "zɨn" 
+        intervals [15]:
+            xmin = 3.131294518837241 
+            xmax = 3.368004535147392 
+            text = "" 

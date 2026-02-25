@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3129931972789115 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.3129931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09567127797283403 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09567127797283403 
+            xmax = 1.022423933230496 
+            text = "Шегер, тыс? // Сахар, соль? // МАА // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.022423933230496 
+            xmax = 1.3129931972789115 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.3129931972789115 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09567127797283403 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09567127797283403 
+            xmax = 0.6158856241075324 
+            text = "шегер" 
+        intervals [3]:
+            xmin = 0.6158856241075324 
+            xmax = 0.7736882680030058 
+            text = "-" 
+        intervals [4]:
+            xmin = 0.7736882680030058 
+            xmax = 1.022423933230496 
+            text = "тыс" 
+        intervals [5]:
+            xmin = 1.022423933230496 
+            xmax = 1.3129931972789115 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.3129931972789115 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09567127797283403 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09567127797283403 
+            xmax = 0.3294447669008545 
+            text = "ʃʲi HP LP!" 
+        intervals [3]:
+            xmin = 0.3294447669008545 
+            xmax = 0.6158856241075324 
+            text = "gʲeɾ HI! LI!" 
+        intervals [4]:
+            xmin = 0.6158856241075324 
+            xmax = 0.7736882680030058 
+            text = "-" 
+        intervals [5]:
+            xmin = 0.7736882680030058 
+            xmax = 1.022423933230496 
+            text = "tɨs HP LP HI LI" 
+        intervals [6]:
+            xmin = 1.022423933230496 
+            xmax = 1.3129931972789115 
+            text = "" 

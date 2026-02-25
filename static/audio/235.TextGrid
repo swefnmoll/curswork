@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.9485260770975055 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Д.2_14" 
+        xmin = 0 
+        xmax = 2.9485260770975055 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13576190182814102 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13576190182814102 
+            xmax = 2.537713902652982 
+            text = "Un hea ondre menʃe teta onʲa doj // А здесь другие люди за ними смотрят // ТЗП // утверждение // информ" 
+        intervals [3]:
+            xmin = 2.537713902652982 
+            xmax = 2.9485260770975055 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 2.9485260770975055 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13576190182814102 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13576190182814102 
+            xmax = 0.3264014040984914 
+            text = "un" 
+        intervals [3]:
+            xmin = 0.3264014040984914 
+            xmax = 0.7744535000722845 
+            text = "hea" 
+        intervals [4]:
+            xmin = 0.7744535000722845 
+            xmax = 0.9486600723729196 
+            text = "-" 
+        intervals [5]:
+            xmin = 0.9486600723729196 
+            xmax = 1.3414006706543544 
+            text = "ondre" 
+        intervals [6]:
+            xmin = 1.3414006706543544 
+            xmax = 1.7078824498646468 
+            text = "menʃ(e)" 
+        intervals [7]:
+            xmin = 1.7078824498646468 
+            xmax = 2.076424734447109 
+            text = "tetʌ" 
+        intervals [8]:
+            xmin = 2.076424734447109 
+            xmax = 2.3153953464765413 
+            text = "onʲʌ" 
+        intervals [9]:
+            xmin = 2.3153953464765413 
+            xmax = 2.537713902652982 
+            text = "doj" 
+        intervals [10]:
+            xmin = 2.537713902652982 
+            xmax = 2.9485260770975055 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 2.9485260770975055 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13576190182814102 
+            text = "" 
+        intervals [2]:
+            xmin = 0.13576190182814102 
+            xmax = 0.3264014040984914 
+            text = "un HP LP HI LI" 
+        intervals [3]:
+            xmin = 0.3264014040984914 
+            xmax = 0.7744535000722845 
+            text = "hea HP LP HI LI" 
+        intervals [4]:
+            xmin = 0.7744535000722845 
+            xmax = 0.9486600723729196 
+            text = "-" 
+        intervals [5]:
+            xmin = 0.9486600723729196 
+            xmax = 1.2317986432269772 
+            text = "on HP LP HI LI" 
+        intervals [6]:
+            xmin = 1.2317986432269772 
+            xmax = 1.3414006706543544 
+            text = "drə" 
+        intervals [7]:
+            xmin = 1.3414006706543544 
+            xmax = 1.5312822650341156 
+            text = "mɜn LP! HI" 
+        intervals [8]:
+            xmin = 1.5312822650341156 
+            xmax = 1.7078824498646468 
+            text = "ʃə HP LI" 
+        intervals [9]:
+            xmin = 1.7078824498646468 
+            xmax = 1.877558080659883 
+            text = "tʲe HP HI LI" 
+        intervals [10]:
+            xmin = 1.877558080659883 
+            xmax = 2.076424734447109 
+            text = "tʲʌ LP" 
+        intervals [11]:
+            xmin = 2.076424734447109 
+            xmax = 2.3153953464765413 
+            text = "onʲʌ HP LP HI LI" 
+        intervals [12]:
+            xmin = 2.3153953464765413 
+            xmax = 2.537713902652982 
+            text = "dʷoj HP LP HI LI" 
+        intervals [13]:
+            xmin = 2.537713902652982 
+            xmax = 2.9485260770975055 
+            text = "" 

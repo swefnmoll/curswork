@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.36 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.36 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3035351316718913 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3035351316718913 
+            xmax = 1.0563950958105206 
+            text = "Қандый эштер? // Как дела? // АРР // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.0563950958105206 
+            xmax = 1.36 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.36 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3035351316718913 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3035351316718913 
+            xmax = 1.0563950958105206 
+            text = "Қандый эштер" 
+        intervals [3]:
+            xmin = 1.0563950958105206 
+            xmax = 1.36 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.36 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3035351316718913 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3035351316718913 
+            xmax = 0.503327426975945 
+            text = "qɑn HP" 
+        intervals [3]:
+            xmin = 0.503327426975945 
+            xmax = 0.5843033312667726 
+            text = "di HI" 
+        intervals [4]:
+            xmin = 0.5843033312667726 
+            xmax = 0.7560270807432989 
+            text = "iʃʲ LP" 
+        intervals [5]:
+            xmin = 0.7560270807432989 
+            xmax = 1.0563950958105206 
+            text = "teɾ LI" 
+        intervals [6]:
+            xmin = 1.0563950958105206 
+            xmax = 1.36 
+            text = "" 

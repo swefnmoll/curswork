@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8719954648526078 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.8719954648526078 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8614563225911683 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8614563225911683 
+            xmax = 1.6588797203464907 
+            text = "Қайдан йөрөзең? // Как ходишь? // АРР // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.6588797203464907 
+            xmax = 1.8719954648526078 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.8719954648526078 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8614563225911683 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8614563225911683 
+            xmax = 1.6588797203464907 
+            text = "Қайдан йөрөзең" 
+        intervals [3]:
+            xmin = 1.6588797203464907 
+            xmax = 1.8719954648526078 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.8719954648526078 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8614563225911683 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8614563225911683 
+            xmax = 1.0458127805592374 
+            text = "qʌj HP" 
+        intervals [3]:
+            xmin = 1.0458127805592374 
+            xmax = 1.209608702110579 
+            text = "dan HI" 
+        intervals [4]:
+            xmin = 1.209608702110579 
+            xmax = 1.3067579303080428 
+            text = "jɵ LP" 
+        intervals [5]:
+            xmin = 1.3067579303080428 
+            xmax = 1.43177993436958 
+            text = "ɾɵ" 
+        intervals [6]:
+            xmin = 1.43177993436958 
+            xmax = 1.6588797203464907 
+            text = "sɤŋ LI" 
+        intervals [7]:
+            xmin = 1.6588797203464907 
+            xmax = 1.8719954648526078 
+            text = "" 

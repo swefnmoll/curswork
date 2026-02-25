@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3760090702947845 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.3760090702947845 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27361960866036517 
+            text = "" 
+        intervals [2]:
+            xmin = 0.27361960866036517 
+            xmax = 1.0556522685103724 
+            text = "Неме тегезең? // Что шьешь? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.0556522685103724 
+            xmax = 1.3760090702947845 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.3760090702947845 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27361960866036517 
+            text = "" 
+        intervals [2]:
+            xmin = 0.27361960866036517 
+            xmax = 1.0556522685103724 
+            text = "Неме тегезең" 
+        intervals [3]:
+            xmin = 1.0556522685103724 
+            xmax = 1.3760090702947845 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.3760090702947845 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27361960866036517 
+            text = "" 
+        intervals [2]:
+            xmin = 0.27361960866036517 
+            xmax = 0.3644301902372431 
+            text = "nʲe HP" 
+        intervals [3]:
+            xmin = 0.3644301902372431 
+            xmax = 0.5426212524894017 
+            text = "mʲe" 
+        intervals [4]:
+            xmin = 0.5426212524894017 
+            xmax = 0.6498746236355575 
+            text = "tɨ LI" 
+        intervals [5]:
+            xmin = 0.6498746236355575 
+            xmax = 0.8148329617554074 
+            text = "je LP HI" 
+        intervals [6]:
+            xmin = 0.8148329617554074 
+            xmax = 1.0556522685103724 
+            text = "zn̩" 
+        intervals [7]:
+            xmin = 1.0556522685103724 
+            xmax = 1.3760090702947845 
+            text = "" 

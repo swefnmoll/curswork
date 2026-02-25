@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.039002267573696 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.039002267573696 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11229330988081773 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11229330988081773 
+            xmax = 0.879968253426893 
+            text = "Немедэ бардың? // На чем ты ездила? // АРР // вопрос // дикт" 
+        intervals [3]:
+            xmin = 0.879968253426893 
+            xmax = 1.039002267573696 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.039002267573696 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11229330988081773 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11229330988081773 
+            xmax = 0.879968253426893 
+            text = "Немедэ бардың" 
+        intervals [3]:
+            xmin = 0.879968253426893 
+            xmax = 1.039002267573696 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.039002267573696 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11229330988081773 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11229330988081773 
+            xmax = 0.22668315215629267 
+            text = "ni" 
+        intervals [3]:
+            xmin = 0.22668315215629267 
+            xmax = 0.36386368322393725 
+            text = "mʲe HP" 
+        intervals [4]:
+            xmin = 0.36386368322393725 
+            xmax = 0.48402164138181586 
+            text = "de LP HI" 
+        intervals [5]:
+            xmin = 0.48402164138181586 
+            xmax = 0.6882039204990098 
+            text = "bɐr" 
+        intervals [6]:
+            xmin = 0.6882039204990098 
+            xmax = 0.879968253426893 
+            text = "təŋ LI" 
+        intervals [7]:
+            xmin = 0.879968253426893 
+            xmax = 1.039002267573696 
+            text = "" 

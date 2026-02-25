@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4229931972789116 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.4229931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06638762963303878 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06638762963303878 
+            xmax = 1.3511701349445093 
+            text = "Качан бардың Колыванга? // Когда ездила в Колывань? // АРР // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.3511701349445093 
+            xmax = 1.4229931972789116 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.4229931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06638762963303878 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06638762963303878 
+            xmax = 1.3511701349445093 
+            text = "Качан бардың Колыванга" 
+        intervals [3]:
+            xmin = 1.3511701349445093 
+            xmax = 1.4229931972789116 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.4229931972789116 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06638762963303878 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06638762963303878 
+            xmax = 0.22440697960831402 
+            text = "qɑ" 
+        intervals [3]:
+            xmin = 0.22440697960831402 
+            xmax = 0.4328299944583068 
+            text = "ʧʲa HP" 
+        intervals [4]:
+            xmin = 0.4328299944583068 
+            xmax = 0.6149058353277144 
+            text = "bar HI!" 
+        intervals [5]:
+            xmin = 0.6149058353277144 
+            xmax = 0.8104586140551205 
+            text = "dəŋ" 
+        intervals [6]:
+            xmin = 0.8104586140551205 
+            xmax = 0.9593839035567698 
+            text = "kɐl LP LI" 
+        intervals [7]:
+            xmin = 0.9593839035567698 
+            xmax = 1.1700772969828221 
+            text = "vʌŋ" 
+        intervals [8]:
+            xmin = 1.1700772969828221 
+            xmax = 1.3511701349445093 
+            text = "gɐ" 
+        intervals [9]:
+            xmin = 1.3511701349445093 
+            xmax = 1.4229931972789116 
+            text = "" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3829931972789116 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.3829931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.18134681623266183 
+            text = "" 
+        intervals [2]:
+            xmin = 0.18134681623266183 
+            xmax = 1.0104839350366437 
+            text = "М-м-м, тыс қына салазың? // Соли немного кладешь? // МАА // вопрос  // мод " 
+        intervals [3]:
+            xmin = 1.0104839350366437 
+            xmax = 1.3829931972789116 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.3829931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.18134681623266183 
+            text = "" 
+        intervals [2]:
+            xmin = 0.18134681623266183 
+            xmax = 1.0104839350366437 
+            text = "М-м-м, тыс қына салазың?" 
+        intervals [3]:
+            xmin = 1.0104839350366437 
+            xmax = 1.3829931972789116 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.3829931972789116 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.18134681623266183 
+            text = "" 
+        intervals [2]:
+            xmin = 0.18134681623266183 
+            xmax = 0.2571215857982773 
+            text = "m" 
+        intervals [3]:
+            xmin = 0.2571215857982773 
+            xmax = 0.4909884509431055 
+            text = "tɘs HP LI!" 
+        intervals [4]:
+            xmin = 0.4909884509431055 
+            xmax = 0.6257501927602631 
+            text = "kⁿŋɐ HI" 
+        intervals [5]:
+            xmin = 0.6257501927602631 
+            xmax = 0.7552832849423261 
+            text = "sɤ LP" 
+        intervals [6]:
+            xmin = 0.7552832849423261 
+            xmax = 0.8909592113282983 
+            text = "lɘ" 
+        intervals [7]:
+            xmin = 0.8909592113282983 
+            xmax = 1.0104839350366437 
+            text = "zn̩" 
+        intervals [8]:
+            xmin = 1.0104839350366437 
+            xmax = 1.3829931972789116 
+            text = "" 

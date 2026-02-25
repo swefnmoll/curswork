@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.4830385487528344 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.4830385487528344 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.042898761300212564 
+            text = "" 
+        intervals [2]:
+            xmin = 0.042898761300212564 
+            xmax = 2.4479420365206526 
+            text = "Ийди бе, кыстар, ийди бе? // Не так ли, девушки, не так ли? // ГНФ // вопр // мод" 
+        intervals [3]:
+            xmin = 2.4479420365206526 
+            xmax = 2.4830385487528344 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 2.4830385487528344 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.042898761300212564 
+            text = "" 
+        intervals [2]:
+            xmin = 0.042898761300212564 
+            xmax = 1.6150519485083834 
+            text = "Ийди бе, кыстар" 
+        intervals [3]:
+            xmin = 1.6150519485083834 
+            xmax = 2.4479420365206526 
+            text = "ийди бе" 
+        intervals [4]:
+            xmin = 2.4479420365206526 
+            xmax = 2.4830385487528344 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 2.4830385487528344 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.042898761300212564 
+            text = "" 
+        intervals [2]:
+            xmin = 0.042898761300212564 
+            xmax = 0.22235048986491693 
+            text = "ij LP!" 
+        intervals [3]:
+            xmin = 0.22235048986491693 
+            xmax = 0.32671237543680454 
+            text = "di HP" 
+        intervals [4]:
+            xmin = 0.32671237543680454 
+            xmax = 0.555896637523226 
+            text = "be" 
+        intervals [5]:
+            xmin = 0.555896637523226 
+            xmax = 1.0772318053387826 
+            text = "- LI" 
+        intervals [6]:
+            xmin = 1.0772318053387826 
+            xmax = 1.2483936442687045 
+            text = "kъs" 
+        intervals [7]:
+            xmin = 1.2483936442687045 
+            xmax = 1.6150519485083834 
+            text = "tar HI" 
+        intervals [8]:
+            xmin = 1.6150519485083834 
+            xmax = 1.896974195191637 
+            text = "- LP LI!" 
+        intervals [9]:
+            xmin = 1.896974195191637 
+            xmax = 2.069864776633085 
+            text = "ij HP" 
+        intervals [10]:
+            xmin = 2.069864776633085 
+            xmax = 2.1600782814821886 
+            text = "di" 
+        intervals [11]:
+            xmin = 2.1600782814821886 
+            xmax = 2.325046404785663 
+            text = "be HI" 
+        intervals [12]:
+            xmin = 2.325046404785663 
+            xmax = 2.4479420365206526 
+            text = "-" 
+        intervals [13]:
+            xmin = 2.4479420365206526 
+            xmax = 2.4830385487528344 
+            text = "" 

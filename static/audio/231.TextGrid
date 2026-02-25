@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3356009070294785 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.3356009070294785 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11120654337664701 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11120654337664701 
+            xmax = 1.1635414950609195 
+            text = "Пенсия кичееш. // Пенсия маленькая. // ГНФ // утверд // информ" 
+        intervals [3]:
+            xmin = 1.1635414950609195 
+            xmax = 1.3356009070294785 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Syntagm" 
+        xmin = 0 
+        xmax = 1.3356009070294785 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11120654337664701 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11120654337664701 
+            xmax = 1.1635414950609195 
+            text = "Пенсия кичееш" 
+        intervals [3]:
+            xmin = 1.1635414950609195 
+            xmax = 1.3356009070294785 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 1.3356009070294785 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11120654337664701 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11120654337664701 
+            xmax = 0.33468345734349647 
+            text = "pen HI" 
+        intervals [3]:
+            xmin = 0.33468345734349647 
+            xmax = 0.5295700149460425 
+            text = "si LP" 
+        intervals [4]:
+            xmin = 0.5295700149460425 
+            xmax = 0.5871666121050084 
+            text = "kɪ" 
+        intervals [5]:
+            xmin = 0.5871666121050084 
+            xmax = 1.1635414950609195 
+            text = "ћ̮ҫe:ʃ HP LI!" 
+        intervals [6]:
+            xmin = 1.1635414950609195 
+            xmax = 1.3356009070294785 
+            text = "" 

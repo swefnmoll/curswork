@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8428344671201815 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Д.2_16" 
+        xmin = 0 
+        xmax = 1.8428344671201815 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3221750763004246 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3221750763004246 
+            xmax = 1.3754441104083195 
+            text = "Vot konst du noch zae? // Что ты еще можешь сказать? // ТЗП // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.3754441104083195 
+            xmax = 1.8428344671201815 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 1.8428344671201815 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3221750763004246 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3221750763004246 
+            xmax = 0.5537762209648411 
+            text = "vot" 
+        intervals [3]:
+            xmin = 0.5537762209648411 
+            xmax = 0.7934568804597424 
+            text = "konst" 
+        intervals [4]:
+            xmin = 0.7934568804597424 
+            xmax = 0.9035991488403473 
+            text = "du" 
+        intervals [5]:
+            xmin = 0.9035991488403473 
+            xmax = 1.0702936636467808 
+            text = "nox" 
+        intervals [6]:
+            xmin = 1.0702936636467808 
+            xmax = 1.3754441104083195 
+            text = "sae" 
+        intervals [7]:
+            xmin = 1.3754441104083195 
+            xmax = 1.8428344671201815 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 1.8428344671201815 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3221750763004246 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3221750763004246 
+            xmax = 0.5537762209648411 
+            text = "vʷot HP LP HI! LI" 
+        intervals [3]:
+            xmin = 0.5537762209648411 
+            xmax = 0.7934568804597424 
+            text = "kʷonst HP LP! HI LI" 
+        intervals [4]:
+            xmin = 0.7934568804597424 
+            xmax = 0.9035991488403473 
+            text = "dʷu HP LP HI LI" 
+        intervals [5]:
+            xmin = 0.9035991488403473 
+            xmax = 1.0702936636467808 
+            text = "nʷox HP LP HI LI" 
+        intervals [6]:
+            xmin = 1.0702936636467808 
+            xmax = 1.3754441104083195 
+            text = "zaə HP LP HI LI" 
+        intervals [7]:
+            xmin = 1.3754441104083195 
+            xmax = 1.8428344671201815 
+            text = "" 

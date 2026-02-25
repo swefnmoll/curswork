@@ -1,0 +1,234 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.68687074829932 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Д.2_4" 
+        xmin = 0 
+        xmax = 6.68687074829932 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2402529172949783 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2402529172949783 
+            xmax = 6.488430866274171 
+            text = "de menʃe ʃofe her, de traktor fit hej fo de satid, denʲte etʲ so, afte jemokt // Люди работают здесь, трактор везет сено для коров, я думаю, он сам его сделал // ТЗП // утверждение // информ" 
+        intervals [3]:
+            xmin = 6.488430866274171 
+            xmax = 6.68687074829932 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 6.68687074829932 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2402529172949783 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2402529172949783 
+            xmax = 0.706776038825273 
+            text = "ah" 
+        intervals [3]:
+            xmin = 0.706776038825273 
+            xmax = 0.8861300602225826 
+            text = "de" 
+        intervals [4]:
+            xmin = 0.8861300602225826 
+            xmax = 1.3094665796434883 
+            text = "menʃe" 
+        intervals [5]:
+            xmin = 1.3094665796434883 
+            xmax = 1.7424234741208975 
+            text = "ʃofe" 
+        intervals [6]:
+            xmin = 1.7424234741208975 
+            xmax = 2.1702028055896987 
+            text = "hea" 
+        intervals [7]:
+            xmin = 2.1702028055896987 
+            xmax = 2.356102471463079 
+            text = "-" 
+        intervals [8]:
+            xmin = 2.356102471463079 
+            xmax = 2.5338149533789016 
+            text = "de" 
+        intervals [9]:
+            xmin = 2.5338149533789016 
+            xmax = 2.91081929001461 
+            text = "trakte" 
+        intervals [10]:
+            xmin = 2.91081929001461 
+            xmax = 3.2259984367413264 
+            text = "fɪt" 
+        intervals [11]:
+            xmin = 3.2259984367413264 
+            xmax = 3.638955874964078 
+            text = "hej" 
+        intervals [12]:
+            xmin = 3.638955874964078 
+            xmax = 3.760181175128085 
+            text = "-" 
+        intervals [13]:
+            xmin = 3.760181175128085 
+            xmax = 3.913504792825615 
+            text = "fo" 
+        intervals [14]:
+            xmin = 3.913504792825615 
+            xmax = 4.024569611117994 
+            text = "de" 
+        intervals [15]:
+            xmin = 4.024569611117994 
+            xmax = 4.484402707505222 
+            text = "satid" 
+        intervals [16]:
+            xmin = 4.484402707505222 
+            xmax = 4.876321413272596 
+            text = "denʲtɪtʲ" 
+        intervals [17]:
+            xmin = 4.876321413272596 
+            xmax = 5.196835923625508 
+            text = "søu" 
+        intervals [18]:
+            xmin = 5.196835923625508 
+            xmax = 5.601184269278045 
+            text = "-" 
+        intervals [19]:
+            xmin = 5.601184269278045 
+            xmax = 5.930403338201805 
+            text = "afte" 
+        intervals [20]:
+            xmin = 5.930403338201805 
+            xmax = 6.488430866274171 
+            text = "jemokt" 
+        intervals [21]:
+            xmin = 6.488430866274171 
+            xmax = 6.68687074829932 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 6.68687074829932 
+        intervals: size = 28 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2402529172949783 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2402529172949783 
+            xmax = 0.706776038825273 
+            text = "ah HP LP HI LI" 
+        intervals [3]:
+            xmin = 0.706776038825273 
+            xmax = 0.8861300602225826 
+            text = "dɜ HP LP HI! LI" 
+        intervals [4]:
+            xmin = 0.8861300602225826 
+            xmax = 1.1304847228568384 
+            text = "mɜn HP LP HI" 
+        intervals [5]:
+            xmin = 1.1304847228568384 
+            xmax = 1.3094665796434883 
+            text = "ʃɜ LI" 
+        intervals [6]:
+            xmin = 1.3094665796434883 
+            xmax = 1.5566790253405436 
+            text = "ʃʷo LP HI" 
+        intervals [7]:
+            xmin = 1.5566790253405436 
+            xmax = 1.7424234741208975 
+            text = "fə HP LI" 
+        intervals [8]:
+            xmin = 1.7424234741208975 
+            xmax = 2.1702028055896987 
+            text = "hea HP! LP HI LI" 
+        intervals [9]:
+            xmin = 2.1702028055896987 
+            xmax = 2.356102471463079 
+            text = "-" 
+        intervals [10]:
+            xmin = 2.356102471463079 
+            xmax = 2.5338149533789016 
+            text = "dɜ HP LP HI LI" 
+        intervals [11]:
+            xmin = 2.5338149533789016 
+            xmax = 2.7978449265109804 
+            text = "trak HP LP HI" 
+        intervals [12]:
+            xmin = 2.7978449265109804 
+            xmax = 2.91081929001461 
+            text = "tɜ LI" 
+        intervals [13]:
+            xmin = 2.91081929001461 
+            xmax = 3.2259984367413264 
+            text = "fʲɪt HP LP HI LI" 
+        intervals [14]:
+            xmin = 3.2259984367413264 
+            xmax = 3.638955874964078 
+            text = "hɛj HP LP HI LI" 
+        intervals [15]:
+            xmin = 3.638955874964078 
+            xmax = 3.760181175128085 
+            text = "-" 
+        intervals [16]:
+            xmin = 3.760181175128085 
+            xmax = 3.913504792825615 
+            text = "fʷo HP LP HI LI" 
+        intervals [17]:
+            xmin = 3.913504792825615 
+            xmax = 4.024569611117994 
+            text = "dɜ HP LP HI LI" 
+        intervals [18]:
+            xmin = 4.024569611117994 
+            xmax = 4.214660547454421 
+            text = "sa" 
+        intervals [19]:
+            xmin = 4.214660547454421 
+            xmax = 4.484402707505222 
+            text = "tʲɪd HP LP HI LI" 
+        intervals [20]:
+            xmin = 4.484402707505222 
+            xmax = 4.684963937095935 
+            text = "dɜnʲ HP LP HI" 
+        intervals [21]:
+            xmin = 4.684963937095935 
+            xmax = 4.876321413272596 
+            text = "tʲetʲ LI" 
+        intervals [22]:
+            xmin = 4.876321413272596 
+            xmax = 5.196835923625508 
+            text = "sʲʷøu HP LP HI LI" 
+        intervals [23]:
+            xmin = 5.196835923625508 
+            xmax = 5.601184269278045 
+            text = "-" 
+        intervals [24]:
+            xmin = 5.601184269278045 
+            xmax = 5.777687864615157 
+            text = "af LP" 
+        intervals [25]:
+            xmin = 5.777687864615157 
+            xmax = 5.930403338201805 
+            text = "tɜ HP HI LI" 
+        intervals [26]:
+            xmin = 5.930403338201805 
+            xmax = 6.0499945507283535 
+            text = "je" 
+        intervals [27]:
+            xmin = 6.0499945507283535 
+            xmax = 6.488430866274171 
+            text = "mʷokt HP LP HI LI" 
+        intervals [28]:
+            xmin = 6.488430866274171 
+            xmax = 6.68687074829932 
+            text = "" 

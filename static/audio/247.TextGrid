@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.69 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.69 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.402277136379475 
+            text = "" 
+        intervals [2]:
+            xmin = 0.402277136379475 
+            xmax = 1.4787457463004723 
+            text = "Қандый сен аны йазызың? // Как ты его [перемяч] делаешь [готовишь]? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.4787457463004723 
+            xmax = 1.69 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.69 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.402277136379475 
+            text = "" 
+        intervals [2]:
+            xmin = 0.402277136379475 
+            xmax = 1.4787457463004723 
+            text = "Қандый сен аны йазызың" 
+        intervals [3]:
+            xmin = 1.4787457463004723 
+            xmax = 1.69 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.69 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.402277136379475 
+            text = "" 
+        intervals [2]:
+            xmin = 0.402277136379475 
+            xmax = 0.5665780491699274 
+            text = "qɐn HI LI" 
+        intervals [3]:
+            xmin = 0.5665780491699274 
+            xmax = 0.6218292880526171 
+            text = "dɨ HP" 
+        intervals [4]:
+            xmin = 0.6218292880526171 
+            xmax = 0.8229616390754445 
+            text = "sʲen" 
+        intervals [5]:
+            xmin = 0.8229616390754445 
+            xmax = 0.8959499652192566 
+            text = "ɐ" 
+        intervals [6]:
+            xmin = 0.8959499652192566 
+            xmax = 1.008914456886365 
+            text = "nɨ" 
+        intervals [7]:
+            xmin = 1.008914456886365 
+            xmax = 1.1132935022288208 
+            text = "jə LP" 
+        intervals [8]:
+            xmin = 1.1132935022288208 
+            xmax = 1.2712317633286718 
+            text = "zɨ" 
+        intervals [9]:
+            xmin = 1.2712317633286718 
+            xmax = 1.4787457463004723 
+            text = "zn̩" 
+        intervals [10]:
+            xmin = 1.4787457463004723 
+            xmax = 1.69 
+            text = "" 

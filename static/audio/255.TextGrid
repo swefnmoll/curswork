@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.4729931972789116 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.4729931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.39197002479839665 
+            text = "" 
+        intervals [2]:
+            xmin = 0.39197002479839665 
+            xmax = 2.129368967325511 
+            text = "Сен тоже Сабантуй ғына йаратазың? // Ты тоже только сабантуй любишь? // МАА // вопрос // мод" 
+        intervals [3]:
+            xmin = 2.129368967325511 
+            xmax = 2.4729931972789116 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.4729931972789116 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.39197002479839665 
+            text = "" 
+        intervals [2]:
+            xmin = 0.39197002479839665 
+            xmax = 2.129368967325511 
+            text = "Сен тоже Сабантуй ғына йаратазың" 
+        intervals [3]:
+            xmin = 2.129368967325511 
+            xmax = 2.4729931972789116 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.4729931972789116 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.39197002479839665 
+            text = "" 
+        intervals [2]:
+            xmin = 0.39197002479839665 
+            xmax = 0.6268638620795066 
+            text = "sʲin" 
+        intervals [3]:
+            xmin = 0.6268638620795066 
+            xmax = 0.7550644111364827 
+            text = "tɵ" 
+        intervals [4]:
+            xmin = 0.7550644111364827 
+            xmax = 1.0286006816580542 
+            text = "ʒɘ" 
+        intervals [5]:
+            xmin = 1.0286006816580542 
+            xmax = 1.1582315673544887 
+            text = "sə HP LI" 
+        intervals [6]:
+            xmin = 1.1582315673544887 
+            xmax = 1.3757124899838202 
+            text = "bɐn" 
+        intervals [7]:
+            xmin = 1.3757124899838202 
+            xmax = 1.526114888414217 
+            text = "tʉj LP HI" 
+        intervals [8]:
+            xmin = 1.526114888414217 
+            xmax = 1.6004087045608546 
+            text = "ɣɘ" 
+        intervals [9]:
+            xmin = 1.6004087045608546 
+            xmax = 1.6688982414515836 
+            text = "nɘ" 
+        intervals [10]:
+            xmin = 1.6688982414515836 
+            xmax = 1.8288223770700158 
+            text = "jəɹ" 
+        intervals [11]:
+            xmin = 1.8288223770700158 
+            xmax = 1.9488325746413773 
+            text = "tɐ" 
+        intervals [12]:
+            xmin = 1.9488325746413773 
+            xmax = 2.129368967325511 
+            text = "zn̩" 
+        intervals [13]:
+            xmin = 2.129368967325511 
+            xmax = 2.4729931972789116 
+            text = "" 

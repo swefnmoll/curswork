@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5829931972789115 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.5829931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25080024983051813 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25080024983051813 
+            xmax = 1.246311122696115 
+            text = "Неме көргөле анда? // Что там посмотреть? // ВСА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.246311122696115 
+            xmax = 1.5829931972789115 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.5829931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25080024983051813 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25080024983051813 
+            xmax = 1.246311122696115 
+            text = "Неме көргөле анда" 
+        intervals [3]:
+            xmin = 1.246311122696115 
+            xmax = 1.5829931972789115 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.5829931972789115 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25080024983051813 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25080024983051813 
+            xmax = 0.4024296481064519 
+            text = "nʲi HI" 
+        intervals [3]:
+            xmin = 0.4024296481064519 
+            xmax = 0.5798520296586347 
+            text = "mʲe HP LP" 
+        intervals [4]:
+            xmin = 0.5798520296586347 
+            xmax = 0.7132256565636391 
+            text = "kɵɾ LI" 
+        intervals [5]:
+            xmin = 0.7132256565636391 
+            xmax = 0.870150882564778 
+            text = "gɵ" 
+        intervals [6]:
+            xmin = 0.870150882564778 
+            xmax = 0.9924474620631384 
+            text = "lʲʲæ" 
+        intervals [7]:
+            xmin = 0.9924474620631384 
+            xmax = 1.1245165729474662 
+            text = "ɑn" 
+        intervals [8]:
+            xmin = 1.1245165729474662 
+            xmax = 1.246311122696115 
+            text = "dɐ" 
+        intervals [9]:
+            xmin = 1.246311122696115 
+            xmax = 1.5829931972789115 
+            text = "" 

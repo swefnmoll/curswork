@@ -121,6 +121,7 @@ def results():
     AND dictors.DOB <= {characteristics['age_to']})
     AND files.type LIKE '{characteristics['type']}'
     AND files.subtype LIKE '{characteristics['subtype']}'
+    ORDER BY files.file ASC
     ''')
     total = len(cursor.fetchall())
 
@@ -139,6 +140,7 @@ def results():
     AND dictors.DOB <= {characteristics['age_to']})
     AND files.type LIKE '{characteristics['type']}'
     AND files.subtype LIKE '{characteristics['subtype']}'
+    ORDER BY files.file ASC
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
     data = list(cursor.fetchall())
@@ -148,7 +150,7 @@ def results():
         new_elem.append(i)
         result.append(new_elem)
     print(result)
-    pagination = Pagination(page=page, page_per=elem_to_display, total=total, prev_label='<', next_label='>')
+    pagination = Pagination(page=page, page_per=elem_to_display, total=total, offset=offset, prev_label='<', next_label='>')
 
     return render_template('search_result.html', result=result, pagination=pagination, css_framework='bootstrap5')
 
@@ -174,6 +176,7 @@ def results_dialogs():
     INNER JOIN themes ON themes.id = full_dialogs.theme
     WHERE languages.lang LIKE '{characteristics['lang']}'
     AND themes.theme LIKE '{characteristics['theme']}'
+    ORDER BY full_dialogs.id ASC
     ''')
 
     total = len(cursor.fetchall())
@@ -186,6 +189,7 @@ def results_dialogs():
     INNER JOIN themes ON themes.id = full_dialogs.theme
     WHERE languages.lang LIKE '{characteristics['lang']}'
     AND themes.theme LIKE '{characteristics['theme']}'
+    ORDER BY full_dialogs.id ASC
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
 
@@ -207,7 +211,7 @@ def results_dialogs():
         if len(new_elem) > 6:
             print(new_elem)
         result.append(new_elem)
-    pagination = Pagination(page=page, page_per=elem_to_display, total=total, prev_label='<', next_label='>')
+    pagination = Pagination(page=page, page_per=elem_to_display, total=total, offset=offset, prev_label='<', next_label='>')
     return render_template('result_dialogs.html', result=result, pagination=pagination, css_framework='bootstrap5')
 app.run(port=4444, debug=True)
 cursor.close()

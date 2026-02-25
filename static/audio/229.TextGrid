@@ -2,93 +2,101 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1.8428344671201815 
+xmax = 2.209387755102041 
 tiers? <exists> 
 size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "Д.2_16" 
+        name = "Phrase" 
         xmin = 0 
-        xmax = 1.8428344671201815 
+        xmax = 2.209387755102041 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.3221750763004246 
+            xmax = 0.032964189300232316 
             text = "" 
         intervals [2]:
-            xmin = 0.3221750763004246 
-            xmax = 1.3754441104083195 
-            text = "Vot konst du noch zae? // Что ты еще можешь сказать? // ТЗП // вопрос" 
+            xmin = 0.032964189300232316 
+            xmax = 2.155596430159688 
+            text = "Њағысқан, палларым қуштап чатчынар. // Одна, дети рядом живут. // ГНФ // утвердит. // информативное" 
         intervals [3]:
-            xmin = 1.3754441104083195 
-            xmax = 1.8428344671201815 
+            xmin = 2.155596430159688 
+            xmax = 2.209387755102041 
             text = "" 
     item [2]:
         class = "IntervalTier" 
-        name = "" 
+        name = "Syntagm" 
         xmin = 0 
-        xmax = 1.8428344671201815 
-        intervals: size = 7 
+        xmax = 2.209387755102041 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.3221750763004246 
+            xmax = 0.032964189300232316 
             text = "" 
         intervals [2]:
-            xmin = 0.3221750763004246 
-            xmax = 0.5537762209648411 
-            text = "vot" 
+            xmin = 0.032964189300232316 
+            xmax = 0.6994325298480908 
+            text = "Њағысқан" 
         intervals [3]:
-            xmin = 0.5537762209648411 
-            xmax = 0.7934568804597424 
-            text = "konst" 
+            xmin = 0.6994325298480908 
+            xmax = 2.155596430159688 
+            text = "палларым қуштап чатчынар" 
         intervals [4]:
-            xmin = 0.7934568804597424 
-            xmax = 0.9035991488403473 
-            text = "du" 
-        intervals [5]:
-            xmin = 0.9035991488403473 
-            xmax = 1.0702936636467808 
-            text = "nox" 
-        intervals [6]:
-            xmin = 1.0702936636467808 
-            xmax = 1.3754441104083195 
-            text = "sae" 
-        intervals [7]:
-            xmin = 1.3754441104083195 
-            xmax = 1.8428344671201815 
+            xmin = 2.155596430159688 
+            xmax = 2.209387755102041 
             text = "" 
     item [3]:
         class = "IntervalTier" 
-        name = "" 
+        name = "Syllable" 
         xmin = 0 
-        xmax = 1.8428344671201815 
-        intervals: size = 7 
+        xmax = 2.209387755102041 
+        intervals: size = 12 
         intervals [1]:
             xmin = 0 
-            xmax = 0.3221750763004246 
+            xmax = 0.032964189300232316 
             text = "" 
         intervals [2]:
-            xmin = 0.3221750763004246 
-            xmax = 0.5537762209648411 
-            text = "vʷot HP LP HI! LI" 
+            xmin = 0.032964189300232316 
+            xmax = 0.4425705779951663 
+            text = "yas HP! LP HI" 
         intervals [3]:
-            xmin = 0.5537762209648411 
-            xmax = 0.7934568804597424 
-            text = "kʷonst HP LP! HI LI" 
+            xmin = 0.4425705779951663 
+            xmax = 0.6994325298480908 
+            text = "kan LI" 
         intervals [4]:
-            xmin = 0.7934568804597424 
-            xmax = 0.9035991488403473 
-            text = "dʷu HP LP HI LI" 
+            xmin = 0.6994325298480908 
+            xmax = 0.7929798698939699 
+            text = "pa" 
         intervals [5]:
-            xmin = 0.9035991488403473 
-            xmax = 1.0702936636467808 
-            text = "nʷox HP LP HI LI" 
+            xmin = 0.7929798698939699 
+            xmax = 0.904925723970368 
+            text = "la HI!" 
         intervals [6]:
-            xmin = 1.0702936636467808 
-            xmax = 1.3754441104083195 
-            text = "zaə HP LP HI LI" 
+            xmin = 0.904925723970368 
+            xmax = 1.146173378491598 
+            text = "rъm HP" 
         intervals [7]:
-            xmin = 1.3754441104083195 
-            xmax = 1.8428344671201815 
+            xmin = 1.146173378491598 
+            xmax = 1.3327498019522612 
+            text = "kuʃ" 
+        intervals [8]:
+            xmin = 1.3327498019522612 
+            xmax = 1.5219296173681898 
+            text = "tap" 
+        intervals [9]:
+            xmin = 1.5219296173681898 
+            xmax = 1.7338408790068502 
+            text = "ћ̮ҫat LP" 
+        intervals [10]:
+            xmin = 1.7338408790068502 
+            xmax = 1.8917799909595978 
+            text = "ћ̮ҫъ" 
+        intervals [11]:
+            xmin = 1.8917799909595978 
+            xmax = 2.155596430159688 
+            text = "nar LI!" 
+        intervals [12]:
+            xmin = 2.155596430159688 
+            xmax = 2.209387755102041 
             text = "" 

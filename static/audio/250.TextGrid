@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.9450113378684808 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.9450113378684808 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7093217389173843 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7093217389173843 
+            xmax = 1.5218600354378133 
+            text = "Неме бәйлизең? // Что вяжешь? // ВСА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.5218600354378133 
+            xmax = 1.9450113378684808 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.9450113378684808 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7093217389173843 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7093217389173843 
+            xmax = 1.5218600354378133 
+            text = "Неме бәйлизең" 
+        intervals [3]:
+            xmin = 1.5218600354378133 
+            xmax = 1.9450113378684808 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.9450113378684808 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7093217389173843 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7093217389173843 
+            xmax = 0.8390940323371266 
+            text = "ni" 
+        intervals [3]:
+            xmin = 0.8390940323371266 
+            xmax = 0.9778143553817475 
+            text = "mʲe LP HI" 
+        intervals [4]:
+            xmin = 0.9778143553817475 
+            xmax = 1.148838768564057 
+            text = "bej HP" 
+        intervals [5]:
+            xmin = 1.148838768564057 
+            xmax = 1.3249119395260576 
+            text = "lʲi" 
+        intervals [6]:
+            xmin = 1.3249119395260576 
+            xmax = 1.5218600354378133 
+            text = "zɯŋ LI" 
+        intervals [7]:
+            xmin = 1.5218600354378133 
+            xmax = 1.9450113378684808 
+            text = "" 

@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.9719954648526077 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.9719954648526077 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19753686115493657 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19753686115493657 
+            xmax = 0.37692059340527934 
+            text = "A // А // АРР // маркер хез // междомет" 
+        intervals [3]:
+            xmin = 0.37692059340527934 
+            xmax = 0.38795959231299276 
+            text = "-" 
+        intervals [4]:
+            xmin = 0.38795959231299276 
+            xmax = 1.8589550924707527 
+            text = "Альфияга барғаның бар ба? // К Альфие ходила? // АРР // вопрос / мод" 
+        intervals [5]:
+            xmin = 1.8589550924707527 
+            xmax = 1.9719954648526077 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.9719954648526077 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19753686115493657 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19753686115493657 
+            xmax = 0.37692059340527934 
+            text = "А" 
+        intervals [3]:
+            xmin = 0.37692059340527934 
+            xmax = 0.38795959231299276 
+            text = "-" 
+        intervals [4]:
+            xmin = 0.38795959231299276 
+            xmax = 1.8589550924707527 
+            text = "Альфияга барғаның бар ба" 
+        intervals [5]:
+            xmin = 1.8589550924707527 
+            xmax = 1.9719954648526077 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.9719954648526077 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19753686115493657 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19753686115493657 
+            xmax = 0.37692059340527934 
+            text = "ɐʔ HP LP HI LI" 
+        intervals [3]:
+            xmin = 0.37692059340527934 
+            xmax = 0.38795959231299276 
+            text = "-" 
+        intervals [4]:
+            xmin = 0.38795959231299276 
+            xmax = 0.5758669432199879 
+            text = "ɐlʲ" 
+        intervals [5]:
+            xmin = 0.5758669432199879 
+            xmax = 0.7059480155716314 
+            text = "fʲi" 
+        intervals [6]:
+            xmin = 0.7059480155716314 
+            xmax = 0.800082720151189 
+            text = "jɛ" 
+        intervals [7]:
+            xmin = 0.800082720151189 
+            xmax = 0.9112527123510091 
+            text = "gɐ" 
+        intervals [8]:
+            xmin = 0.9112527123510091 
+            xmax = 1.0747253622198623 
+            text = "bʌr HI" 
+        intervals [9]:
+            xmin = 1.0747253622198623 
+            xmax = 1.2131030928361073 
+            text = "gɐ HP" 
+        intervals [10]:
+            xmin = 1.2131030928361073 
+            xmax = 1.3669670348903842 
+            text = "nɤŋ LP" 
+        intervals [11]:
+            xmin = 1.3669670348903842 
+            xmax = 1.5427550971736592 
+            text = "bɐr" 
+        intervals [12]:
+            xmin = 1.5427550971736592 
+            xmax = 1.8589550924707527 
+            text = "bɐ LI!" 
+        intervals [13]:
+            xmin = 1.8589550924707527 
+            xmax = 1.9719954648526077 
+            text = "" 
