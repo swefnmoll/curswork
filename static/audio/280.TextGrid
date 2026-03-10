@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.605192743764172 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.605192743764172 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16969935618813273 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16969935618813273 
+            xmax = 2.494387672868433 
+            text = "Кöндӓ йöредегӓн. Каждый кöн. // Ежедневно ходила. Каждый день. // ЮНХ // утверждение // информ" 
+        intervals [3]:
+            xmin = 2.494387672868433 
+            xmax = 2.605192743764172 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.605192743764172 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16969935618813273 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16969935618813273 
+            xmax = 1.2510638722512422 
+            text = "кöндӓ йöредегӓн" 
+        intervals [3]:
+            xmin = 1.2510638722512422 
+            xmax = 1.6829552977287927 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.6829552977287927 
+            xmax = 2.494387672868433 
+            text = "каждый кöн" 
+        intervals [5]:
+            xmin = 2.494387672868433 
+            xmax = 2.605192743764172 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.605192743764172 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16969935618813273 
+            text = "" 
+        intervals [2]:
+            xmin = 0.16969935618813273 
+            xmax = 0.38341816881248597 
+            text = "kʲʏn LI" 
+        intervals [3]:
+            xmin = 0.38341816881248597 
+            xmax = 0.4784854218903846 
+            text = "dʲø HP HI" 
+        intervals [4]:
+            xmin = 0.4784854218903846 
+            xmax = 0.6013937990839535 
+            text = "jʏ" 
+        intervals [5]:
+            xmin = 0.6013937990839535 
+            xmax = 0.7657243365471783 
+            text = "rʲɛ" 
+        intervals [6]:
+            xmin = 0.7657243365471783 
+            xmax = 0.8648659004712727 
+            text = "dɯ LP!" 
+        intervals [7]:
+            xmin = 0.8648659004712727 
+            xmax = 1.2510638722512422 
+            text = "ɣɛn" 
+        intervals [8]:
+            xmin = 1.2510638722512422 
+            xmax = 1.6829552977287927 
+            text = "-" 
+        intervals [9]:
+            xmin = 1.6829552977287927 
+            xmax = 2.005957935841006 
+            text = "kʌʒ HP LP LI" 
+        intervals [10]:
+            xmin = 2.005957935841006 
+            xmax = 2.1496490593412694 
+            text = "dɯj" 
+        intervals [11]:
+            xmin = 2.1496490593412694 
+            xmax = 2.494387672868433 
+            text = "gʲʏn HI" 
+        intervals [12]:
+            xmin = 2.494387672868433 
+            xmax = 2.605192743764172 
+            text = "" 

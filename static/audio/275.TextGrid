@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.659047619047619 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.659047619047619 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11232209291504676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11232209291504676 
+            xmax = 1.4185323960142833 
+            text = "Йӓ, сморчок бар. // Ну, сморчки есть. // АМГ // утверждение // информ" 
+        intervals [3]:
+            xmin = 1.4185323960142833 
+            xmax = 1.659047619047619 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.659047619047619 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11232209291504676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11232209291504676 
+            xmax = 0.3152945489356716 
+            text = "йӓ" 
+        intervals [3]:
+            xmin = 0.3152945489356716 
+            xmax = 1.4185323960142833 
+            text = "сморчок бар" 
+        intervals [4]:
+            xmin = 1.4185323960142833 
+            xmax = 1.659047619047619 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.659047619047619 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11232209291504676 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11232209291504676 
+            xmax = 0.3152945489356716 
+            text = "jɛ HP! LP HI LI" 
+        intervals [3]:
+            xmin = 0.3152945489356716 
+            xmax = 0.41711058195203865 
+            text = "ɜ" 
+        intervals [4]:
+            xmin = 0.41711058195203865 
+            xmax = 0.8491538465031456 
+            text = "smʌr LP!" 
+        intervals [5]:
+            xmin = 0.8491538465031456 
+            xmax = 1.0913305643008513 
+            text = "tʃøk HP" 
+        intervals [6]:
+            xmin = 1.0913305643008513 
+            xmax = 1.4185323960142833 
+            text = "pʌr HI LI" 
+        intervals [7]:
+            xmin = 1.4185323960142833 
+            xmax = 1.659047619047619 
+            text = "" 

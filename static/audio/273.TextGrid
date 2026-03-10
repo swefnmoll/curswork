@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6481913430561135 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.6481913430561135 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25823747081108034 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25823747081108034 
+            xmax = 1.5887037262053008 
+            text = "Тордымыйдым Қошкульда. // Я в Кошкуле жила. // АМГ // утверждение // информ" 
+        intervals [3]:
+            xmin = 1.5887037262053008 
+            xmax = 1.6481913430561135 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.6481913430561135 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25823747081108034 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25823747081108034 
+            xmax = 1.5887037262053008 
+            text = "тордымыйдым Қошкульда" 
+        intervals [3]:
+            xmin = 1.5887037262053008 
+            xmax = 1.6481913430561135 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.6481913430561135 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25823747081108034 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25823747081108034 
+            xmax = 0.4238590208676842 
+            text = "tor HP" 
+        intervals [3]:
+            xmin = 0.4238590208676842 
+            xmax = 0.5336723216429162 
+            text = "tɵ" 
+        intervals [4]:
+            xmin = 0.5336723216429162 
+            xmax = 0.7275979379055602 
+            text = "mʲej" 
+        intervals [5]:
+            xmin = 0.7275979379055602 
+            xmax = 0.8716792190645526 
+            text = "dɘm" 
+        intervals [6]:
+            xmin = 0.8716792190645526 
+            xmax = 1.0920846383510112 
+            text = "kʲøʃ LP" 
+        intervals [7]:
+            xmin = 1.0920846383510112 
+            xmax = 1.30392306254153 
+            text = "kʲølʲ HI" 
+        intervals [8]:
+            xmin = 1.30392306254153 
+            xmax = 1.5887037262053008 
+            text = "dɛ LI" 
+        intervals [9]:
+            xmin = 1.5887037262053008 
+            xmax = 1.6481913430561135 
+            text = "" 

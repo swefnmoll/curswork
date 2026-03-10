@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7073469387755102 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 0.7073469387755102 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05051763614437588 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05051763614437588 
+            xmax = 0.6150759717521928 
+            text = "Йӓ. // Да. // АМГ // утверждение // верификат" 
+        intervals [3]:
+            xmin = 0.6150759717521928 
+            xmax = 0.7073469387755102 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 0.7073469387755102 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05051763614437588 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05051763614437588 
+            xmax = 0.6150759717521928 
+            text = "йӓ" 
+        intervals [3]:
+            xmin = 0.6150759717521928 
+            xmax = 0.7073469387755102 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 0.7073469387755102 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05051763614437588 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05051763614437588 
+            xmax = 0.6150759717521928 
+            text = "jɛː HP! LP HI! LI!" 
+        intervals [3]:
+            xmin = 0.6150759717521928 
+            xmax = 0.7073469387755102 
+            text = "" 

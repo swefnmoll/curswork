@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0479138321995465 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.0479138321995465 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05952916867926962 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05952916867926962 
+            xmax = 1.734240869296353 
+            text = "Йаратым бик гинӓ ашкере балықны. // Прям очень сильно люблю рыбу. // ЮНХ // утверждение // верификат" 
+        intervals [3]:
+            xmin = 1.734240869296353 
+            xmax = 2.0479138321995465 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.0479138321995465 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05952916867926962 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05952916867926962 
+            xmax = 1.734240869296353 
+            text = "йаратым бик гинӓ ашкере балықны" 
+        intervals [3]:
+            xmin = 1.734240869296353 
+            xmax = 2.0479138321995465 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.0479138321995465 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05952916867926962 
+            text = "" 
+        intervals [2]:
+            xmin = 0.05952916867926962 
+            xmax = 0.19802067085077943 
+            text = "jʌ HP!" 
+        intervals [3]:
+            xmin = 0.19802067085077943 
+            xmax = 0.40746230402035993 
+            text = "rʌ HI!" 
+        intervals [4]:
+            xmin = 0.40746230402035993 
+            xmax = 0.6061780845571436 
+            text = "tɯm" 
+        intervals [5]:
+            xmin = 0.6061780845571436 
+            xmax = 0.7496280026894828 
+            text = "bɨk" 
+        intervals [6]:
+            xmin = 0.7496280026894828 
+            xmax = 0.9156182707673866 
+            text = "kʲinʲ" 
+        intervals [7]:
+            xmin = 0.9156182707673866 
+            xmax = 1.0589587477557054 
+            text = "ʌʃ LP!" 
+        intervals [8]:
+            xmin = 1.0589587477557054 
+            xmax = 1.1814189190410014 
+            text = "kʲe" 
+        intervals [9]:
+            xmin = 1.1814189190410014 
+            xmax = 1.290802841400975 
+            text = "rʲɛ" 
+        intervals [10]:
+            xmin = 1.290802841400975 
+            xmax = 1.428622508054395 
+            text = "pʌ" 
+        intervals [11]:
+            xmin = 1.428622508054395 
+            xmax = 1.6026413844056462 
+            text = "lɯq LI!" 
+        intervals [12]:
+            xmin = 1.6026413844056462 
+            xmax = 1.734240869296353 
+            text = "nɯ" 
+        intervals [13]:
+            xmin = 1.734240869296353 
+            xmax = 2.0479138321995465 
+            text = "" 

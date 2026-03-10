@@ -1,0 +1,166 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.957755102040816 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 6.957755102040816 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11264616085830684 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11264616085830684 
+            xmax = 6.926566446086613 
+            text = "Минеке бабайым кел йöреде: қыш, йӓй, кöс, йӓс. // Мой супруг всегда ходит: зимой, летом, осенью, весной. // АМГ // утверждение // информ" 
+        intervals [3]:
+            xmin = 6.926566446086613 
+            xmax = 6.957755102040816 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 6.957755102040816 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11264616085830684 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11264616085830684 
+            xmax = 1.01640724320827 
+            text = "минеке " 
+        intervals [3]:
+            xmin = 1.01640724320827 
+            xmax = 1.1465278619868498 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.1465278619868498 
+            xmax = 1.9903711966967745 
+            text = "бабайым " 
+        intervals [5]:
+            xmin = 1.9903711966967745 
+            xmax = 2.4289536408495978 
+            text = "-" 
+        intervals [6]:
+            xmin = 2.4289536408495978 
+            xmax = 3.249830272464284 
+            text = "кел йöреде" 
+        intervals [7]:
+            xmin = 3.249830272464284 
+            xmax = 4.416559045986491 
+            text = "-" 
+        intervals [8]:
+            xmin = 4.416559045986491 
+            xmax = 4.909395952971858 
+            text = "қыш, " 
+        intervals [9]:
+            xmin = 4.909395952971858 
+            xmax = 5.579932601581592 
+            text = "йӓй," 
+        intervals [10]:
+            xmin = 5.579932601581592 
+            xmax = 6.082740247383884 
+            text = "-" 
+        intervals [11]:
+            xmin = 6.082740247383884 
+            xmax = 6.442002629556675 
+            text = "кöс, " 
+        intervals [12]:
+            xmin = 6.442002629556675 
+            xmax = 6.926566446086613 
+            text = "йӓс" 
+        intervals [13]:
+            xmin = 6.926566446086613 
+            xmax = 6.957755102040816 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 6.957755102040816 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11264616085830684 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11264616085830684 
+            xmax = 0.32900990517508016 
+            text = "mʲi LI" 
+        intervals [3]:
+            xmin = 0.32900990517508016 
+            xmax = 0.5021562157928743 
+            text = "nʲe LP" 
+        intervals [4]:
+            xmin = 0.5021562157928743 
+            xmax = 1.01640724320827 
+            text = "kʲe HP HI" 
+        intervals [5]:
+            xmin = 1.01640724320827 
+            xmax = 1.1465278619868498 
+            text = "-" 
+        intervals [6]:
+            xmin = 1.1465278619868498 
+            xmax = 1.368471152193162 
+            text = "pʌ LI" 
+        intervals [7]:
+            xmin = 1.368471152193162 
+            xmax = 1.6064662682857855 
+            text = "bʌ HP LP! HI" 
+        intervals [8]:
+            xmin = 1.6064662682857855 
+            xmax = 1.9903711966967745 
+            text = "jim" 
+        intervals [9]:
+            xmin = 1.9903711966967745 
+            xmax = 2.4289536408495978 
+            text = "-" 
+        intervals [10]:
+            xmin = 2.4289536408495978 
+            xmax = 2.6726759037383037 
+            text = "kʲelʲ HP" 
+        intervals [11]:
+            xmin = 2.6726759037383037 
+            xmax = 2.7900522416477447 
+            text = "jʏ" 
+        intervals [12]:
+            xmin = 2.7900522416477447 
+            xmax = 3.249830272464284 
+            text = "rɛt LP HI LI" 
+        intervals [13]:
+            xmin = 3.249830272464284 
+            xmax = 4.416559045986491 
+            text = "-" 
+        intervals [14]:
+            xmin = 4.416559045986491 
+            xmax = 4.909395952971858 
+            text = "kʌʃʲ HP LP HI LI" 
+        intervals [15]:
+            xmin = 4.909395952971858 
+            xmax = 5.579932601581592 
+            text = "jej HP LP HI LI" 
+        intervals [16]:
+            xmin = 5.579932601581592 
+            xmax = 6.082740247383884 
+            text = "-" 
+        intervals [17]:
+            xmin = 6.082740247383884 
+            xmax = 6.442002629556675 
+            text = "kʲʏsʲ HP LP HI LI" 
+        intervals [18]:
+            xmin = 6.442002629556675 
+            xmax = 6.926566446086613 
+            text = "jʌs HP LP HI LI" 
+        intervals [19]:
+            xmin = 6.926566446086613 
+            xmax = 6.957755102040816 
+            text = "" 

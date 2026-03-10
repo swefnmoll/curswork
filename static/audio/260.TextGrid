@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.9175283446712017 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.9175283446712017 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021617235794264625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.021617235794264625 
+            xmax = 2.791732899573287 
+            text = "Но, болыдыҕан қайсы чақны, кӱчӱ чақта. // Да, бывало иногда, в детстве. // АРР // утверждение // верификат" 
+        intervals [3]:
+            xmin = 2.791732899573287 
+            xmax = 2.9175283446712017 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.9175283446712017 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021617235794264625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.021617235794264625 
+            xmax = 0.35635377716336963 
+            text = "но" 
+        intervals [3]:
+            xmin = 0.35635377716336963 
+            xmax = 1.7465351275432242 
+            text = "болыдыҕан қайсы чақны" 
+        intervals [4]:
+            xmin = 1.7465351275432242 
+            xmax = 2.1632479647578244 
+            text = "-" 
+        intervals [5]:
+            xmin = 2.1632479647578244 
+            xmax = 2.791732899573287 
+            text = "кӱчӱ чақта" 
+        intervals [6]:
+            xmin = 2.791732899573287 
+            xmax = 2.9175283446712017 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.9175283446712017 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.021617235794264625 
+            text = "" 
+        intervals [2]:
+            xmin = 0.021617235794264625 
+            xmax = 0.35635377716336963 
+            text = "no HP! LP HI! LI" 
+        intervals [3]:
+            xmin = 0.35635377716336963 
+            xmax = 0.7035563740790679 
+            text = "bol HP HI" 
+        intervals [4]:
+            xmin = 0.7035563740790679 
+            xmax = 0.8207397267609136 
+            text = "dɯ" 
+        intervals [5]:
+            xmin = 0.8207397267609136 
+            xmax = 1.0070938084563485 
+            text = "ɣʌn" 
+        intervals [6]:
+            xmin = 1.0070938084563485 
+            xmax = 1.3439959474166547 
+            text = "qʌjs LP" 
+        intervals [7]:
+            xmin = 1.3439959474166547 
+            xmax = 1.5987069848431663 
+            text = "tʃʌq LI!" 
+        intervals [8]:
+            xmin = 1.5987069848431663 
+            xmax = 1.7465351275432242 
+            text = "nɯ" 
+        intervals [9]:
+            xmin = 1.7465351275432242 
+            xmax = 2.1632479647578244 
+            text = "-" 
+        intervals [10]:
+            xmin = 2.1632479647578244 
+            xmax = 2.791732899573287 
+            text = " HP LP HI LI" 
+        intervals [11]:
+            xmin = 2.791732899573287 
+            xmax = 2.9175283446712017 
+            text = "" 

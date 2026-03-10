@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9082312925170068 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 0.9082312925170068 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.030122221161553792 
+            text = "" 
+        intervals [2]:
+            xmin = 0.030122221161553792 
+            xmax = 0.7058534353286046 
+            text = "Йаратыдым. // Люблю. // АРС // утверждение // верификат" 
+        intervals [3]:
+            xmin = 0.7058534353286046 
+            xmax = 0.9082312925170068 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 0.9082312925170068 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.030122221161553792 
+            text = "" 
+        intervals [2]:
+            xmin = 0.030122221161553792 
+            xmax = 0.7058534353286046 
+            text = "йаратыдым" 
+        intervals [3]:
+            xmin = 0.7058534353286046 
+            xmax = 0.9082312925170068 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 0.9082312925170068 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.030122221161553792 
+            text = "" 
+        intervals [2]:
+            xmin = 0.030122221161553792 
+            xmax = 0.16037725457691762 
+            text = "jʌ HI!" 
+        intervals [3]:
+            xmin = 0.16037725457691762 
+            xmax = 0.3299746246156975 
+            text = "rʌ LP!" 
+        intervals [4]:
+            xmin = 0.3299746246156975 
+            xmax = 0.47724256035470064 
+            text = "tɯ HP! LI!" 
+        intervals [5]:
+            xmin = 0.47724256035470064 
+            xmax = 0.7058534353286046 
+            text = "tɯm" 
+        intervals [6]:
+            xmin = 0.7058534353286046 
+            xmax = 0.9082312925170068 
+            text = "" 

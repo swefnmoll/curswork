@@ -7,7 +7,7 @@ class Annotation:
 
     def __init__(self, file):
         self.path_to_tg = path.splitext(file)[0] + '.TextGrid'
-        self.tg = mtg.read_from_file(self.path_to_tg)
+        self.tg = mtg.read_textgrid(self.path_to_tg)
         self.snd = parselmouth.Sound(file)
         self.syntagms = self.read_interval(1)
 
