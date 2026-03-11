@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% include "top.html" %}
 <div class="title">Поиск по фразам</div><br>
-<form class="form" form method="post" action="{{ url_for('results') }}">
+<form class="form" method="get" action="{{ url_for('results') }}">
 <div>
     <label class="form-label">Язык</label>
     <select name="lang">
@@ -76,7 +76,7 @@
 </div><br><br>
 </form><br>
 <div class="title">Поиск по диалогам</div><br>
-<form class="form" form method="post" action="{{ url_for('results_dialogs') }}">
+<form class="form" form method="get" action="{{ url_for('results_dialogs') }}">
     <div>
     <label class="form-label">Язык</label>
     <select name="lang">

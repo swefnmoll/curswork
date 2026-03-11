@@ -1,18 +1,17 @@
 from flask import Flask, render_template, request
 import sqlite3 as sq
 from flask_bootstrap import Bootstrap
-from flask_paginate import Pagination, get_page_parameter
+from flask_paginate import get_page_parameter, Pagination
 
 # Подключение к БД
-connection = sq.connect('intonation.db', check_same_thread=False)
-cursor = connection.cursor()
 
 app = Flask(__name__, template_folder='templates')
 bootstrap = Bootstrap(app)
 
 @app.route('/search')
 def sen_data():
-
+    connection = sq.connect('intonation.db', check_same_thread=False)
+    cursor = connection.cursor()
     # Считывание данных из БД
     cursor.execute('''SELECT lang FROM languages''')
     languages = list(cursor.fetchall())
@@ -47,6 +46,8 @@ def sen_data():
     cut(themes)
     cut(types)
     cut(subtypes)
+    cursor.close()
+    connection.close()
     return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors, themes=themes, types=types, subtypes=subtypes)
 
 @app.route('/')
@@ -92,37 +93,71 @@ def for_citation():
 
 @app.route('/results', methods=['POST', 'GET'])
 def results():
+    connection = sq.connect('intonation.db', check_same_thread=False)
+    cursor = connection.cursor()
     page = request.args.get(get_page_parameter(), type=int, default=1)
     elem_to_display = 10
     offset = (page - 1) * elem_to_display
-    characteristics = {
-        'lang' : '%', 'dictor' : '%', 'education' : '%',
-        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999, 'type' : '%', 'subtype' : '%'}
+
+    if request.args.get('lang'):
+        lang = request.args.get('lang')
+    else:
+        lang = '%'
+    if request.args.get('type'):
+        type = request.args.get('type')
+    else:
+        type = '%'
+    if request.args.get('subtype'):
+        subtype = request.args.get('subtype')
+    else:
+        subtype = '%'
+    if request.args.get('education'):
+        education = request.args.get('education')
+    else:
+        education = '%'
+    if request.args.get('settlement'):
+        settlement = request.args.get('settlement')
+    else:
+        settlement = '%'
+    if request.args.get('gender'):
+        gender = request.args.get('gender')
+    else:
+        gender = '%'
+    if request.args.get('dictor'):
+        dictor = request.args.get('dictor')
+    else:
+        dictor = '%'
+    if request.args.get('age_from'):
+        age_from = request.args.get('age_from')
+    else:
+        age_from = 0
+    if request.args.get('age_to'):
+        age_to = request.args.get('age_to')
+    else:
+        age_to = 9999
+
 
     # Получение данных из формы
-    for char in characteristics.keys():
-        req_data = request.form.get(char)
-        if req_data:
-            characteristics[char] = req_data
-    print(characteristics['type'])
+
+    print('l::' + lang)
+
     # Поиск по БД
     cursor.execute(f'''
-    SELECT files.file, files.text, files.dictor
+    SELECT files.file, files.text, files.translation, files.dictor
     FROM files WHERE files.dictor IN (SELECT dictors.name FROM dictors
     INNER JOIN languages ON languages.id = dictors.lang
     INNER JOIN education ON education.id = dictors.education
     INNER JOIN settlements ON settlements.id = dictors.settlement
-    WHERE languages.lang LIKE '{characteristics['lang']}'
-    AND dictors.name LIKE '{characteristics['dictor']}'
-    AND education.level LIKE '{characteristics['education']}'
-    AND settlements.settlement LIKE '{characteristics['settlement']}'
-    AND dictors.gender LIKE '{characteristics['gender']}'
-    AND dictors.DOB >= {characteristics['age_from']}
-    AND dictors.DOB <= {characteristics['age_to']})
-    AND files.type LIKE '{characteristics['type']}'
-    AND files.subtype LIKE '{characteristics['subtype']}'
-    ORDER BY files.file ASC
-    ''')
+    WHERE languages.lang LIKE '{lang}'
+    AND dictors.name LIKE '{dictor}'
+    AND education.level LIKE '{education}'
+    AND settlements.settlement LIKE '{settlement}'
+    AND dictors.gender LIKE '{gender}'
+    AND dictors.DOB >= {age_from}
+    AND dictors.DOB <= {age_to})
+    AND files.type LIKE '{type}'
+    AND files.subtype LIKE '{subtype}'
+    ORDER BY files.file ASC''')
     total = len(cursor.fetchall())
 
     cursor.execute(f'''
@@ -131,15 +166,15 @@ def results():
     INNER JOIN languages ON languages.id = dictors.lang
     INNER JOIN education ON education.id = dictors.education
     INNER JOIN settlements ON settlements.id = dictors.settlement
-    WHERE languages.lang LIKE '{characteristics['lang']}'
-    AND dictors.name LIKE '{characteristics['dictor']}'
-    AND education.level LIKE '{characteristics['education']}'
-    AND settlements.settlement LIKE '{characteristics['settlement']}'
-    AND dictors.gender LIKE '{characteristics['gender']}'
-    AND dictors.DOB >= {characteristics['age_from']}
-    AND dictors.DOB <= {characteristics['age_to']})
-    AND files.type LIKE '{characteristics['type']}'
-    AND files.subtype LIKE '{characteristics['subtype']}'
+    WHERE languages.lang LIKE '{lang}'
+    AND dictors.name LIKE '{dictor}'
+    AND education.level LIKE '{education}'
+    AND settlements.settlement LIKE '{settlement}'
+    AND dictors.gender LIKE '{gender}'
+    AND dictors.DOB >= {age_from}
+    AND dictors.DOB <= {age_to})
+    AND files.type LIKE '{type}'
+    AND files.subtype LIKE '{subtype}'
     ORDER BY files.file ASC
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
@@ -149,24 +184,27 @@ def results():
         new_elem = list(elem)
         new_elem.append(i)
         result.append(new_elem)
-    print(result)
-    pagination = Pagination(page=page, page_per=elem_to_display, total=total, offset=offset, prev_label='<', next_label='>')
-
+    pagination = Pagination(page=page, page_per=elem_to_display, total=total, offset=offset, prev_label='<', next_label='>', bs_version=5)
+    cursor.close()
+    connection.close()
     return render_template('search_result.html', result=result, pagination=pagination, css_framework='bootstrap5')
 
 @app.route('/results_dialogs', methods=['POST', 'GET'])
 def results_dialogs():
+    connection = sq.connect('intonation.db', check_same_thread=False)
+    cursor = connection.cursor()
     page = request.args.get(get_page_parameter(), type=int, default=1)
     elem_to_display = 10
     offset = (page - 1) * elem_to_display
-    characteristics = {
-        'lang' : '%', 'dictor' : '%', 'education' : '%', 'theme' : '%',
-        'settlement' : '%', 'gender' : '%', 'age_from' : 0, 'age_to' : 9999}
-    
-    for char in characteristics.keys():
-        req_data = request.form.get(char)
-        if req_data:
-            characteristics[char] = req_data
+
+    if request.args.get('lang'):
+        lang = request.args.get('lang')
+    else:
+        lang = '%'
+    if request.args.get('theme'):
+        theme = request.args.get('theme')
+    else:
+        theme = '%'
     # Поиск по БД
     cursor.execute(
     f'''
@@ -174,8 +212,8 @@ def results_dialogs():
     FROM full_dialogs
     INNER JOIN languages ON languages.id = full_dialogs.lang 
     INNER JOIN themes ON themes.id = full_dialogs.theme
-    WHERE languages.lang LIKE '{characteristics['lang']}'
-    AND themes.theme LIKE '{characteristics['theme']}'
+    WHERE languages.lang LIKE '{lang}'
+    AND themes.theme LIKE '{theme}'
     ORDER BY full_dialogs.id ASC
     ''')
 
@@ -187,8 +225,8 @@ def results_dialogs():
     FROM full_dialogs
     INNER JOIN languages ON languages.id = full_dialogs.lang 
     INNER JOIN themes ON themes.id = full_dialogs.theme
-    WHERE languages.lang LIKE '{characteristics['lang']}'
-    AND themes.theme LIKE '{characteristics['theme']}'
+    WHERE languages.lang LIKE '{lang}'
+    AND themes.theme LIKE '{theme}'
     ORDER BY full_dialogs.id ASC
     LIMIT {elem_to_display} OFFSET {offset}
     ''')
@@ -212,6 +250,8 @@ def results_dialogs():
             print(new_elem)
         result.append(new_elem)
     pagination = Pagination(page=page, page_per=elem_to_display, total=total, offset=offset, prev_label='<', next_label='>')
+    cursor.close()
+    connection.close()
     return render_template('result_dialogs.html', result=result, pagination=pagination, css_framework='bootstrap5')
 app.run(port=4444, debug=True)
 cursor.close()
