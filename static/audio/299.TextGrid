@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.949297052154195 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 0.949297052154195 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08724457931309847 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08724457931309847 
+            xmax = 0.7524309518125925 
+            text = "Jаңмыр jаады ба? // Дождь прошел? // ЯЛВ // вопрос // мод" 
+        intervals [3]:
+            xmin = 0.7524309518125925 
+            xmax = 0.949297052154195 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 0.949297052154195 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08724457931309847 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08724457931309847 
+            xmax = 0.7524309518125925 
+            text = "Jаңмыр jаады ба" 
+        intervals [3]:
+            xmin = 0.7524309518125925 
+            xmax = 0.949297052154195 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 0.949297052154195 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08724457931309847 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08724457931309847 
+            xmax = 0.2147634915299297 
+            text = "ћаŋ LP HI" 
+        intervals [3]:
+            xmin = 0.2147634915299297 
+            xmax = 0.3579426210365473 
+            text = "mъr" 
+        intervals [4]:
+            xmin = 0.3579426210365473 
+            xmax = 0.48024146082344976 
+            text = "d'a HP!" 
+        intervals [5]:
+            xmin = 0.48024146082344976 
+            xmax = 0.5943373296490356 
+            text = "dъ" 
+        intervals [6]:
+            xmin = 0.5943373296490356 
+            xmax = 0.7524309518125925 
+            text = "ba LI" 
+        intervals [7]:
+            xmin = 0.7524309518125925 
+            xmax = 0.949297052154195 
+            text = "" 

@@ -1,0 +1,218 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.79501133786848 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 6.79501133786848 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15600581475709094 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15600581475709094 
+            xmax = 6.602859764294718 
+            text = "А мна мында мна, қайа машина бөрөнөлөр мына. Ол машиннэң прямо крыша бажында неме? // А вот здесь, где машина с бревнами. Прямо на крыше машины что? // ВСА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 6.602859764294718 
+            xmax = 6.79501133786848 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 6.79501133786848 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15600581475709094 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15600581475709094 
+            xmax = 1.2689423170024516 
+            text = "А мна мында мна" 
+        intervals [3]:
+            xmin = 1.2689423170024516 
+            xmax = 1.8097569391067767 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.8097569391067767 
+            xmax = 3.5375033498177073 
+            text = "қайа машина бөрөнөлөр мына" 
+        intervals [5]:
+            xmin = 3.5375033498177073 
+            xmax = 3.9962779481632804 
+            text = "-" 
+        intervals [6]:
+            xmin = 3.9962779481632804 
+            xmax = 4.855734811063357 
+            text = "Ол машиннэң" 
+        intervals [7]:
+            xmin = 4.855734811063357 
+            xmax = 5.224492237629881 
+            text = "-" 
+        intervals [8]:
+            xmin = 5.224492237629881 
+            xmax = 6.602859764294718 
+            text = "прямо крыша бажында неме" 
+        intervals [9]:
+            xmin = 6.602859764294718 
+            xmax = 6.79501133786848 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 6.79501133786848 
+        intervals: size = 36 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15600581475709094 
+            text = "" 
+        intervals [2]:
+            xmin = 0.15600581475709094 
+            xmax = 0.2630604037040837 
+            text = "ɑ" 
+        intervals [3]:
+            xmin = 0.2630604037040837 
+            xmax = 0.35256261906918224 
+            text = "mæ" 
+        intervals [4]:
+            xmin = 0.35256261906918224 
+            xmax = 0.48446964167336204 
+            text = "nɐ HP" 
+        intervals [5]:
+            xmin = 0.48446964167336204 
+            xmax = 0.6882422923616562 
+            text = "mən LP" 
+        intervals [6]:
+            xmin = 0.6882422923616562 
+            xmax = 0.8430874795602289 
+            text = "dɐ HI" 
+        intervals [7]:
+            xmin = 0.8430874795602289 
+            xmax = 0.9587613956114214 
+            text = "mə" 
+        intervals [8]:
+            xmin = 0.9587613956114214 
+            xmax = 1.2689423170024516 
+            text = "nɐ LI" 
+        intervals [9]:
+            xmin = 1.2689423170024516 
+            xmax = 1.8097569391067767 
+            text = "-" 
+        intervals [10]:
+            xmin = 1.8097569391067767 
+            xmax = 1.9298277041106529 
+            text = "qɐ LI" 
+        intervals [11]:
+            xmin = 1.9298277041106529 
+            xmax = 2.040033665584303 
+            text = "ja" 
+        intervals [12]:
+            xmin = 2.040033665584303 
+            xmax = 2.201120341479615 
+            text = "mɑ HP" 
+        intervals [13]:
+            xmin = 2.201120341479615 
+            xmax = 2.411275882968527 
+            text = "ʃi" 
+        intervals [14]:
+            xmin = 2.411275882968527 
+            xmax = 2.567600350781952 
+            text = "nɛ" 
+        intervals [15]:
+            xmin = 2.567600350781952 
+            xmax = 2.7128128968490093 
+            text = "bɵ HI" 
+        intervals [16]:
+            xmin = 2.7128128968490093 
+            xmax = 2.818439428059163 
+            text = "ɾɵ" 
+        intervals [17]:
+            xmin = 2.818439428059163 
+            xmax = 2.977897032944803 
+            text = "nɵ LP" 
+        intervals [18]:
+            xmin = 2.977897032944803 
+            xmax = 3.1865239058410353 
+            text = "lʲɵr" 
+        intervals [19]:
+            xmin = 3.1865239058410353 
+            xmax = 3.2853429741038265 
+            text = "mɤ" 
+        intervals [20]:
+            xmin = 3.2853429741038265 
+            xmax = 3.5375033498177073 
+            text = "nɐ" 
+        intervals [21]:
+            xmin = 3.5375033498177073 
+            xmax = 3.9962779481632804 
+            text = "-" 
+        intervals [22]:
+            xmin = 3.9962779481632804 
+            xmax = 4.1654523823582315 
+            text = "ol LP" 
+        intervals [23]:
+            xmin = 4.1654523823582315 
+            xmax = 4.2979565504626995 
+            text = "mɐ HI" 
+        intervals [24]:
+            xmin = 4.2979565504626995 
+            xmax = 4.4835858594319395 
+            text = "ʃi HP" 
+        intervals [25]:
+            xmin = 4.4835858594319395 
+            xmax = 4.855734811063357 
+            text = "naŋ LI" 
+        intervals [26]:
+            xmin = 4.855734811063357 
+            xmax = 5.224492237629881 
+            text = "-" 
+        intervals [27]:
+            xmin = 5.224492237629881 
+            xmax = 5.382985518314619 
+            text = "pɾʲa HP" 
+        intervals [28]:
+            xmin = 5.382985518314619 
+            xmax = 5.539767549095865 
+            text = "mɐ" 
+        intervals [29]:
+            xmin = 5.539767549095865 
+            xmax = 5.704801709554415 
+            text = "kɾɨ LI" 
+        intervals [30]:
+            xmin = 5.704801709554415 
+            xmax = 5.857892824193693 
+            text = "ʃɘ" 
+        intervals [31]:
+            xmin = 5.857892824193693 
+            xmax = 6.019603060895829 
+            text = "bɑ LP" 
+        intervals [32]:
+            xmin = 6.019603060895829 
+            xmax = 6.169910000435347 
+            text = "ʒn̩ HI" 
+        intervals [33]:
+            xmin = 6.169910000435347 
+            xmax = 6.2801159619089955 
+            text = "da" 
+        intervals [34]:
+            xmin = 6.2801159619089955 
+            xmax = 6.399663568523039 
+            text = "ne" 
+        intervals [35]:
+            xmin = 6.399663568523039 
+            xmax = 6.602859764294718 
+            text = "mɛ" 
+        intervals [36]:
+            xmin = 6.602859764294718 
+            xmax = 6.79501133786848 
+            text = "" 

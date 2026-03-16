@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.8803174603174604 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.8803174603174604 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09102005329080223 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09102005329080223 
+            xmax = 2.727077329692242 
+            text = "Таңда отырзам,таңда отырзатан кӱн. // Завтра буду садить, завтра благоприятный день. // ЯМН // утверждение // информативное" 
+        intervals [3]:
+            xmin = 2.727077329692242 
+            xmax = 2.8803174603174604 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.8803174603174604 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09102005329080223 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09102005329080223 
+            xmax = 1.0118771978401644 
+            text = "Таңда отырзам" 
+        intervals [3]:
+            xmin = 1.0118771978401644 
+            xmax = 1.3893456670022901 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.3893456670022901 
+            xmax = 2.727077329692242 
+            text = "таңда отырзатан кӱн" 
+        intervals [5]:
+            xmin = 2.727077329692242 
+            xmax = 2.8803174603174604 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.8803174603174604 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09102005329080223 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09102005329080223 
+            xmax = 0.2859762956053068 
+            text = "taŋ HP! LI" 
+        intervals [3]:
+            xmin = 0.2859762956053068 
+            xmax = 0.42700847089665056 
+            text = "da HI" 
+        intervals [4]:
+            xmin = 0.42700847089665056 
+            xmax = 0.5908546745439469 
+            text = "tr" 
+        intervals [5]:
+            xmin = 0.5908546745439469 
+            xmax = 1.0098031952623503 
+            text = "zam LP" 
+        intervals [6]:
+            xmin = 1.0098031952623503 
+            xmax = 1.3893456670022901 
+            text = "-" 
+        intervals [7]:
+            xmin = 1.3893456670022901 
+            xmax = 1.5988199273614918 
+            text = "taŋ" 
+        intervals [8]:
+            xmin = 1.5988199273614918 
+            xmax = 1.7800706221020102 
+            text = "da" 
+        intervals [9]:
+            xmin = 1.7800706221020102 
+            xmax = 2.0302124635467784 
+            text = "tr HP" 
+        intervals [10]:
+            xmin = 2.0302124635467784 
+            xmax = 2.1574177444355187 
+            text = "za HI" 
+        intervals [11]:
+            xmin = 2.1574177444355187 
+            xmax = 2.40598767422664 
+            text = "tan LP" 
+        intervals [12]:
+            xmin = 2.40598767422664 
+            xmax = 2.727077329692242 
+            text = "kʏn LI" 
+        intervals [13]:
+            xmin = 2.727077329692242 
+            xmax = 2.8803174603174604 
+            text = "" 

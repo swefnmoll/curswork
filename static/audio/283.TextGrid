@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.6852607709750567 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Д.2_3" 
+        xmin = 0 
+        xmax = 2.6852607709750567 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3325150621014671 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3325150621014671 
+            xmax = 2.4407003053697744 
+            text = "Und es onʲ darp, denʲte so // Это деревня, я думаю // ТЗП // утверждение // информ" 
+        intervals [3]:
+            xmin = 2.4407003053697744 
+            xmax = 2.6852607709750567 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 2.6852607709750567 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3325150621014671 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3325150621014671 
+            xmax = 0.4706890848802489 
+            text = "(und)" 
+        intervals [3]:
+            xmin = 0.4706890848802489 
+            xmax = 0.8427407633705923 
+            text = "ɛs" 
+        intervals [4]:
+            xmin = 0.8427407633705923 
+            xmax = 1.253292999439448 
+            text = "onʲ" 
+        intervals [5]:
+            xmin = 1.253292999439448 
+            xmax = 1.361861282085122 
+            text = "-" 
+        intervals [6]:
+            xmin = 1.361861282085122 
+            xmax = 1.7923471469941323 
+            text = "darp" 
+        intervals [7]:
+            xmin = 1.7923471469941323 
+            xmax = 1.9925405339835613 
+            text = "dɛnʲ" 
+        intervals [8]:
+            xmin = 1.9925405339835613 
+            xmax = 2.1421375280941706 
+            text = "tʲi" 
+        intervals [9]:
+            xmin = 2.1421375280941706 
+            xmax = 2.4407003053697744 
+            text = "sø" 
+        intervals [10]:
+            xmin = 2.4407003053697744 
+            xmax = 2.6852607709750567 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 2.6852607709750567 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3325150621014671 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3325150621014671 
+            xmax = 0.4706890848802489 
+            text = "und̥ HP! LP HI LI" 
+        intervals [3]:
+            xmin = 0.4706890848802489 
+            xmax = 0.8427407633705923 
+            text = "ɜs HP LP HI LI" 
+        intervals [4]:
+            xmin = 0.8427407633705923 
+            xmax = 1.253292999439448 
+            text = "onʲ HP LP HI LI" 
+        intervals [5]:
+            xmin = 1.253292999439448 
+            xmax = 1.361861282085122 
+            text = "-" 
+        intervals [6]:
+            xmin = 1.361861282085122 
+            xmax = 1.7923471469941323 
+            text = "darp HP LP HI LI!" 
+        intervals [7]:
+            xmin = 1.7923471469941323 
+            xmax = 1.9925405339835613 
+            text = "dɛnʲ HP LP HI LI" 
+        intervals [8]:
+            xmin = 1.9925405339835613 
+            xmax = 2.1421375280941706 
+            text = "tʲɪ HP LP HI LI" 
+        intervals [9]:
+            xmin = 2.1421375280941706 
+            xmax = 2.4407003053697744 
+            text = "sʲʷø HP LP HI LI" 
+        intervals [10]:
+            xmin = 2.4407003053697744 
+            xmax = 2.6852607709750567 
+            text = "" 

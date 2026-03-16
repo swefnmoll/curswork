@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.321950113378685 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.321950113378685 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0711239962275485 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0711239962275485 
+            xmax = 2.1103766917861857 
+            text = "Кӧрзӧң, қанди jакшы рассада. // Смотри, какая хорошая рассада. // ЯМН // утверждение // информ" 
+        intervals [3]:
+            xmin = 2.1103766917861857 
+            xmax = 2.321950113378685 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.321950113378685 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0711239962275485 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0711239962275485 
+            xmax = 0.5709050683054255 
+            text = "Кӧрзӧң" 
+        intervals [3]:
+            xmin = 0.5709050683054255 
+            xmax = 0.8153235488106647 
+            text = "-" 
+        intervals [4]:
+            xmin = 0.8153235488106647 
+            xmax = 2.1103766917861857 
+            text = "қанди jакшы рассада" 
+        intervals [5]:
+            xmin = 2.1103766917861857 
+            xmax = 2.321950113378685 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.321950113378685 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0711239962275485 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0711239962275485 
+            xmax = 0.2407577177722294 
+            text = "kør LP HI!" 
+        intervals [3]:
+            xmin = 0.2407577177722294 
+            xmax = 0.5709050683054255 
+            text = "zøŋ HP LI" 
+        intervals [4]:
+            xmin = 0.5709050683054255 
+            xmax = 0.8153235488106647 
+            text = "-" 
+        intervals [5]:
+            xmin = 0.8153235488106647 
+            xmax = 0.9849572703553456 
+            text = "kan HP" 
+        intervals [6]:
+            xmin = 0.9849572703553456 
+            xmax = 1.1491189363663272 
+            text = "di LI" 
+        intervals [7]:
+            xmin = 1.1491189363663272 
+            xmax = 1.3242247134447074 
+            text = "ħak" 
+        intervals [8]:
+            xmin = 1.3242247134447074 
+            xmax = 1.4938584349893884 
+            text = "ʃъ" 
+        intervals [9]:
+            xmin = 1.4938584349893884 
+            xmax = 1.6014755271521428 
+            text = "ra" 
+        intervals [10]:
+            xmin = 1.6014755271521428 
+            xmax = 1.8951425074606765 
+            text = "sa LP HI" 
+        intervals [11]:
+            xmin = 1.8951425074606765 
+            xmax = 2.1103766917861857 
+            text = "da" 
+        intervals [12]:
+            xmin = 2.1103766917861857 
+            xmax = 2.321950113378685 
+            text = "" 

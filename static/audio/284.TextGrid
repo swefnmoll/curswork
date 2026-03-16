@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.998049886621315 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "высказывание" 
+        xmin = 0 
+        xmax = 2.998049886621315 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08224342524616712 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08224342524616712 
+            xmax = 2.84411014692964 
+            text = "Сен тышкары чыгарсың ба? // Ты на улицу выйдешь? // ТГТ // вопрос // модальный" 
+        intervals [3]:
+            xmin = 2.84411014692964 
+            xmax = 2.998049886621315 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "синтагма" 
+        xmin = 0 
+        xmax = 2.998049886621315 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08224342524616712 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08224342524616712 
+            xmax = 0.5280074672334546 
+            text = "Сен" 
+        intervals [3]:
+            xmin = 0.5280074672334546 
+            xmax = 1.0205299751634644 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.0205299751634644 
+            xmax = 2.84411014692964 
+            text = "тышкары чыгарсың ба?" 
+        intervals [5]:
+            xmin = 2.84411014692964 
+            xmax = 2.998049886621315 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "слоги" 
+        xmin = 0 
+        xmax = 2.998049886621315 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08224342524616712 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08224342524616712 
+            xmax = 0.5280074672334546 
+            text = "sen HP LP HI LI" 
+        intervals [3]:
+            xmin = 0.5280074672334546 
+            xmax = 1.0205299751634644 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.0205299751634644 
+            xmax = 1.238736149562836 
+            text = "tъʃ" 
+        intervals [5]:
+            xmin = 1.238736149562836 
+            xmax = 1.4849974035278408 
+            text = "ka LP" 
+        intervals [6]:
+            xmin = 1.4849974035278408 
+            xmax = 1.7094380400529086 
+            text = "rъ" 
+        intervals [7]:
+            xmin = 1.7094380400529086 
+            xmax = 1.9307614455151283 
+            text = "- LI" 
+        intervals [8]:
+            xmin = 1.9307614455151283 
+            xmax = 2.0554506880290546 
+            text = "ћ̮ҫъ HI" 
+        intervals [9]:
+            xmin = 2.0554506880290546 
+            xmax = 2.270539631365578 
+            text = "qar HP" 
+        intervals [10]:
+            xmin = 2.270539631365578 
+            xmax = 2.5417387338333683 
+            text = "sъn" 
+        intervals [11]:
+            xmin = 2.5417387338333683 
+            xmax = 2.84411014692964 
+            text = "ba" 
+        intervals [12]:
+            xmin = 2.84411014692964 
+            xmax = 2.998049886621315 
+            text = "" 

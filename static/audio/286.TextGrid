@@ -1,0 +1,214 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.916054421768708 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 8.916054421768708 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01210946890305522 
+            text = "" 
+        intervals [2]:
+            xmin = 0.01210946890305522 
+            xmax = 8.87826456157623 
+            text = "Мен қалендарь кӧрбӧдим. Аң кечезин отырғысқойғом. Тӱнде тың сууқ полғон, помидорлор тоңпады. // Я календарь не смотрела. Большинство высадила. Ночью был мороз, помидоры замерзли. // ТТВ // утвердит // информативное" 
+        intervals [3]:
+            xmin = 8.87826456157623 
+            xmax = 8.916054421768708 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 8.916054421768708 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005689371080699555 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005689371080699555 
+            xmax = 2.1431895938738825 
+            text = "Мен қалендарь кӧрбӧдим" 
+        intervals [3]:
+            xmin = 2.1431895938738825 
+            xmax = 2.7735538466150094 
+            text = "-" 
+        intervals [4]:
+            xmin = 2.7735538466150094 
+            xmax = 5.021853014725028 
+            text = "Аң кечезин отырғысқойғом." 
+        intervals [5]:
+            xmin = 5.021853014725028 
+            xmax = 5.217966337800046 
+            text = "-" 
+        intervals [6]:
+            xmin = 5.217966337800046 
+            xmax = 7.116063143276106 
+            text = "Тӱнде тың сууқ полғон" 
+        intervals [7]:
+            xmin = 7.116063143276106 
+            xmax = 7.319180513603802 
+            text = "-" 
+        intervals [8]:
+            xmin = 7.319180513603802 
+            xmax = 8.87826456157623 
+            text = "помидорлор тоңпады" 
+        intervals [9]:
+            xmin = 8.87826456157623 
+            xmax = 8.916054421768708 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 8.916054421768708 
+        intervals: size = 35 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005689371080699555 
+            text = "" 
+        intervals [2]:
+            xmin = 0.005689371080699555 
+            xmax = 0.346502600721792 
+            text = "mɛŋ" 
+        intervals [3]:
+            xmin = 0.346502600721792 
+            xmax = 0.5166351930142172 
+            text = "ka" 
+        intervals [4]:
+            xmin = 0.5166351930142172 
+            xmax = 0.7016998114842755 
+            text = "le" 
+        intervals [5]:
+            xmin = 0.7016998114842755 
+            xmax = 1.0329050226576062 
+            text = "dar" 
+        intervals [6]:
+            xmin = 1.0329050226576062 
+            xmax = 1.318187625130409 
+            text = "- HP! LI!" 
+        intervals [7]:
+            xmin = 1.318187625130409 
+            xmax = 1.512867987334451 
+            text = "kør LP! HI" 
+        intervals [8]:
+            xmin = 1.512867987334451 
+            xmax = 1.786347543763939 
+            text = "bø" 
+        intervals [9]:
+            xmin = 1.786347543763939 
+            xmax = 2.1431895938738825 
+            text = "dim" 
+        intervals [10]:
+            xmin = 2.1431895938738825 
+            xmax = 2.7735538466150094 
+            text = "-" 
+        intervals [11]:
+            xmin = 2.7735538466150094 
+            xmax = 3.1317976463915955 
+            text = "aŋ HP" 
+        intervals [12]:
+            xmin = 3.1317976463915955 
+            xmax = 3.255790496128694 
+            text = "ke HI" 
+        intervals [13]:
+            xmin = 3.255790496128694 
+            xmax = 3.50377619560289 
+            text = "ћ̮ҫi" 
+        intervals [14]:
+            xmin = 3.50377619560289 
+            xmax = 3.675280324211213 
+            text = "zin" 
+        intervals [15]:
+            xmin = 3.675280324211213 
+            xmax = 3.8259258425833886 
+            text = "de" 
+        intervals [16]:
+            xmin = 3.8259258425833886 
+            xmax = 4.55230047497233 
+            text = "otъr LP LI" 
+        intervals [17]:
+            xmin = 4.55230047497233 
+            xmax = 4.730757473659368 
+            text = "koj" 
+        intervals [18]:
+            xmin = 4.730757473659368 
+            xmax = 5.021853014725028 
+            text = "qom" 
+        intervals [19]:
+            xmin = 5.021853014725028 
+            xmax = 5.217966337800046 
+            text = "-" 
+        intervals [20]:
+            xmin = 5.217966337800046 
+            xmax = 5.459040206924542 
+            text = "tʏn" 
+        intervals [21]:
+            xmin = 5.459040206924542 
+            xmax = 5.778872230545469 
+            text = "de HI" 
+        intervals [22]:
+            xmin = 5.778872230545469 
+            xmax = 6.033810800098381 
+            text = "- LI" 
+        intervals [23]:
+            xmin = 6.033810800098381 
+            xmax = 6.205314928706704 
+            text = "tъŋ" 
+        intervals [24]:
+            xmin = 6.205314928706704 
+            xmax = 6.5019707187319105 
+            text = "sɔk HP LP" 
+        intervals [25]:
+            xmin = 6.5019707187319105 
+            xmax = 6.608581393272219 
+            text = "-" 
+        intervals [26]:
+            xmin = 6.608581393272219 
+            xmax = 6.807897002195405 
+            text = "pɔl" 
+        intervals [27]:
+            xmin = 6.807897002195405 
+            xmax = 7.116063143276106 
+            text = "qɔn" 
+        intervals [28]:
+            xmin = 7.116063143276106 
+            xmax = 7.319180513603802 
+            text = "-" 
+        intervals [29]:
+            xmin = 7.319180513603802 
+            xmax = 7.547767861174494 
+            text = "pomi" 
+        intervals [30]:
+            xmin = 7.547767861174494 
+            xmax = 7.763306833614683 
+            text = "dɔr" 
+        intervals [31]:
+            xmin = 7.763306833614683 
+            xmax = 7.974210559335729 
+            text = "lɔr HP" 
+        intervals [32]:
+            xmin = 7.974210559335729 
+            xmax = 8.199020025214207 
+            text = "toŋ  LP" 
+        intervals [33]:
+            xmin = 8.199020025214207 
+            xmax = 8.579110256184002 
+            text = "pa HI LI" 
+        intervals [34]:
+            xmin = 8.579110256184002 
+            xmax = 8.87826456157623 
+            text = "dъ" 
+        intervals [35]:
+            xmin = 8.87826456157623 
+            xmax = 8.916054421768708 
+            text = "" 

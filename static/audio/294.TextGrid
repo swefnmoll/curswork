@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4377777777777778 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.4377777777777778 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23717722841734507 
+            text = "" 
+        intervals [2]:
+            xmin = 0.23717722841734507 
+            xmax = 1.1768820385283052 
+            text = "Сең адың қанjы? // Как твоё имя? // ЯЛВ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.1768820385283052 
+            xmax = 1.4377777777777778 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.4377777777777778 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23717722841734507 
+            text = "" 
+        intervals [2]:
+            xmin = 0.23717722841734507 
+            xmax = 1.1768820385283052 
+            text = "Сең адың қанjы" 
+        intervals [3]:
+            xmin = 1.1768820385283052 
+            xmax = 1.4377777777777778 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.4377777777777778 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23717722841734507 
+            text = "" 
+        intervals [2]:
+            xmin = 0.23717722841734507 
+            xmax = 0.4653267135644772 
+            text = "siŋ HP HI LI" 
+        intervals [3]:
+            xmin = 0.4653267135644772 
+            xmax = 0.6178028546281547 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.6178028546281547 
+            xmax = 0.7838324304530479 
+            text = "dъŋ" 
+        intervals [5]:
+            xmin = 0.7838324304530479 
+            xmax = 0.9803572344906765 
+            text = "kan LP" 
+        intervals [6]:
+            xmin = 0.9803572344906765 
+            xmax = 1.1768820385283052 
+            text = "ћъ" 
+        intervals [7]:
+            xmin = 1.1768820385283052 
+            xmax = 1.4377777777777778 
+            text = "" 

@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.4890022675736962 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.4890022675736962 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2587220398524885 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2587220398524885 
+            xmax = 2.89171166372477 
+            text = "Аның қаршызында көльдө неме бар? // Напротив него на озере что есть? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 2.89171166372477 
+            xmax = 3.4890022675736962 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.4890022675736962 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2587220398524885 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2587220398524885 
+            xmax = 1.3132180700624683 
+            text = "Аның қаршызында" 
+        intervals [3]:
+            xmin = 1.3132180700624683 
+            xmax = 1.9722562144505755 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.9722562144505755 
+            xmax = 2.89171166372477 
+            text = "көльдө неме бар" 
+        intervals [5]:
+            xmin = 2.89171166372477 
+            xmax = 3.4890022675736962 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.4890022675736962 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2587220398524885 
+            text = "" 
+        intervals [2]:
+            xmin = 0.2587220398524885 
+            xmax = 0.5220002453319392 
+            text = "ɐn" 
+        intervals [3]:
+            xmin = 0.5220002453319392 
+            xmax = 0.6858789676680935 
+            text = "qɐɹ HP" 
+        intervals [4]:
+            xmin = 0.6858789676680935 
+            xmax = 0.8345844669873967 
+            text = "ʃɘ" 
+        intervals [5]:
+            xmin = 0.8345844669873967 
+            xmax = 1.0690173829945464 
+            text = "zn̩ LP" 
+        intervals [6]:
+            xmin = 1.0690173829945464 
+            xmax = 1.3132180700624683 
+            text = "dɐ HI LI" 
+        intervals [7]:
+            xmin = 1.3132180700624683 
+            xmax = 1.9722562144505755 
+            text = "-" 
+        intervals [8]:
+            xmin = 1.9722562144505755 
+            xmax = 2.166323568487105 
+            text = "kolʲ HP" 
+        intervals [9]:
+            xmin = 2.166323568487105 
+            xmax = 2.354026142277336 
+            text = "dɵ HI" 
+        intervals [10]:
+            xmin = 2.354026142277336 
+            xmax = 2.4697410760462364 
+            text = "nʲe" 
+        intervals [11]:
+            xmin = 2.4697410760462364 
+            xmax = 2.629324735668938 
+            text = "mʲe LP" 
+        intervals [12]:
+            xmin = 2.629324735668938 
+            xmax = 2.89171166372477 
+            text = "bʌɾ̥ LI" 
+        intervals [13]:
+            xmin = 2.89171166372477 
+            xmax = 3.4890022675736962 
+            text = "" 

@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.031995464852607 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 5.031995464852607 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4494953055217569 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4494953055217569 
+            xmax = 4.541898915219932 
+            text = "Ийчөк тыр мында, ағач қырында анда неме? // домик… от домика… домик стоит, рядом с деревом что там? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 4.541898915219932 
+            xmax = 5.031995464852607 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 5.031995464852607 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4494953055217569 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4494953055217569 
+            xmax = 2.224815635541433 
+            text = "Ийчөк тыр мында, ағач" 
+        intervals [3]:
+            xmin = 2.224815635541433 
+            xmax = 2.3575153015274704 
+            text = "-" 
+        intervals [4]:
+            xmin = 2.3575153015274704 
+            xmax = 2.895858640046274 
+            text = "қырында" 
+        intervals [5]:
+            xmin = 2.895858640046274 
+            xmax = 3.807893883055069 
+            text = "-" 
+        intervals [6]:
+            xmin = 3.807893883055069 
+            xmax = 4.541898915219932 
+            text = "анда неме" 
+        intervals [7]:
+            xmin = 4.541898915219932 
+            xmax = 5.031995464852607 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 5.031995464852607 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4494953055217569 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4494953055217569 
+            xmax = 0.6601143702604502 
+            text = "ij" 
+        intervals [3]:
+            xmin = 0.6601143702604502 
+            xmax = 0.9511474329339589 
+            text = "ʧʲɵk" 
+        intervals [4]:
+            xmin = 0.9511474329339589 
+            xmax = 1.1125425301569098 
+            text = "tɘɾ" 
+        intervals [5]:
+            xmin = 1.1125425301569098 
+            xmax = 1.2806837896584822 
+            text = "nɐ LP" 
+        intervals [6]:
+            xmin = 1.2806837896584822 
+            xmax = 1.4532148561494733 
+            text = "mɘn HP" 
+        intervals [7]:
+            xmin = 1.4532148561494733 
+            xmax = 1.740873796630815 
+            text = "dɐ" 
+        intervals [8]:
+            xmin = 1.740873796630815 
+            xmax = 1.8716429153692211 
+            text = "ɑ" 
+        intervals [9]:
+            xmin = 1.8716429153692211 
+            xmax = 2.224815635541433 
+            text = "ɦɑʧʲ HI LI" 
+        intervals [10]:
+            xmin = 2.224815635541433 
+            xmax = 2.3575153015274704 
+            text = "-" 
+        intervals [11]:
+            xmin = 2.3575153015274704 
+            xmax = 2.4358505347608586 
+            text = "qʌ HP LI" 
+        intervals [12]:
+            xmin = 2.4358505347608586 
+            xmax = 2.6588803595553436 
+            text = "ɾɯn" 
+        intervals [13]:
+            xmin = 2.6588803595553436 
+            xmax = 2.895858640046274 
+            text = "dɐ LP HI" 
+        intervals [14]:
+            xmin = 2.895858640046274 
+            xmax = 3.807893883055069 
+            text = "-" 
+        intervals [15]:
+            xmin = 3.807893883055069 
+            xmax = 3.944480560868821 
+            text = "an" 
+        intervals [16]:
+            xmin = 3.944480560868821 
+            xmax = 4.070955569936997 
+            text = "dɛ HI" 
+        intervals [17]:
+            xmin = 4.070955569936997 
+            xmax = 4.19546755680267 
+            text = "nʲe HP" 
+        intervals [18]:
+            xmin = 4.19546755680267 
+            xmax = 4.541898915219932 
+            text = "mʲe LP LI" 
+        intervals [19]:
+            xmin = 4.541898915219932 
+            xmax = 5.031995464852607 
+            text = "" 

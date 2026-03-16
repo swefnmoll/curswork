@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6866213151927438 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.6866213151927438 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025164484678359505 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025164484678359505 
+            xmax = 1.6018348422045698 
+            text = "Тышқарыда қанди кӱн? // На улице какая погода? // ЯЛВ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.6018348422045698 
+            xmax = 1.6866213151927438 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.6866213151927438 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025164484678359505 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025164484678359505 
+            xmax = 1.6018348422045698 
+            text = "Тышқарыда қанди кӱн" 
+        intervals [3]:
+            xmin = 1.6018348422045698 
+            xmax = 1.6866213151927438 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.6866213151927438 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025164484678359505 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025164484678359505 
+            xmax = 0.22257951263752365 
+            text = "tъʃ" 
+        intervals [3]:
+            xmin = 0.22257951263752365 
+            xmax = 0.3537478869191159 
+            text = "qa" 
+        intervals [4]:
+            xmin = 0.3537478869191159 
+            xmax = 0.6227093008500577 
+            text = "rda" 
+        intervals [5]:
+            xmin = 0.6227093008500577 
+            xmax = 0.8426481910595962 
+            text = "χan" 
+        intervals [6]:
+            xmin = 0.8426481910595962 
+            xmax = 1.1659318610061469 
+            text = "di HP! LP!" 
+        intervals [7]:
+            xmin = 1.1659318610061469 
+            xmax = 1.6018348422045698 
+            text = "qʏn HI! LI!" 
+        intervals [8]:
+            xmin = 1.6018348422045698 
+            xmax = 1.6866213151927438 
+            text = "" 

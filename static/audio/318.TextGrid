@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2729931972789115 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 1.2729931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33388103946654546 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33388103946654546 
+            xmax = 1.135511360838686 
+            text = "Қысчақ па?... // Девочка?... // ВСА // вопрос // мод" 
+        intervals [3]:
+            xmin = 1.135511360838686 
+            xmax = 1.2729931972789115 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 1.2729931972789115 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33388103946654546 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33388103946654546 
+            xmax = 1.135511360838686 
+            text = "Қысчақ па" 
+        intervals [3]:
+            xmin = 1.135511360838686 
+            xmax = 1.2729931972789115 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 1.2729931972789115 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33388103946654546 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33388103946654546 
+            xmax = 0.5168520296556084 
+            text = "qəs" 
+        intervals [3]:
+            xmin = 0.5168520296556084 
+            xmax = 0.8046281776322309 
+            text = "ʧʲaχ HP LP LI" 
+        intervals [4]:
+            xmin = 0.8046281776322309 
+            xmax = 1.135511360838686 
+            text = "pə HI" 
+        intervals [5]:
+            xmin = 1.135511360838686 
+            xmax = 1.2729931972789115 
+            text = "" 

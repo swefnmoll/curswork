@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2626530612244897 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 1.2626530612244897 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12893785379781889 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12893785379781889 
+            xmax = 1.0464295143177478 
+            text = "Қанҷа jашту сен? // Сколько тебе лет? // ЯЛВ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.0464295143177478 
+            xmax = 1.2626530612244897 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.2626530612244897 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12893785379781889 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12893785379781889 
+            xmax = 1.0464295143177478 
+            text = "Қанҷа jашту сен? " 
+        intervals [3]:
+            xmin = 1.0464295143177478 
+            xmax = 1.2626530612244897 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.2626530612244897 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12893785379781889 
+            text = "" 
+        intervals [2]:
+            xmin = 0.12893785379781889 
+            xmax = 0.26581769071862993 
+            text = "qan HI" 
+        intervals [3]:
+            xmin = 0.26581769071862993 
+            xmax = 0.3907949331245878 
+            text = "ћa" 
+        intervals [4]:
+            xmin = 0.3907949331245878 
+            xmax = 0.5990903371345177 
+            text = "ћaʃ HP" 
+        intervals [5]:
+            xmin = 0.5990903371345177 
+            xmax = 0.7280351110454265 
+            text = "tu LP" 
+        intervals [6]:
+            xmin = 0.7280351110454265 
+            xmax = 1.0464295143177478 
+            text = "sin LI!" 
+        intervals [7]:
+            xmin = 1.0464295143177478 
+            xmax = 1.2626530612244897 
+            text = "" 

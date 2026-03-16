@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.101360544217687 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.101360544217687 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22118675459310186 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22118675459310186 
+            xmax = 1.8256995884742977 
+            text = "Сен қайда jатjасың? // Ты где живешь? // ЯЛВ // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.8256995884742977 
+            xmax = 2.101360544217687 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.101360544217687 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22118675459310186 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22118675459310186 
+            xmax = 1.8256995884742977 
+            text = "Сен қайда jатjасың" 
+        intervals [3]:
+            xmin = 1.8256995884742977 
+            xmax = 2.101360544217687 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.101360544217687 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22118675459310186 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22118675459310186 
+            xmax = 0.5595870950721607 
+            text = "sen HP HI!" 
+        intervals [3]:
+            xmin = 0.5595870950721607 
+            xmax = 0.9788733705925554 
+            text = "- LP" 
+        intervals [4]:
+            xmin = 0.9788733705925554 
+            xmax = 1.2066745754028487 
+            text = "qaj LI" 
+        intervals [5]:
+            xmin = 1.2066745754028487 
+            xmax = 1.3271781112807575 
+            text = "da" 
+        intervals [6]:
+            xmin = 1.3271781112807575 
+            xmax = 1.4878723979763337 
+            text = "ћat" 
+        intervals [7]:
+            xmin = 1.4878723979763337 
+            xmax = 1.6174549673792904 
+            text = "ћa" 
+        intervals [8]:
+            xmin = 1.6174549673792904 
+            xmax = 1.8256995884742977 
+            text = "sъŋ" 
+        intervals [9]:
+            xmin = 1.8256995884742977 
+            xmax = 2.101360544217687 
+            text = "" 

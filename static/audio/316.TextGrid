@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.5039909297052154 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 2.5039909297052154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.37833993926372056 
+            text = "" 
+        intervals [2]:
+            xmin = 0.37833993926372056 
+            xmax = 2.1835917287578934 
+            text = "Бачқычта қысчақ лисопед мэнэ бэ? // На лестниц девочка с велосипедом? // ВСА // вопрос // мод" 
+        intervals [3]:
+            xmin = 2.1835917287578934 
+            xmax = 2.5039909297052154 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 2.5039909297052154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.37833993926372056 
+            text = "" 
+        intervals [2]:
+            xmin = 0.37833993926372056 
+            xmax = 2.1835917287578934 
+            text = "Бачқычта қысчақ лисопед мэнэ бэ?" 
+        intervals [3]:
+            xmin = 2.1835917287578934 
+            xmax = 2.5039909297052154 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 2.5039909297052154 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.37833993926372056 
+            text = "" 
+        intervals [2]:
+            xmin = 0.37833993926372056 
+            xmax = 0.6046670956342083 
+            text = "bʌʧʲ" 
+        intervals [3]:
+            xmin = 0.6046670956342083 
+            xmax = 0.8072936637541976 
+            text = "kəʧʲ HP" 
+        intervals [4]:
+            xmin = 0.8072936637541976 
+            xmax = 0.9585599191945587 
+            text = "ta HI" 
+        intervals [5]:
+            xmin = 0.9585599191945587 
+            xmax = 1.1098646993680312 
+            text = "qəs" 
+        intervals [6]:
+            xmin = 1.1098646993680312 
+            xmax = 1.2998976835895906 
+            text = "ʧʲʌχ" 
+        intervals [7]:
+            xmin = 1.2998976835895906 
+            xmax = 1.391342829797721 
+            text = "lʲi" 
+        intervals [8]:
+            xmin = 1.391342829797721 
+            xmax = 1.5756616910823225 
+            text = "se LP" 
+        intervals [9]:
+            xmin = 1.5756616910823225 
+            xmax = 1.8113025915170562 
+            text = "βet LI" 
+        intervals [10]:
+            xmin = 1.8113025915170562 
+            xmax = 1.8824665934272395 
+            text = "mɛ" 
+        intervals [11]:
+            xmin = 1.8824665934272395 
+            xmax = 1.977483085538019 
+            text = "nɛ" 
+        intervals [12]:
+            xmin = 1.977483085538019 
+            xmax = 2.1835917287578934 
+            text = "βæ" 
+        intervals [13]:
+            xmin = 2.1835917287578934 
+            xmax = 2.5039909297052154 
+            text = "" 

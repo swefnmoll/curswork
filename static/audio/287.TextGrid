@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.393174603174603 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.393174603174603 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1028673434673062 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1028673434673062 
+            xmax = 1.2355865262400163 
+            text = "Қанча ол турар? // Сколько он будет стоить? // ТТВ // вопр // дикт" 
+        intervals [3]:
+            xmin = 1.2355865262400163 
+            xmax = 1.393174603174603 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.393174603174603 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1028673434673062 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1028673434673062 
+            xmax = 1.2355865262400163 
+            text = "қанча ол турар" 
+        intervals [3]:
+            xmin = 1.2355865262400163 
+            xmax = 1.393174603174603 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.393174603174603 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1028673434673062 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1028673434673062 
+            xmax = 0.35567713208614293 
+            text = "kan HP!" 
+        intervals [3]:
+            xmin = 0.35567713208614293 
+            xmax = 0.578937724632648 
+            text = "ћ̮ҫa HI!" 
+        intervals [4]:
+            xmin = 0.578937724632648 
+            xmax = 0.8328419279208305 
+            text = "ɔl LP!" 
+        intervals [5]:
+            xmin = 0.8328419279208305 
+            xmax = 0.9189408522551233 
+            text = "- LI" 
+        intervals [6]:
+            xmin = 0.9189408522551233 
+            xmax = 1.0199868363789304 
+            text = "tu" 
+        intervals [7]:
+            xmin = 1.0199868363789304 
+            xmax = 1.2355865262400163 
+            text = "rar" 
+        intervals [8]:
+            xmin = 1.2355865262400163 
+            xmax = 1.393174603174603 
+            text = "" 

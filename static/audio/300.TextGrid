@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1504308390022675 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.1504308390022675 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06415825494026536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06415825494026536 
+            xmax = 0.9814403451777214 
+            text = "Нени иштепjаң?  // Что делаешь? // ЯМН // вопрос // дикт" 
+        intervals [3]:
+            xmin = 0.9814403451777214 
+            xmax = 1.1504308390022675 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.1504308390022675 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06415825494026536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06415825494026536 
+            xmax = 0.9814403451777214 
+            text = "Нени иштепjаң" 
+        intervals [3]:
+            xmin = 0.9814403451777214 
+            xmax = 1.1504308390022675 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.1504308390022675 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06415825494026536 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06415825494026536 
+            xmax = 0.21236935129390358 
+            text = "ne LP" 
+        intervals [3]:
+            xmin = 0.21236935129390358 
+            xmax = 0.2955121614435055 
+            text = "ni" 
+        intervals [4]:
+            xmin = 0.2955121614435055 
+            xmax = 0.4414320972780251 
+            text = "ɪʃ" 
+        intervals [5]:
+            xmin = 0.4414320972780251 
+            xmax = 0.613735075744939 
+            text = "tp HP" 
+        intervals [6]:
+            xmin = 0.613735075744939 
+            xmax = 0.9814403451777214 
+            text = "jaŋ HI! LI" 
+        intervals [7]:
+            xmin = 0.9814403451777214 
+            xmax = 1.1504308390022675 
+            text = "" 

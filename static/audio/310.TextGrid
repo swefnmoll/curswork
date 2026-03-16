@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.7159863945578233 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "1" 
+        xmin = 0 
+        xmax = 3.7159863945578233 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8047862829122254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8047862829122254 
+            xmax = 3.5777814451514294 
+            text = "Э-э-э, йанында малай, а малайнэ артында анда кэм? // Рядом мальчик, а за мальчиком кто? // МАА // вопрос // дикт" 
+        intervals [3]:
+            xmin = 3.5777814451514294 
+            xmax = 3.7159863945578233 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "2" 
+        xmin = 0 
+        xmax = 3.7159863945578233 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8047862829122254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8047862829122254 
+            xmax = 1.9321833262525223 
+            text = "Э-э-э, йанында малай" 
+        intervals [3]:
+            xmin = 1.9321833262525223 
+            xmax = 1.9511750203041152 
+            text = "-" 
+        intervals [4]:
+            xmin = 1.9511750203041152 
+            xmax = 3.5777814451514294 
+            text = "малайнэ артында анда кэм?" 
+        intervals [5]:
+            xmin = 3.5777814451514294 
+            xmax = 3.7159863945578233 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 3.7159863945578233 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8047862829122254 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8047862829122254 
+            xmax = 0.926773078355234 
+            text = "ə LP" 
+        intervals [3]:
+            xmin = 0.926773078355234 
+            xmax = 1.326373916451897 
+            text = "jɐnː HP" 
+        intervals [4]:
+            xmin = 1.326373916451897 
+            xmax = 1.4776032858446848 
+            text = "dɐ" 
+        intervals [5]:
+            xmin = 1.4776032858446848 
+            xmax = 1.6408976118676912 
+            text = "mɐ HI" 
+        intervals [6]:
+            xmin = 1.6408976118676912 
+            xmax = 1.9321833262525223 
+            text = "lɑj LI" 
+        intervals [7]:
+            xmin = 1.9321833262525223 
+            xmax = 1.9511750203041152 
+            text = "-" 
+        intervals [8]:
+            xmin = 1.9511750203041152 
+            xmax = 2.237194452605275 
+            text = "ɐ" 
+        intervals [9]:
+            xmin = 2.237194452605275 
+            xmax = 2.3901555728242623 
+            text = "mɑ" 
+        intervals [10]:
+            xmin = 2.3901555728242623 
+            xmax = 2.5610075777460763 
+            text = "lɐj HI" 
+        intervals [11]:
+            xmin = 2.5610075777460763 
+            xmax = 2.696555483217412 
+            text = "nɐ HP" 
+        intervals [12]:
+            xmin = 2.696555483217412 
+            xmax = 2.8340693923524953 
+            text = "ɐɾ" 
+        intervals [13]:
+            xmin = 2.8340693923524953 
+            xmax = 3.0325492880164133 
+            text = "tn̩ LP" 
+        intervals [14]:
+            xmin = 3.0325492880164133 
+            xmax = 3.134626204736764 
+            text = "dɐ" 
+        intervals [15]:
+            xmin = 3.134626204736764 
+            xmax = 3.243675286710426 
+            text = "ɛn" 
+        intervals [16]:
+            xmin = 3.243675286710426 
+            xmax = 3.392659415955062 
+            text = "dɐ LI" 
+        intervals [17]:
+            xmin = 3.392659415955062 
+            xmax = 3.5777814451514294 
+            text = "kʌm" 
+        intervals [18]:
+            xmin = 3.5777814451514294 
+            xmax = 3.7159863945578233 
+            text = "" 

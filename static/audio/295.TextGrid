@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.7188662131519274 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Phrase" 
+        xmin = 0 
+        xmax = 2.7188662131519274 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10036853391615574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10036853391615574 
+            xmax = 2.6740289411342535 
+            text = "Эjелериң, қарындаштарың бар ба? // Сестры, братья есть? // ЯЛВ // вопрос // модальный" 
+        intervals [3]:
+            xmin = 2.6740289411342535 
+            xmax = 2.7188662131519274 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.7188662131519274 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10036853391615574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10036853391615574 
+            xmax = 2.6740289411342535 
+            text = "Эjелериң, қарындаштарың бар ба" 
+        intervals [3]:
+            xmin = 2.6740289411342535 
+            xmax = 2.7188662131519274 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.7188662131519274 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10036853391615574 
+            text = "" 
+        intervals [2]:
+            xmin = 0.10036853391615574 
+            xmax = 0.41327328706353567 
+            text = "ɛʒе HI!" 
+        intervals [3]:
+            xmin = 0.41327328706353567 
+            xmax = 0.6514169678974096 
+            text = "le" 
+        intervals [4]:
+            xmin = 0.6514169678974096 
+            xmax = 1.0038268991762362 
+            text = "rъŋ HP! LP" 
+        intervals [5]:
+            xmin = 1.0038268991762362 
+            xmax = 1.4961179942525018 
+            text = "- LI!" 
+        intervals [6]:
+            xmin = 1.4961179942525018 
+            xmax = 1.7203788593874942 
+            text = "χa" 
+        intervals [7]:
+            xmin = 1.7203788593874942 
+            xmax = 1.8645465584028467 
+            text = "rъn" 
+        intervals [8]:
+            xmin = 1.8645465584028467 
+            xmax = 2.072788790313911 
+            text = "taʃ" 
+        intervals [9]:
+            xmin = 2.072788790313911 
+            xmax = 2.1955983116973594 
+            text = "ta" 
+        intervals [10]:
+            xmin = 2.1955983116973594 
+            xmax = 2.3290869218967596 
+            text = "rъŋ" 
+        intervals [11]:
+            xmin = 2.3290869218967596 
+            xmax = 2.477526256438493 
+            text = "bar" 
+        intervals [12]:
+            xmin = 2.477526256438493 
+            xmax = 2.6740289411342535 
+            text = "ba" 
+        intervals [13]:
+            xmin = 2.6740289411342535 
+            xmax = 2.7188662131519274 
+            text = "" 

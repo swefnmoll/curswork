@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.179523809523809 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 4.179523809523809 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5252961349323502 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5252961349323502 
+            xmax = 3.9004709751942226 
+            text = "Қачан оқ отырысқойғом. Помидорлор ла артықалды.// Давно посадила. Только помидор осался. // ТТВ // утверд // верификативное" 
+        intervals [3]:
+            xmin = 3.9004709751942226 
+            xmax = 4.179523809523809 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 4.179523809523809 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5252961349323502 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5252961349323502 
+            xmax = 1.992906206524818 
+            text = "Қачан оқ отырысқойғом" 
+        intervals [3]:
+            xmin = 1.992906206524818 
+            xmax = 2.508375515786602 
+            text = "-" 
+        intervals [4]:
+            xmin = 2.508375515786602 
+            xmax = 3.9004709751942226 
+            text = "помидорлор ла артықалды" 
+        intervals [5]:
+            xmin = 3.9004709751942226 
+            xmax = 4.179523809523809 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 4.179523809523809 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5252961349323502 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5252961349323502 
+            xmax = 0.7190075314065237 
+            text = "ka LI" 
+        intervals [3]:
+            xmin = 0.7190075314065237 
+            xmax = 1.004649760105729 
+            text = "ћan" 
+        intervals [4]:
+            xmin = 1.004649760105729 
+            xmax = 1.1556789844754236 
+            text = "ɔk HP" 
+        intervals [5]:
+            xmin = 1.1556789844754236 
+            xmax = 1.3395406489254866 
+            text = "ɔt HI" 
+        intervals [6]:
+            xmin = 1.3395406489254866 
+            xmax = 1.618616389608618 
+            text = "rъs LP" 
+        intervals [7]:
+            xmin = 1.618616389608618 
+            xmax = 1.7747006847602678 
+            text = "koj" 
+        intervals [8]:
+            xmin = 1.7747006847602678 
+            xmax = 1.992906206524818 
+            text = "qom" 
+        intervals [9]:
+            xmin = 1.992906206524818 
+            xmax = 2.508375515786602 
+            text = "-" 
+        intervals [10]:
+            xmin = 2.508375515786602 
+            xmax = 2.594946274764529 
+            text = "pa" 
+        intervals [11]:
+            xmin = 2.594946274764529 
+            xmax = 2.7014152387650823 
+            text = "mi" 
+        intervals [12]:
+            xmin = 2.7014152387650823 
+            xmax = 2.879587790766008 
+            text = "dor HI" 
+        intervals [13]:
+            xmin = 2.879587790766008 
+            xmax = 3.0816615387670576 
+            text = "la HP" 
+        intervals [14]:
+            xmin = 3.0816615387670576 
+            xmax = 3.3530128751439916 
+            text = "art LP" 
+        intervals [15]:
+            xmin = 3.3530128751439916 
+            xmax = 3.4594818391445448 
+            text = "- LI" 
+        intervals [16]:
+            xmin = 3.4594818391445448 
+            xmax = 3.668074095145628 
+            text = "kal" 
+        intervals [17]:
+            xmin = 3.668074095145628 
+            xmax = 3.9004709751942226 
+            text = "dъ" 
+        intervals [18]:
+            xmin = 3.9004709751942226 
+            xmax = 4.179523809523809 
+            text = "" 

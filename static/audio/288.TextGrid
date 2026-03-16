@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.3430612244897957 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.3430612244897957 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04232101472920401 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04232101472920401 
+            xmax = 2.24539880648688 
+            text = "Мен эзенjам, пир ӧлӱ салкой. // Я думаю, около 50 рублей. // ТТВ // утверждение // предположение" 
+        intervals [3]:
+            xmin = 2.24539880648688 
+            xmax = 2.3430612244897957 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.3430612244897957 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04232101472920401 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04232101472920401 
+            xmax = 1.1217598161252773 
+            text = "Мен эзенjам" 
+        intervals [3]:
+            xmin = 1.1217598161252773 
+            xmax = 2.24539880648688 
+            text = "пир ӧлӱ салкой" 
+        intervals [4]:
+            xmin = 2.24539880648688 
+            xmax = 2.3430612244897957 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.3430612244897957 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04232101472920401 
+            text = "" 
+        intervals [2]:
+            xmin = 0.04232101472920401 
+            xmax = 0.34061138889191067 
+            text = "mɛn HP LP" 
+        intervals [3]:
+            xmin = 0.34061138889191067 
+            xmax = 0.7320291753241808 
+            text = "ɛzɛn HI" 
+        intervals [4]:
+            xmin = 0.7320291753241808 
+            xmax = 1.1217598161252773 
+            text = "jam LI" 
+        intervals [5]:
+            xmin = 1.1217598161252773 
+            xmax = 1.3309658743908008 
+            text = "pir HP" 
+        intervals [6]:
+            xmin = 1.3309658743908008 
+            xmax = 1.6245292142150034 
+            text = "øly HI!" 
+        intervals [7]:
+            xmin = 1.6245292142150034 
+            xmax = 2.24539880648688 
+            text = "solkoj LP LI!" 
+        intervals [8]:
+            xmin = 2.24539880648688 
+            xmax = 2.3430612244897957 
+            text = "" 

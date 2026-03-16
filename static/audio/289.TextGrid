@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.5224943310657597 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 2.5224943310657597 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06339599716555774 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06339599716555774 
+            xmax = 2.2213115014699643 
+            text = "Катя писмынаң қожо парағайт па? // Катя собирается ли с нами ехать?// ТТВ // вопрос // мод " 
+        intervals [3]:
+            xmin = 2.2213115014699643 
+            xmax = 2.5224943310657597 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 2.5224943310657597 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06339599716555774 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06339599716555774 
+            xmax = 2.2213115014699643 
+            text = "Катя писмынаң қожо парағайт па" 
+        intervals [3]:
+            xmin = 2.2213115014699643 
+            xmax = 2.5224943310657597 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.5224943310657597 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06339599716555774 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06339599716555774 
+            xmax = 0.29127504491120215 
+            text = "Ka LP" 
+        intervals [3]:
+            xmin = 0.29127504491120215 
+            xmax = 0.5013200802245788 
+            text = "ta HP!" 
+        intervals [4]:
+            xmin = 0.5013200802245788 
+            xmax = 0.7153282294117926 
+            text = "pis" 
+        intervals [5]:
+            xmin = 0.7153282294117926 
+            xmax = 0.8282769748161555 
+            text = "mъ" 
+        intervals [6]:
+            xmin = 0.8282769748161555 
+            xmax = 1.0581375794987187 
+            text = "naŋ" 
+        intervals [7]:
+            xmin = 1.0581375794987187 
+            xmax = 1.1889203373353492 
+            text = "ko" 
+        intervals [8]:
+            xmin = 1.1889203373353492 
+            xmax = 1.3434817784150037 
+            text = "ʒo HI!" 
+        intervals [9]:
+            xmin = 1.3434817784150037 
+            xmax = 1.4405780683240175 
+            text = "pa" 
+        intervals [10]:
+            xmin = 1.4405780683240175 
+            xmax = 1.6050472940882652 
+            text = "ra" 
+        intervals [11]:
+            xmin = 1.6050472940882652 
+            xmax = 1.9161517331844928 
+            text = "qajt" 
+        intervals [12]:
+            xmin = 1.9161517331844928 
+            xmax = 2.2213115014699643 
+            text = "pa LI" 
+        intervals [13]:
+            xmin = 2.2213115014699643 
+            xmax = 2.5224943310657597 
+            text = "" 

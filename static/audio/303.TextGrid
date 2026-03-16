@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4459410430839001 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 1.4459410430839001 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07495920410459903 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07495920410459903 
+            xmax = 1.3016940381665432 
+            text = "Сеең jадыш қандый? // Как ты поживаешь? // ЯМН // вопрос // дикт" 
+        intervals [3]:
+            xmin = 1.3016940381665432 
+            xmax = 1.4459410430839001 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syntagm" 
+        xmin = 0 
+        xmax = 1.4459410430839001 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07495920410459903 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07495920410459903 
+            xmax = 1.3016940381665432 
+            text = "Сеең jадыш кандый" 
+        intervals [3]:
+            xmin = 1.3016940381665432 
+            xmax = 1.4459410430839001 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 1.4459410430839001 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07495920410459903 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07495920410459903 
+            xmax = 0.5087329731477969 
+            text = "seeŋ HP! LI!" 
+        intervals [3]:
+            xmin = 0.5087329731477969 
+            xmax = 0.6861366974320782 
+            text = "ћa HI!" 
+        intervals [4]:
+            xmin = 0.6861366974320782 
+            xmax = 0.9011259565223513 
+            text = "dъʃ LP!" 
+        intervals [5]:
+            xmin = 0.9011259565223513 
+            xmax = 1.0469578315695993 
+            text = "kan" 
+        intervals [6]:
+            xmin = 1.0469578315695993 
+            xmax = 1.3005581725794486 
+            text = "dъj" 
+        intervals [7]:
+            xmin = 1.3005581725794486 
+            xmax = 1.4459410430839001 
+            text = "" 
